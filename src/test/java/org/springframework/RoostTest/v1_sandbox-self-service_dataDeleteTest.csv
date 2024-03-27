@@ -1,0 +1,11 @@
+x-hsbc-client-id,AdditionalCSVvaluInfo,x-hsbc-client-secret,x-hsbc-profile-id,product-category,category-version,api-name,api-version,table-name,product-name,statusCode
+HSBC001,account-information-v2,HSBC001_SECRET,PROFILE001,savings,1.0,account-details,1.0,table_savings,InstantSaver,200
+HSBC002,account-information-v2,HSBC002_SECRET,PROFILE002,checking,1.0,account-details,1.0,table_checking,BasicBankAccount,200
+HSBC003,account-information-v2,HSBC003_SECRET,PROFILE003,loans,1.0,loan-details,1.0,table_loans,HomeLoan,200
+HSBC004,account-information-v2,HSBC004_SECRET,PROFILE004,credit_card,1.0,card-details,1.0,table_card,HSBCCreditCard,200
+HSBC005,account-information-v2,HSBC005_SECRET,PROFILE005,investment,1.0,investment-details,1.0,table_investment,HSBCFixedDeposit,200
+HSBC006,account-information-v2,HSBC006_SECRET,PROFILE006,savings,1.0,account-details,1.0,table_savings,HighInterestSaver,200
+HSBC007,account-information-v2,HSBC007_SECRET,PROFILE007,checking,1.0,account-details,1.0,table_checking,AdvanceBankAccount,200
+HSBC008,account-information-v2,HSBC008_SECRET,PROFILE008,loans,1.0,loan-details,1.0,table_loans,CarLoan,200
+HSBC009,account-information-v2,HSBC009_SECRET,PROFILE009,credit_card,1.0,card-details,1.0,table_card,HSBCPremiumCard,200
+HSBC010,account-information-v2,HSBC010_SECRET,PROFILE010,investment,1.0,investment-details,1.0,table_investment,HSBCMutualFund,200
