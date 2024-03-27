@@ -1,0 +1,11 @@
+x-hsbc-client-id,AdditionalCSVvaluInfo,x-hsbc-client-secret,x-hsbc-profile-id,product-category,category-version,api-name,api-version,table-name,product-name,statusCode
+A3KD9FJ3,account-information-v2,SA8FD9G8SFD,A492H6BN,Electronics,2.0,ProductAPI,1.2v,TableA,iPhone,200
+B6SHNS3S,account-information-v2,DF7FDS7FD9S,B382HDB7,Clothing,1.0,ClothingAPI,1.1v,TableB,Jacket,200
+C764JHD6,account-information-v2,HGD6FSF7JH,C273HCJ8,Books,2.5,BookAPI,1.0v,TableC,HarryPotter,200
+D8SMNS7S,account-information-v2,KGD7DSF9GHJ,D294GFD9,Furniture,1.5,FurnitureAPI,1.3v,TableD,Sofa,200
+E9DNDK3J,account-information-v2,LSF8GD9JGB,E285GBF0,HomeAppliances,2.0,ApplianceAPI,1.4v,TableE,Toaster,200
+F9SDK3S3,account-information-v2,MHS6DF9JHJ,F196JGB1,Gardening,2.5,GardeningAPI,1.0v,TableF,LawnMower,200
+G6DKS8SH,account-information-v2,NJD6DF9IJK,G287HFD2,Beauty,1.0,BeautyAPI,1.1v,TableG,LipStick,200
+H7DKD3SJ,account-information-v2,OGF6DF9OIK,H178IFD3,Kitchen,1.5,KitchenAPI,1.2v,TableH,CookingPan,200
+I8DKF3HS,account-information-v2,PLS6DF9PJK,I169PFD4,Animals,2.0,AnimalAPI,1.3v,TableI,DogLeash,200
+J9DSK3JS,account-information-v2,QMD6JH9QKS,J150QGD5,Tools,2.5,ToolAPI,1.0v,TableJ,Hammer,200

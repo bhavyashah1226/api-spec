@@ -1,0 +1,11 @@
+x-hsbc-client-id,AdditionalCSVvaluInfo,x-hsbc-client-secret,x-hsbc-profile-id,product-category,category-version,api-name,api-version,table-name,product-name,file,statusCode
+f45cd-jktr45,account-information-v2,g23b-hei58,profile9876,Household,1,transactions-api,v1.0,expenses_table,TV,TV_receipt.pdf,200
+a89de-ghtw23,account-information-v2,l78f-mlo39,profile8524,Electronics,1,payments-api,v2.0,purchases_table,Smartphone,Phone_bill.pdf,200
+dd23s-nhdu34,account-information-v2,x98h-nhru56,profile2431,Groceries,1,statements-api,v3.0,savings_table,Food,Food_bill.pdf,200
+q56gj-bfhrt90,account-information-v2,c78n-djfd53,profile8956,Cosmetics,2,check-api,v2.1,orders_table,Makeup,Makeup_receipt.pdf,200
+ng23m-j88d99,account-information-v2,j89f-phi43,profile5712,Accessories,2,users-api,v1.2,inventory_table,Watch,Watch_receipt.pdf,200
+z23hn-jdui232,account-information-v2,n23j-lk45,profile1105,Apparel,3,payments-api,v2.1,expenses_table,Shirt,Shirt_receipt.pdf,200
+b56gh-hngjs18,account-information-v2,m38f-bhj32,profile9731,Furniture,1,transactions-api,v3.1,orders_table,Table,Table_receipt.pdf,200
+l56nj-nhjr912,account-information-v2,c78b-mhjn43,profile1589,Automobile,3,statements-api,v1.0,purchases_table,Car,Car_receipt.pdf,200
+m89cq-hvhe844,account-information-v2,l73v-vnma29,profile2068,Kitchenware,2,check-api,v2.2,inventory_table,Pan,Pan_receipt.pdf,200
+h89ds-hjde892,account-information-v2,q23p-jned83,profile2537,Gardening,1,users-api,v2.5,savings_table,Plant,Plant_receipt.pdf,200
