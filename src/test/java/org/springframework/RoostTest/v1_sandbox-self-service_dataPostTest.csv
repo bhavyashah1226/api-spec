@@ -1,0 +1,11 @@
+x-hsbc-client-id,AdditionalCSVvaluInfo,x-hsbc-client-secret,x-hsbc-profile-id,product-category,category-version,api-name,api-version,table-name,product-name,file,statusCode
+client1234,account-information-v2,secret5678,profile91011,category1,1,api25,v2.5,table12,productA,file1,200
+client2345,account-information-v2,secret6789,profile101112,category2,2,api35,v3.5,table23,productB,file2,200
+client3456,account-information-v2,secret7890,profile121314,category3,3,api45,v4.5,table34,productC,file3,200
+client4567,account-information-v2,secret8901,profile141516,category4,4,api55,v5.5,table45,productD,file4,200
+client5678,account-information-v2,secret9012,profile161718,category5,5,api65,v6.5,table56,productE,file5,200
+client6789,account-information-v2,secret0123,profile181920,category6,6,api75,v7.5,table67,productF,file6,200
+client7890,account-information-v2,secret1234,profile202122,category7,7,api85,v8.5,table78,productG,file7,200
+client8901,account-information-v2,secret2345,profile222324,category8,8,api95,v9.5,table89,productH,file8,200
+client9012,account-information-v2,secret3456,profile242526,category9,9,api105,v10.5,table90,productI,file9,200
+client0123,account-information-v2,secret4567,profile262728,category10,10,api115,v11.5,table01,productJ,file10,200
