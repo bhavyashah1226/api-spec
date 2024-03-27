@@ -1,0 +1,11 @@
+x-hsbc-client-id,AdditionalCSVvaluInfo,x-hsbc-client-secret,x-hsbc-profile-id,product-category,category-version,api-name,api-version,table-name,product-name,statusCode
+ABCD1234,account-information-v2,EFGH5678,IJKL9101,Home finance,1.0,applyHomeLoan,2.0,loanDetails_table,Mortgage Loan,200
+WXYZ2345,account-information-v2,QRST5678,UVWX9101,Personal finance,1.1,applyPersonalLoan,2.1,loanDetails_table,Personal Loan,200
+MNOP3456,account-information-v2,DEFG6789,HIJK0123,Educational Loan,1.2,applyEduLoan,2.2,loanDetails_table,Student Loan,200
+QRST4567,account-information-v2,UVWX7890,MNOP1234,Car Loan,1.0,applyAutoLoan,2.3,loanDetails_table,Vehicle Loan,200
+UVWX5678,account-information-v2,ABCD8901,QRST2345,Health Insurance,1.1,applyHealthInsur,2.4,insuranceDetails_table,Medical Insurance,200
+IJKL6789,account-information-v2,EFGH9012,UVWX3456,Life Insurance,1.2,applyLifeInsur,2.5,insuranceDetails_table,Term Insurance,200
+QRST7890,account-information-v2,ABCD0123,MNOP4567,Investment Plans,1.0,applyInvestPlan,2.0,investmentDetails_table,Mutual Funds,200
+UVWX8901,account-information-v2,DEFG1234,QRST5678,Fixed Deposits,1.1,applyFixedDeposits,2.1,depositDetails_table,Time Deposit,200
+MNOP9012,account-information-v2,UVWX2345,ABCD6789,Savings Accounts,1.2,applySavingsAcc,2.2,accountDetails_table,Regular Savings Account,200
+HIJK0123,account-information-v2,EFGH3456,DEFG9010,Home Equity Loans,1.0,applyHomeEquityLoan,2.0,loanDetails_table,Equity Loan,200
