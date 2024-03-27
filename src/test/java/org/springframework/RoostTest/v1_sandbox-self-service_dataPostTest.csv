@@ -1,0 +1,11 @@
+x-hsbc-client-id,AdditionalCSVvaluInfo,x-hsbc-client-secret,x-hsbc-profile-id,product-category,category-version,api-name,api-version,table-name,product-name,file,statusCode
+jh87923,account-information-v2,ty878723nh,prf8923,loans,1,balance-api,v1,balances,home-loans,home-loans-file.txt,200
+rst9132,account-information-v2,u9342khjws,prf9120,mortgages,2,mortgage-api,v2,mortgage-table,condo-mortgage,condo-file.txt,200
+qwe8765,account-information-v2,gfd8765yeu,prf7560,credit-cards,1,credit-card-api,v1,credit-card-table,travel-credit-card,credit-card-file.txt,200
+nbv9510,account-information-v2,hj2710ney,prf9510,insurance,3,insurance-api,v3,insurance-table,life-insurance,life-insurance-file.txt,200
+lpk8273,account-information-v2,yt783hjsdf,prf8273,savings,1,savings-api,v1,savings-table,retirement-savings,savings-file.txt,200
+zxc8410,account-information-v2,puw8410nms,prf8410,checking,2,checking-api,v2,checking-table,personal-checking,checking-file.txt,200
+iop6150,account-information-v2,rty67610dfs,prf6150,investments,3,investment-api,v3,investment-table,mutual-funds,investment-file.txt,200
+klm7391,account-information-v2,dsa7391jkuy,prf7391,loans,4,loan-api,v4,loan-table,student-loans,loan-file.txt,200
+tyu4712,account-information-v2,wey4712hju,prf4712,mortgages,2,mortgage-api,v2,mortgage-table,rental-property-mortgage,rental-mortgage-file.txt,200
+asd9132,account-information-v2,rt6289132jsf,prf9132,credit-cards,3,credit-cards-api,v3,credit-cards-table,secured-credit-card,credit-cards-file.txt,200
