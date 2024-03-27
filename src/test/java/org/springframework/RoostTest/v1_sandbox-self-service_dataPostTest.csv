@@ -1,0 +1,11 @@
+x-hsbc-client-id,AdditionalCSVvaluInfo,x-hsbc-client-secret,x-hsbc-profile-id,product-category,category-version,api-name,api-version,table-name,product-name,file,statusCode
+client123,account-information-v2,secret321,profile7548,mortgage,1.0,mortgage-api,2.3,user_data_table,mortgage-product-A,file1.bin,200
+client456,account-information-v2,secret986,profile2658,loan,1.1,loan-api,2.4,user_data_table,loan-product-B,file2.bin,200
+client789,account-information-v2,secret564,profile9732,savings,1.2,savings-api,2.5,user_data_table,savings-product-C,file3.bin,200
+client321,account-information-v2,secret789,profile1654,insurance,1.3,insurance-api,2.6,user_data_table,insurance-product-D,file4.bin,200
+client654,account-information-v2,secret213,profile4862,investment,1.4,investment-api,2.7,user_data_table,investment-product-E,file5.bin,200
+client987,account-information-v2,secret546,profile2783,cards,1.5,cards-api,2.8,user_data_table,cards-product-F,file6.bin,200
+client258,account-information-v2,secret952,profile3951,current account,1.6,current-account-api,2.9,user_data_table,current-account-product-G,file7.bin,200
+client159,account-information-v2,secret369,profile8146,personal loan,1.7,personal-loan-api,3.0,user_data_table,personal-loan-product-H,file8.bin,200
+client753,account-information-v2,secret852,profile9462,car loan,1.8,car-loan-api,3.1,user_data_table,car-loan-product-I,file9.bin,200
+client951,account-information-v2,secret741,profile6384,home loan,1.9,home-loan-api,3.2,user_data_table,home-loan-product-J,file10.bin,200
