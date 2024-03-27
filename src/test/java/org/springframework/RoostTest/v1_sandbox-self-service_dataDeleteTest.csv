@@ -1,0 +1,11 @@
+x-hsbc-client-id,AdditionalCSVvaluInfo,x-hsbc-client-secret,x-hsbc-profile-id,product-category,category-version,api-name,api-version,table-name,product-name,statusCode
+clnt1234,account-information-v2,scrt4567,prfl7890,banking,1,userInfo,v1.2,userProfile,chequeBook,200
+clnt1235,account-information-v2,scrt4568,prfl7891,insurance,2,policyInfo,v2.1,policyProfile,healthInsurance,200
+clnt1236,account-information-v2,scrt4569,prfl7892,loan,3,loanInfo,v3.2,loanProfile,homeLoan,200
+clnt1237,account-information-v2,scrt4570,prfl7893,creditcard,1,cardInfo,v1.3,cardProfile,visaCard,200
+clnt1238,account-information-v2,scrt4571,prfl7894,investment,2,investmentInfo,v2.2,investmentProfile,mutualFund,200
+clnt1239,account-information-v2,scrt4572,prfl7895,payment,3,paymentInfo,v3.1,paymentProfile,billPayment,200
+clnt1240,account-information-v2,scrt4573,prfl7896,deposit,1,depositInfo,v1.2,depositProfile,fixedDeposit,200
+clnt1241,account-information-v2,scrt4574,prfl7897,mortgage,2,mortgageInfo,v2.3,mortgageProfile,homeMortgage,200
+clnt1242,account-information-v2,scrt4575,prfl7898,retirement,3,pensionInfo,v3.3,pensionProfile,retirementPlan,200
+clnt1243,account-information-v2,scrt4576,prfl7899,savings,1,savingInfo,v1.4,savingProfile,savingsAccount,200
