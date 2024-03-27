@@ -1,0 +1,11 @@
+x-hsbc-client-id,AdditionalCSVvaluInfo,x-hsbc-client-secret,x-hsbc-profile-id,product-category,category-version,api-name,api-version,table-name,product-name,file,statusCode
+hsbc123,account-information-v2,sec123,prof123,banking,2,user-api,v2.1,customers,Personal-Account,det1.bin,200
+hsbc124,account-information-v2,sec124,prof124,insurance,3,policy-api,v1.2,policies,Business-Insurance,det2.bin,200
+hsbc125,account-information-v2,sec125,prof125,investments,4,portfolio-api,v3.0,holdings,Growth-Funds,det3.bin,200
+hsbc126,account-information-v2,sec126,prof126,loans,1,loans-api,v2.0,applications,Home-Loan,det4.bin,200
+hsbc127,account-information-v2,sec127,prof127,creditcards,2,payments-api,v1.1,transactions,HSBC-Premier,det5.bin,200
+hsbc128,account-information-v2,sec128,prof128,mortgages,3,mortgage-api,v3.1,remortgage,Fixed-Rate-Mortgage,det6.bin,200
+hsbc129,account-information-v2,sec129,prof129,savings,4,savings-api,v2.2,accounts,Regular-Saver,det7.bin,200
+hsbc130,account-information-v2,sec130,prof130,pensions,1,pensions-api,v1.0,pensions,Retirement-Account,det8.bin,200
+hsbc131,account-information-v2,sec131,prof131,business,3,business-api,v3.3,business,HSBC-Business,det9.bin,200
+hsbc132,account-information-v2,sec132,prof132,premier,4,premier-api,v2.4,premier,HSBC-Wealth,det10.bin,200

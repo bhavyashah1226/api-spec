@@ -1,0 +1,11 @@
+x-hsbc-client-id,AdditionalCSVvaluInfo,x-hsbc-client-secret,x-hsbc-profile-id,product-category,category-version,api-name,api-version,table-name,product-name,statusCode
+A98jHs0n,account-information-v2,sefdsHse383,sidfhs0623,Payments,1,Send-payment-v2,1.0,Transactions,Domestic Transfer,200
+G43hTsnk,account-information-v2,gds05Hrcd37,nciehf0843,Lending,2,Obtain-quote-v3,2.0,LEADS,Retail Loan,200
+D69pRmoh,account-information-v2,lgdfh02Ljs64,icnbs0383,Investing,1,Trade-fund-v2,1.0,TRADES,Equity Funds,200
+K82gBmzd,account-information-v2,mdspnHgs831,noshd0923,Insurance,3,Get-quote-v4,2.0,POLICY,Life Insurance,200
+M29yVsbu,account-information-v2,wecds98Hec77,hsofh0823,Remittances,2,Send-money-v3,1.0,TRANSFER,Internation Transfer,200
+N38iNrsf,account-information-v2,ajcbn06Ag631,bshfd0753,Mortgages,1,Get-quote-v2,1.0,MORTGAGE,Personal Loan,200
+R47jMrit,account-information-v2,ncjbs94Nc972,mcohf0933,Credits,3,Obtain-score-v4,2.0,CREDIT,Credit Card,200
+S90sNvnh,account-information-v2,kcbdGdns6c9,nspcf0493,Savings,2,Open-account-v3,1.0,DEPOSIT,Fixed Deposit,200
+U36hFspk,account-information-v2,nfdgp02Jdf972,apohd0873,Rewards,1,Trade-points-v2,1.0,REWARD,Credit Card Points,200
+Z57sOtnh,account-information-v2,macbsHdng27,lshp0383,Payments,3,Receive-payment-v4,2.0,Transactions,Bill Payment,200
