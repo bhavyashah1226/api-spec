@@ -1,0 +1,11 @@
+x-hsbc-client-id,AdditionalCSVvaluInfo,x-hsbc-client-secret,x-hsbc-profile-id,product-category,category-version,api-name,api-version,table-name,product-name,statusCode
+123abc,account-information-v2,sec123,pro001,finance,1.0,names-v1,v1,UserProfileTable,Loan2020,200
+456def,account-information-v2,sec456,pro002,trade,2.0,detail-v2,v2,TradeTable,Trade2021,200
+789ghi,account-information-v2,sec789,pro003,retail,1.1,products-v3,v3,RetailInfoTable,Retail2021,200
+101xyz,account-information-v2,sec101,pro004,invest,1.0,money-v4,v4,InvestProfileTable,Invest2022,200
+112qwe,account-information-v2,sec112,pro005,payroll,2.0,payments-v5,v5,PayrollTable,Payroll2021,200
+113rty,account-information-v2,sec113,pro006,credit,1.2,credits-v6,v6,CreditTable,Credit2022,200
+114tuv,account-information-v2,sec114,pro007,mortgage,2.0,mortgages-v1,v1,MortgageTable,Mortgage2020,200
+115yza,account-information-v2,sec115,pro008,savings,1.0,savings-v2,v2,SavingsTable,Savings2021,200
+116xyz,account-information-v2,sec116,pro009,checking,1.1,checks-v3,v3,CheckingTable,Check2022,200
+117abc,account-information-v2,sec117,pro010,creditcard,2.0,cards-v4,v4,CreditCardTable,Card2020,200

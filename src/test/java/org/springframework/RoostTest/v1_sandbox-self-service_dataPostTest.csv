@@ -1,0 +1,11 @@
+x-hsbc-client-id,AdditionalCSVvaluInfo,x-hsbc-client-secret,x-hsbc-profile-id,product-category,category-version,api-name,api-version,table-name,product-name,file,statusCode
+client001,account-information-v2,secret001,profile001,Electronics,1,API001,v1,Table1,TV,model1.jpg,200
+client002,account-information-v2,secret002,profile002,HomeAppliances,1,API002,v1,Table2,Microwave,model2.jpg,200
+client003,account-information-v2,secret003,profile003,Clothing,1,API003,v1,Table3,T-shirt,model3.jpg,200
+client004,account-information-v2,secret004,profile004,Sports,1,API004,v1,Table4,Football,model4.jpg,200
+client005,account-information-v2,secret005,profile005,Electronics,1,API005,v1,Table5,Laptop,model5.jpg,200
+client006,account-information-v2,secret006,profile006,HomeAppliances,1,API006,v1,Table6,Refrigerator,model6.jpg,200
+client007,account-information-v2,secret007,profile007,Clothing,1,API007,v1,Table7,Jacket,model7.jpg,200
+client008,account-information-v2,secret008,profile008,Sports,1,API008,v1,Table8,Basketball,model8.jpg,200
+client009,account-information-v2,secret009,profile009,Electronics,1,API009,v1,Table9,Smartphone,model9.jpg,200
+client010,account-information-v2,secret010,profile010,HomeAppliances,1,API010,v1,Table10,WashingMachine,model10.jpg,200
