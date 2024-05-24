@@ -1,0 +1,11 @@
+interactionId,language,data,statusCode
+1,"en-HK","{'Authorization': 'Bearer LbGDbcFVVfE-ngpjj8K', 'Content-Type':'application/json', 'x-fapi-auth-date':'Sun, 20 Sep 2021 19:43:31 UTC', 'x-fapi-customer-ip-address':'169.254.169.1', 'x-fapi-interaction-id':'01'}",200
+2,"zh-HK","{'Authorization': 'Bearer LbGDbcFVVfE-ngpjj8K', 'Content-Type':'application/json', 'x-fapi-auth-date':'Mon, 22 Sep 2021 10:43:31 UTC', 'x-fapi-customer-ip-address':'169.254.169.2', 'x-fapi-interaction-id':'02'}",200
+3,"zh-CN","{'Authorization': 'Bearer LbGDbcFVVfE-ngpjj8K', 'Content-Type':'application/json', 'x-fapi-auth-date':'Wed, 24 Sep 2021 13:43:31 UTC', 'x-fapi-customer-ip-address':'169.254.169.3', 'x-fapi-interaction-id':'03'}",200
+4,"en-HK","{'Authorization': 'Bearer LbGDbcFVVfE-ngpjj8K', 'Content-Type':'application/json', 'x-fapi-auth-date':'Fri, 26 Sep 2021 15:43:31 UTC', 'x-fapi-customer-ip-address':'169.254.169.4', 'x-fapi-interaction-id':'04'}",200
+5,"zh-HK","{'Authorization': 'Bearer LbGDbcFVVfE-ngpjj8K', 'Content-Type':'application/json', 'x-fapi-auth-date':'Sun, 28 Sep 2021 17:43:31 UTC', 'x-fapi-customer-ip-address':'169.254.169.5', 'x-fapi-interaction-id':'05'}",200
+6,"zh-CN","{'Authorization': 'Bearer LbGDbcFVVfE-ngpjj8K', 'Content-Type':'application/json', 'x-fapi-auth-date':'Tue, 30 Sep 2021 18:43:31 UTC', 'x-fapi-customer-ip-address':'169.254.169.6', 'x-fapi-interaction-id':'06'}",200
+7,"en-HK","{'Authorization': 'Bearer LbGDbcFVVfE-ngpjj8K', 'Content-Type':'application/json', 'x-fapi-auth-date':'Thu, 02 Sep 2021 19:43:31 UTC', 'x-fapi-customer-ip-address':'169.254.169.7', 'x-fapi-interaction-id':'07'}",200
+8,"zh-HK","{'Authorization': 'Bearer LbGDbcFVVfE-ngpjj8K', 'Content-Type':'application/json', 'x-fapi-auth-date':'Sat, 04 Sep 2021 20:43:31 UTC', 'x-fapi-customer-ip-address':'169.254.169.8', 'x-fapi-interaction-id':'08'}",200
+9,"zh-CN","{'Authorization': 'Bearer LbGDbcFVVfE-ngpjj8K', 'Content-Type':'application/json', 'x-fapi-auth-date':'Mon, 08 Sep 2021 21:43:31 UTC', 'x-fapi-customer-ip-address':'169.254.169.9', 'x-fapi-interaction-id':'09'}",200
+10,"en-HK","{'Authorization': 'Bearer LbGDbcFVVfE-ngpjj8K', 'Content-Type':'application/json', 'x-fapi-auth-date':'Fri, 10 Sep 2021 22:43:31 UTC', 'x-fapi-customer-ip-address':'169.254.169.10', 'x-fapi-interaction-id':'10'}",200
