@@ -10,7 +10,9 @@ RoostTestHash=ec135b2a68
 */
 
 // ********RoostGPT********
+
 package org.springframework.RoostTest;
+
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
 import io.restassured.http.ContentType;
@@ -39,7 +41,6 @@ public class listenerProductOrderCreateEventPostTest {
 
     List<Map<String, String>> envList = new ArrayList<>();
 
-
     @BeforeEach
     public void setUp() {
       TestdataLoader dataloader = new TestdataLoader();
@@ -47,18 +48,17 @@ public class listenerProductOrderCreateEventPostTest {
       envList = dataloader.load("src/test/java/org/springframework/RoostTest/listener_productOrderCreateEventPostTest.csv", envVarsList);
     }
 
-  
     @Test  
     public void listenerProductOrderCreateEventPost_Test() throws JSONException {
-        this.setUp();
         Integer testNumber = 1;
         for (Map<String, String> testData : envList) {
-          RestAssured.baseURI = (testData.get("BASE_URL") != null && !testData.get("BASE_URL").isEmpty()) ? testData.get("BASE_URL"): testData.get("BASE_URL");  
+          String baseUrl = testData.get("BASE_URL");
+          RestAssured.baseURI = (baseUrl != null && !baseUrl.isEmpty()) ? baseUrl: baseUrl;  
           JSONObject requestBodyObject = new JSONObject();
           if(testData.get("RequestBody") != null){
               requestBodyObject = new JSONObject(testData.get("RequestBody"));
           }
-                Response responseObj = given()
+          Response responseObj = given()
 				.contentType(ContentType.JSON)
 				.body(requestBodyObject.toString())
                 .when()
