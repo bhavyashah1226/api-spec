@@ -1,0 +1,7 @@
+date,subscriberId,id,correlationOrder,associatedDocument,code,description,type,observation,updateDate,action,task,fieldActivity,reason,lostEquipment,gponAccess,device,item,statusCode,scenario
+"2021-10-22T14:00:00","SVTAL001","ALCLF718RF05","10","VTT001",616551,"AssociarCPE Order Type FTTP","Instalacao","N/A","2021-06-09T18:20:53","adicionar","N/A","N/A","N/A","False","N/A","ONT","N/A",204,"Operação realizada com sucesso"
+"2021-10-22T14:00:00","SVTAL001","ALCLF718RF05","10","VTT001",616551,"AssociarCPE Order Type FTTP","Instalacao","N/A","2021-06-09T18:20:53","adicionar","N/A","N/A","N/A","False","N/A","ONT","N/A",400,"BadRequest"
+"2021-10-22T14:00:00","SVTAL001","ALCLF718RF05","10","VTT001",616551,"AssociarCPE Order Type FTTP","Instalacao","N/A","2021-06-09T18:20:53","adicionar","N/A","N/A","N/A","False","N/A","ONT","N/A",401,"Unauthorized"
+"2021-10-22T14:00:00","SVTAL001","ALCLF718RF05","10","VTT001",616551,"AssociarCPE Order Type FTTP","Instalacao","N/A","2021-06-09T18:20:53","adicionar","N/A","N/A","N/A","False","N/A","ONT","N/A",500,"ServerError"
+"2021-10-22T14:00:00","SVTAL001","ALCLF718RF05","10","VTT001",616551,"AssociarCPE Order Type FTTP","Instalacao","N/A","2021-06-09T18:20:53","adicionar","N/A","N/A","N/A","False","N/A","ONT","N/A",503,"Unavailable"
+"2021-10-22T14:00:00","SVTAL001","ALCLF718RF05","10","VTT001",616551,"AssociarCPE Order Type FTTP","Instalacao","N/A","2021-06-09T18:20:53","adicionar","N/A","N/A","N/A","False","N/A","ONT","N/A",504,"Timeout"
