@@ -1,0 +1,11 @@
+RequestBody^|^statusCode
+{"id": 1, "name": "John Doe", "email": "john.doe@example.com"}^|^201
+{"id": 2, "name": "Jane Doe", "email": "jane.doe@example.com"}^|^400
+{"id": 3, "name": "James Bond", "email": "james.bond@example.com"}^|^401
+{"id": 4, "name": "Emma Watson", "email": "emma.watson@example.com"}^|^403
+{"id": 5, "name": "Robert Downey", "email": "robert.downey@example.com"}^|^404
+{"id": 6, "name": "Chris Evans", "email": "chris.evans@example.com"}^|^406
+{"id": 7, "name": "Scarlett Johansson", "email": "scarlett.johansson@example.com"}^|^429
+{"id": 8, "name": "Tom Hiddleston", "email": "tom.hiddleston@example.com"}^|^500
+{"id": 9, "name": "Chris Hemsworth", "email": "chris.hemsworth@example.com"}^|^503
+{"id": 10, "name": "Mark Ruffalo", "email": "mark.ruffalo@example.com"}^|^504
