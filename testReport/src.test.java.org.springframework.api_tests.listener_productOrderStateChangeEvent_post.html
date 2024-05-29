@@ -1,0 +1,2603 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script type="text/javascript" src="res/Resemble.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.capture("report_feature",{distinct_id:"9c6aa476-7aef-4633-8167-483c0dc1ff3d",karate_version:"1.4.1",karate_meta:null});
+  }
+});
+</script>
+
+    <title>src.test.java.org.springframework.api_tests.listener_productOrderStateChangeEvent_post</title>
+  </head>
+  <body>
+    <div id="root-container">
+      <div id="leftnav">
+        
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">0</div>
+      <div id="nav-fail" class="bg-danger">10</div>
+    </div>
+  </div>
+  <div id="nav-env">
+    <div></div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>
+  <div id="nav-date">
+    <div>2024-05-29 07:44:20 AM</div>
+  </div>
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item failed">
+            <a href="#[1.1:25]"><span>[1.1:25]</span> <span>Validate state change event by client</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[1.2:25]"><span>[1.2:25]</span> <span>Validate state change event by client</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[1.3:25]"><span>[1.3:25]</span> <span>Validate state change event by client</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[1.4:25]"><span>[1.4:25]</span> <span>Validate state change event by client</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[1.5:25]"><span>[1.5:25]</span> <span>Validate state change event by client</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[1.6:25]"><span>[1.6:25]</span> <span>Validate state change event by client</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[1.7:25]"><span>[1.7:25]</span> <span>Validate state change event by client</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[1.8:25]"><span>[1.8:25]</span> <span>Validate state change event by client</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[1.9:25]"><span>[1.9:25]</span> <span>Validate state change event by client</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[1.10:25]"><span>[1.10:25]</span> <span>Validate state change event by client</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/org/springframework/api_tests/listener_productOrderStateChangeEvent_post.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">State Change Event By Client</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.1:25]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.1:25]</span>
+                <span class="scenario-name">Validate state change event by client</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>17</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.1:25]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.1:25]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.14">
+      <div class="step-ref bg-step">14</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def urlBase = karate.properties[&#39;url.base&#39;] || karate.get(&#39;urlBase&#39;, &#39;http://localhost:4010&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.1:25]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.15">
+      <div class="step-ref bg-step">15</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url urlBase</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.18">
+      <div class="step-ref passed">18</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/listener/productOrderStateChangeEvent&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request &#39;{\notification\&quot;:{\date\&quot;:\2022-12-16T10:09:31-03:00\&quot;,\customer\&quot;:{\subscriberId\&quot;:\234567654\&quot;},\order\&quot;:{\id\&quot;:\20230315000001\&quot;,\correlationOrder\&quot;:\10\&quot;,\associatedDocument\&quot;:\VTT001\&quot;,\type\&quot;:\Encerramento\&quot;,\code\&quot;:\0\&quot;,\description\&quot;:\Ordem encerrada com sucesso.\&quot;,\lostEquipment\&quot;:\True\&quot;,\resource\&quot;:{\gponAccess\&quot;:\A000009QS\&quot;,\fiberPath\&quot;:{\items\&quot;:{\item\&quot;:[{\name\&quot;:\enderecoCDO\&quot;,\value\&quot;:\RUA GENERAL RENATO PAQUET&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">14</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.20">07:44:20.137 request:
+1 &gt; POST http://localhost:4010/listener/productOrderStateChangeEvent
+1 &gt; Content-Type: text/plain; charset=UTF-8
+1 &gt; Content-Length: 366
+1 &gt; Host: localhost:4010
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.11)
+1 &gt; Accept-Encoding: gzip,deflate
+{
+otification&quot;:{date&quot;:2-12-16T10:09:31-03:00&quot;,customer&quot;:{subscriberId&quot;:567654&quot;},order&quot;:{id&quot;:30315000001&quot;,correlationOrder&quot;:&quot;,associatedDocument&quot;:VTT001&quot;,	ype&quot;:Encerramento&quot;,code&quot;: &quot;,description&quot;:Ordem encerrada com sucesso.&quot;,lostEquipment&quot;:True&quot;,esource&quot;:{gponAccess&quot;:A000009QS&quot;,iberPath&quot;:{items&quot;:{item&quot;:[{
+ame&quot;:enderecoCDO&quot;,alue&quot;:RUA GENERAL RENATO PAQUET
+
+07:44:20.148 response time in milliseconds: 11
+1 &lt; 400
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Headers: *
+1 &lt; Access-Control-Allow-Credentials: true
+1 &lt; Access-Control-Expose-Headers: *
+1 &lt; sl-violations: [{&quot;location&quot;:[&quot;request&quot;],&quot;severity&quot;:&quot;Error&quot;,&quot;code&quot;:415,&quot;message&quot;:&quot;Supported content types: application/json&quot;}]
+1 &lt; Date: Wed, 29 May 2024 07:44:20 GMT
+1 &lt; Connection: keep-alive
+1 &lt; Keep-Alive: timeout=5
+1 &lt; Content-Length: 0
+
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.21">
+      <div class="step-ref failed">21</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status  199</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.21">07:44:20.150 src/test/java/org/springframework/api_tests/listener_productOrderStateChangeEvent_post.feature:21
+Then status  199
+status code was: 400, expected: 199, response time in milliseconds: 11, url: http://localhost:4010/listener/productOrderStateChangeEvent, response: 
+
+src/test/java/org/springframework/api_tests/listener_productOrderStateChangeEvent_post.feature:21
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.22">
+      <div class="step-ref skipped">22</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match response contains {description: &#39; BARRA DA TIJUCA&#39;}</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.2:25]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.2:25]</span>
+                <span class="scenario-name">Validate state change event by client</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>13</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.2:25]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.2:25]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.14">
+      <div class="step-ref bg-step">14</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def urlBase = karate.properties[&#39;url.base&#39;] || karate.get(&#39;urlBase&#39;, &#39;http://localhost:4010&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.2:25]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.15">
+      <div class="step-ref bg-step">15</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url urlBase</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.18">
+      <div class="step-ref passed">18</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/listener/productOrderStateChangeEvent&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request &#39;{\notification\&quot;:{\date\&quot;:\2022-12-16T10:09:31-03:00\&quot;,\customer\&quot;:{\subscriberId\&quot;:\234567655\&quot;},\order\&quot;:{\id\&quot;:\20230315000002\&quot;,\correlationOrder\&quot;:\11\&quot;,\associatedDocument\&quot;:\VTT002\&quot;,\type\&quot;:\Encerramento\&quot;,\code\&quot;:\0\&quot;,\description\&quot;:\Ordem encerrada com sucesso.\&quot;,\lostEquipment\&quot;:\False\&quot;,\resource\&quot;:{\gponAccess\&quot;:\A000009QT\&quot;,\fiberPath\&quot;:{\items\&quot;:{\item\&quot;:[{\name\&quot;:\enderecoCDO\&quot;,\value\&quot;:\RUA GENERAL RENATO PAQUET&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">11</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="2.20">07:44:20.158 request:
+1 &gt; POST http://localhost:4010/listener/productOrderStateChangeEvent
+1 &gt; Content-Type: text/plain; charset=UTF-8
+1 &gt; Content-Length: 367
+1 &gt; Host: localhost:4010
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.11)
+1 &gt; Accept-Encoding: gzip,deflate
+{
+otification&quot;:{date&quot;:2-12-16T10:09:31-03:00&quot;,customer&quot;:{subscriberId&quot;:567655&quot;},order&quot;:{id&quot;:30315000002&quot;,correlationOrder&quot;:	&quot;,associatedDocument&quot;:VTT002&quot;,	ype&quot;:Encerramento&quot;,code&quot;: &quot;,description&quot;:Ordem encerrada com sucesso.&quot;,lostEquipment&quot;:False&quot;,esource&quot;:{gponAccess&quot;:A000009QT&quot;,iberPath&quot;:{items&quot;:{item&quot;:[{
+ame&quot;:enderecoCDO&quot;,alue&quot;:RUA GENERAL RENATO PAQUET
+
+07:44:20.167 response time in milliseconds: 9
+1 &lt; 400
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Headers: *
+1 &lt; Access-Control-Allow-Credentials: true
+1 &lt; Access-Control-Expose-Headers: *
+1 &lt; sl-violations: [{&quot;location&quot;:[&quot;request&quot;],&quot;severity&quot;:&quot;Error&quot;,&quot;code&quot;:415,&quot;message&quot;:&quot;Supported content types: application/json&quot;}]
+1 &lt; Date: Wed, 29 May 2024 07:44:20 GMT
+1 &lt; Connection: keep-alive
+1 &lt; Keep-Alive: timeout=5
+1 &lt; Content-Length: 0
+
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.21">
+      <div class="step-ref failed">21</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status  199</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="2.21">07:44:20.168 src/test/java/org/springframework/api_tests/listener_productOrderStateChangeEvent_post.feature:21
+Then status  199
+status code was: 400, expected: 199, response time in milliseconds: 9, url: http://localhost:4010/listener/productOrderStateChangeEvent, response: 
+
+src/test/java/org/springframework/api_tests/listener_productOrderStateChangeEvent_post.feature:21
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.22">
+      <div class="step-ref skipped">22</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match response contains {description: &#39; BARRA DA TIJUCA&#39;}</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.3:25]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.3:25]</span>
+                <span class="scenario-name">Validate state change event by client</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>13</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.3:25]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.3:25]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.14">
+      <div class="step-ref bg-step">14</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def urlBase = karate.properties[&#39;url.base&#39;] || karate.get(&#39;urlBase&#39;, &#39;http://localhost:4010&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.3:25]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.15">
+      <div class="step-ref bg-step">15</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url urlBase</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.18">
+      <div class="step-ref passed">18</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/listener/productOrderStateChangeEvent&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request &#39;{\notification\&quot;:{\date\&quot;:\2022-12-16T10:09:31-03:00\&quot;,\customer\&quot;:{\subscriberId\&quot;:\234567656\&quot;},\order\&quot;:{\id\&quot;:\20230315000003\&quot;,\correlationOrder\&quot;:\12\&quot;,\associatedDocument\&quot;:\VTT003\&quot;,\type\&quot;:\Encerramento\&quot;,\code\&quot;:\0\&quot;,\description\&quot;:\Ordem encerrada com sucesso.\&quot;,\lostEquipment\&quot;:\True\&quot;,\resource\&quot;:{\gponAccess\&quot;:\A000009QU\&quot;,\fiberPath\&quot;:{\items\&quot;:{\item\&quot;:[{\name\&quot;:\enderecoCDO\&quot;,\value\&quot;:\RUA GENERAL RENATO PAQUET&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">12</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="3.20">07:44:20.177 request:
+1 &gt; POST http://localhost:4010/listener/productOrderStateChangeEvent
+1 &gt; Content-Type: text/plain; charset=UTF-8
+1 &gt; Content-Length: 366
+1 &gt; Host: localhost:4010
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.11)
+1 &gt; Accept-Encoding: gzip,deflate
+{
+otification&quot;:{date&quot;:2-12-16T10:09:31-03:00&quot;,customer&quot;:{subscriberId&quot;:567656&quot;},order&quot;:{id&quot;:30315000003&quot;,correlationOrder&quot;:
+&quot;,associatedDocument&quot;:VTT003&quot;,	ype&quot;:Encerramento&quot;,code&quot;: &quot;,description&quot;:Ordem encerrada com sucesso.&quot;,lostEquipment&quot;:True&quot;,esource&quot;:{gponAccess&quot;:A000009QU&quot;,iberPath&quot;:{items&quot;:{item&quot;:[{
+ame&quot;:enderecoCDO&quot;,alue&quot;:RUA GENERAL RENATO PAQUET
+
+07:44:20.186 response time in milliseconds: 8
+1 &lt; 400
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Headers: *
+1 &lt; Access-Control-Allow-Credentials: true
+1 &lt; Access-Control-Expose-Headers: *
+1 &lt; sl-violations: [{&quot;location&quot;:[&quot;request&quot;],&quot;severity&quot;:&quot;Error&quot;,&quot;code&quot;:415,&quot;message&quot;:&quot;Supported content types: application/json&quot;}]
+1 &lt; Date: Wed, 29 May 2024 07:44:20 GMT
+1 &lt; Connection: keep-alive
+1 &lt; Keep-Alive: timeout=5
+1 &lt; Content-Length: 0
+
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.21">
+      <div class="step-ref failed">21</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status  199</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="3.21">07:44:20.187 src/test/java/org/springframework/api_tests/listener_productOrderStateChangeEvent_post.feature:21
+Then status  199
+status code was: 400, expected: 199, response time in milliseconds: 8, url: http://localhost:4010/listener/productOrderStateChangeEvent, response: 
+
+src/test/java/org/springframework/api_tests/listener_productOrderStateChangeEvent_post.feature:21
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.22">
+      <div class="step-ref skipped">22</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match response contains {description: &#39; BARRA DA TIJUCA&#39;}</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.4:25]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.4:25]</span>
+                <span class="scenario-name">Validate state change event by client</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>21</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.4:25]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.4:25]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.14">
+      <div class="step-ref bg-step">14</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def urlBase = karate.properties[&#39;url.base&#39;] || karate.get(&#39;urlBase&#39;, &#39;http://localhost:4010&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.4:25]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.15">
+      <div class="step-ref bg-step">15</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url urlBase</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.18">
+      <div class="step-ref passed">18</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/listener/productOrderStateChangeEvent&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request &#39;{\notification\&quot;:{\date\&quot;:\2022-12-16T10:09:31-03:00\&quot;,\customer\&quot;:{\subscriberId\&quot;:\234567657\&quot;},\order\&quot;:{\id\&quot;:\20230315000004\&quot;,\correlationOrder\&quot;:\13\&quot;,\associatedDocument\&quot;:\VTT004\&quot;,\type\&quot;:\Encerramento\&quot;,\code\&quot;:\0\&quot;,\description\&quot;:\Ordem encerrada com sucesso.\&quot;,\lostEquipment\&quot;:\False\&quot;,\resource\&quot;:{\gponAccess\&quot;:\A000009QV\&quot;,\fiberPath\&quot;:{\items\&quot;:{\item\&quot;:[{\name\&quot;:\enderecoCDO\&quot;,\value\&quot;:\RUA GENERAL RENATO PAQUET&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">20</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="4.20">07:44:20.199 request:
+1 &gt; POST http://localhost:4010/listener/productOrderStateChangeEvent
+1 &gt; Content-Type: text/plain; charset=UTF-8
+1 &gt; Content-Length: 367
+1 &gt; Host: localhost:4010
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.11)
+1 &gt; Accept-Encoding: gzip,deflate
+{
+otification&quot;:{date&quot;:2-12-16T10:09:31-03:00&quot;,customer&quot;:{subscriberId&quot;:567657&quot;},order&quot;:{id&quot;:30315000004&quot;,correlationOrder&quot;:&quot;,associatedDocument&quot;:VTT004&quot;,	ype&quot;:Encerramento&quot;,code&quot;: &quot;,description&quot;:Ordem encerrada com sucesso.&quot;,lostEquipment&quot;:False&quot;,esource&quot;:{gponAccess&quot;:A000009QV&quot;,iberPath&quot;:{items&quot;:{item&quot;:[{
+ame&quot;:enderecoCDO&quot;,alue&quot;:RUA GENERAL RENATO PAQUET
+
+07:44:20.217 response time in milliseconds: 14
+1 &lt; 400
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Headers: *
+1 &lt; Access-Control-Allow-Credentials: true
+1 &lt; Access-Control-Expose-Headers: *
+1 &lt; sl-violations: [{&quot;location&quot;:[&quot;request&quot;],&quot;severity&quot;:&quot;Error&quot;,&quot;code&quot;:415,&quot;message&quot;:&quot;Supported content types: application/json&quot;}]
+1 &lt; Date: Wed, 29 May 2024 07:44:20 GMT
+1 &lt; Connection: keep-alive
+1 &lt; Keep-Alive: timeout=5
+1 &lt; Content-Length: 0
+
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.21">
+      <div class="step-ref failed">21</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status  199</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="4.21">07:44:20.218 src/test/java/org/springframework/api_tests/listener_productOrderStateChangeEvent_post.feature:21
+Then status  199
+status code was: 400, expected: 199, response time in milliseconds: 14, url: http://localhost:4010/listener/productOrderStateChangeEvent, response: 
+
+src/test/java/org/springframework/api_tests/listener_productOrderStateChangeEvent_post.feature:21
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.22">
+      <div class="step-ref skipped">22</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match response contains {description: &#39; BARRA DA TIJUCA&#39;}</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.5:25]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.5:25]</span>
+                <span class="scenario-name">Validate state change event by client</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>12</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.5:25]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.5:25]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="5.14">
+      <div class="step-ref bg-step">14</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def urlBase = karate.properties[&#39;url.base&#39;] || karate.get(&#39;urlBase&#39;, &#39;http://localhost:4010&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.5:25]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="5.15">
+      <div class="step-ref bg-step">15</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url urlBase</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="5.18">
+      <div class="step-ref passed">18</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/listener/productOrderStateChangeEvent&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="5.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request &#39;{\notification\&quot;:{\date\&quot;:\2022-12-16T10:09:31-03:00\&quot;,\customer\&quot;:{\subscriberId\&quot;:\234567658\&quot;},\order\&quot;:{\id\&quot;:\20230315000005\&quot;,\correlationOrder\&quot;:\14\&quot;,\associatedDocument\&quot;:\VTT005\&quot;,\type\&quot;:\Encerramento\&quot;,\code\&quot;:\0\&quot;,\description\&quot;:\Ordem encerrada com sucesso.\&quot;,\lostEquipment\&quot;:\True\&quot;,\resource\&quot;:{\gponAccess\&quot;:\A000009QW\&quot;,\fiberPath\&quot;:{\items\&quot;:{\item\&quot;:[{\name\&quot;:\enderecoCDO\&quot;,\value\&quot;:\RUA GENERAL RENATO PAQUET&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="5.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">10</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="5.20">07:44:20.226 request:
+1 &gt; POST http://localhost:4010/listener/productOrderStateChangeEvent
+1 &gt; Content-Type: text/plain; charset=UTF-8
+1 &gt; Content-Length: 366
+1 &gt; Host: localhost:4010
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.11)
+1 &gt; Accept-Encoding: gzip,deflate
+{
+otification&quot;:{date&quot;:2-12-16T10:09:31-03:00&quot;,customer&quot;:{subscriberId&quot;:567658&quot;},order&quot;:{id&quot;:30315000005&quot;,correlationOrder&quot;:&quot;,associatedDocument&quot;:VTT005&quot;,	ype&quot;:Encerramento&quot;,code&quot;: &quot;,description&quot;:Ordem encerrada com sucesso.&quot;,lostEquipment&quot;:True&quot;,esource&quot;:{gponAccess&quot;:A000009QW&quot;,iberPath&quot;:{items&quot;:{item&quot;:[{
+ame&quot;:enderecoCDO&quot;,alue&quot;:RUA GENERAL RENATO PAQUET
+
+07:44:20.234 response time in milliseconds: 7
+1 &lt; 400
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Headers: *
+1 &lt; Access-Control-Allow-Credentials: true
+1 &lt; Access-Control-Expose-Headers: *
+1 &lt; sl-violations: [{&quot;location&quot;:[&quot;request&quot;],&quot;severity&quot;:&quot;Error&quot;,&quot;code&quot;:415,&quot;message&quot;:&quot;Supported content types: application/json&quot;}]
+1 &lt; Date: Wed, 29 May 2024 07:44:20 GMT
+1 &lt; Connection: keep-alive
+1 &lt; Keep-Alive: timeout=5
+1 &lt; Content-Length: 0
+
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="5.21">
+      <div class="step-ref failed">21</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status  199</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="5.21">07:44:20.235 src/test/java/org/springframework/api_tests/listener_productOrderStateChangeEvent_post.feature:21
+Then status  199
+status code was: 400, expected: 199, response time in milliseconds: 7, url: http://localhost:4010/listener/productOrderStateChangeEvent, response: 
+
+src/test/java/org/springframework/api_tests/listener_productOrderStateChangeEvent_post.feature:21
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="5.22">
+      <div class="step-ref skipped">22</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match response contains {description: &#39; BARRA DA TIJUCA&#39;}</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.6:25]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.6:25]</span>
+                <span class="scenario-name">Validate state change event by client</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>14</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.6:25]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.6:25]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="6.14">
+      <div class="step-ref bg-step">14</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def urlBase = karate.properties[&#39;url.base&#39;] || karate.get(&#39;urlBase&#39;, &#39;http://localhost:4010&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.6:25]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="6.15">
+      <div class="step-ref bg-step">15</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url urlBase</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="6.18">
+      <div class="step-ref passed">18</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/listener/productOrderStateChangeEvent&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="6.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request &#39;{\notification\&quot;:{\date\&quot;:\2022-12-16T10:09:31-03:00\&quot;,\customer\&quot;:{\subscriberId\&quot;:\234567659\&quot;},\order\&quot;:{\id\&quot;:\20230315000006\&quot;,\correlationOrder\&quot;:\15\&quot;,\associatedDocument\&quot;:\VTT006\&quot;,\type\&quot;:\Encerramento\&quot;,\code\&quot;:\0\&quot;,\description\&quot;:\Ordem encerrada com sucesso.\&quot;,\lostEquipment\&quot;:\False\&quot;,\resource\&quot;:{\gponAccess\&quot;:\A000009QX\&quot;,\fiberPath\&quot;:{\items\&quot;:{\item\&quot;:[{\name\&quot;:\enderecoCDO\&quot;,\value\&quot;:\RUA GENERAL RENATO PAQUET&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="6.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">11</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="6.20">07:44:20.248 request:
+1 &gt; POST http://localhost:4010/listener/productOrderStateChangeEvent
+1 &gt; Content-Type: text/plain; charset=UTF-8
+1 &gt; Content-Length: 367
+1 &gt; Host: localhost:4010
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.11)
+1 &gt; Accept-Encoding: gzip,deflate
+{
+otification&quot;:{date&quot;:2-12-16T10:09:31-03:00&quot;,customer&quot;:{subscriberId&quot;:567659&quot;},order&quot;:{id&quot;:30315000006&quot;,correlationOrder&quot;:&quot;,associatedDocument&quot;:VTT006&quot;,	ype&quot;:Encerramento&quot;,code&quot;: &quot;,description&quot;:Ordem encerrada com sucesso.&quot;,lostEquipment&quot;:False&quot;,esource&quot;:{gponAccess&quot;:A000009QX&quot;,iberPath&quot;:{items&quot;:{item&quot;:[{
+ame&quot;:enderecoCDO&quot;,alue&quot;:RUA GENERAL RENATO PAQUET
+
+07:44:20.257 response time in milliseconds: 8
+1 &lt; 400
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Headers: *
+1 &lt; Access-Control-Allow-Credentials: true
+1 &lt; Access-Control-Expose-Headers: *
+1 &lt; sl-violations: [{&quot;location&quot;:[&quot;request&quot;],&quot;severity&quot;:&quot;Error&quot;,&quot;code&quot;:415,&quot;message&quot;:&quot;Supported content types: application/json&quot;}]
+1 &lt; Date: Wed, 29 May 2024 07:44:20 GMT
+1 &lt; Connection: keep-alive
+1 &lt; Keep-Alive: timeout=5
+1 &lt; Content-Length: 0
+
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="6.21">
+      <div class="step-ref failed">21</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status  199</span>
+      </div>
+    </div>
+    <div class="time-cell failed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="6.21">07:44:20.259 src/test/java/org/springframework/api_tests/listener_productOrderStateChangeEvent_post.feature:21
+Then status  199
+status code was: 400, expected: 199, response time in milliseconds: 8, url: http://localhost:4010/listener/productOrderStateChangeEvent, response: 
+
+src/test/java/org/springframework/api_tests/listener_productOrderStateChangeEvent_post.feature:21
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="6.22">
+      <div class="step-ref skipped">22</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match response contains {description: &#39; BARRA DA TIJUCA&#39;}</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.7:25]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.7:25]</span>
+                <span class="scenario-name">Validate state change event by client</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>13</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.7:25]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.7:25]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="7.14">
+      <div class="step-ref bg-step">14</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def urlBase = karate.properties[&#39;url.base&#39;] || karate.get(&#39;urlBase&#39;, &#39;http://localhost:4010&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.7:25]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="7.15">
+      <div class="step-ref bg-step">15</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url urlBase</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="7.18">
+      <div class="step-ref passed">18</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/listener/productOrderStateChangeEvent&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="7.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request &#39;{\notification\&quot;:{\date\&quot;:\2022-12-16T10:09:31-03:00\&quot;,\customer\&quot;:{\subscriberId\&quot;:\234567660\&quot;},\order\&quot;:{\id\&quot;:\20230315000007\&quot;,\correlationOrder\&quot;:\16\&quot;,\associatedDocument\&quot;:\VTT007\&quot;,\type\&quot;:\Encerramento\&quot;,\code\&quot;:\0\&quot;,\description\&quot;:\Ordem encerrada com sucesso.\&quot;,\lostEquipment\&quot;:\True\&quot;,\resource\&quot;:{\gponAccess\&quot;:\A000009QY\&quot;,\fiberPath\&quot;:{\items\&quot;:{\item\&quot;:[{\name\&quot;:\enderecoCDO\&quot;,\value\&quot;:\RUA GENERAL RENATO PAQUET&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="7.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">11</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="7.20">07:44:20.267 request:
+1 &gt; POST http://localhost:4010/listener/productOrderStateChangeEvent
+1 &gt; Content-Type: text/plain; charset=UTF-8
+1 &gt; Content-Length: 366
+1 &gt; Host: localhost:4010
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.11)
+1 &gt; Accept-Encoding: gzip,deflate
+{
+otification&quot;:{date&quot;:2-12-16T10:09:31-03:00&quot;,customer&quot;:{subscriberId&quot;:567660&quot;},order&quot;:{id&quot;:30315000007&quot;,correlationOrder&quot;:&quot;,associatedDocument&quot;:VTT007&quot;,	ype&quot;:Encerramento&quot;,code&quot;: &quot;,description&quot;:Ordem encerrada com sucesso.&quot;,lostEquipment&quot;:True&quot;,esource&quot;:{gponAccess&quot;:A000009QY&quot;,iberPath&quot;:{items&quot;:{item&quot;:[{
+ame&quot;:enderecoCDO&quot;,alue&quot;:RUA GENERAL RENATO PAQUET
+
+07:44:20.276 response time in milliseconds: 7
+1 &lt; 400
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Headers: *
+1 &lt; Access-Control-Allow-Credentials: true
+1 &lt; Access-Control-Expose-Headers: *
+1 &lt; sl-violations: [{&quot;location&quot;:[&quot;request&quot;],&quot;severity&quot;:&quot;Error&quot;,&quot;code&quot;:415,&quot;message&quot;:&quot;Supported content types: application/json&quot;}]
+1 &lt; Date: Wed, 29 May 2024 07:44:20 GMT
+1 &lt; Connection: keep-alive
+1 &lt; Keep-Alive: timeout=5
+1 &lt; Content-Length: 0
+
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="7.21">
+      <div class="step-ref failed">21</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status  199</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="7.21">07:44:20.277 src/test/java/org/springframework/api_tests/listener_productOrderStateChangeEvent_post.feature:21
+Then status  199
+status code was: 400, expected: 199, response time in milliseconds: 7, url: http://localhost:4010/listener/productOrderStateChangeEvent, response: 
+
+src/test/java/org/springframework/api_tests/listener_productOrderStateChangeEvent_post.feature:21
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="7.22">
+      <div class="step-ref skipped">22</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match response contains {description: &#39; BARRA DA TIJUCA&#39;}</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.8:25]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.8:25]</span>
+                <span class="scenario-name">Validate state change event by client</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>13</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.8:25]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.8:25]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="8.14">
+      <div class="step-ref bg-step">14</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def urlBase = karate.properties[&#39;url.base&#39;] || karate.get(&#39;urlBase&#39;, &#39;http://localhost:4010&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.8:25]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="8.15">
+      <div class="step-ref bg-step">15</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url urlBase</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="8.18">
+      <div class="step-ref passed">18</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/listener/productOrderStateChangeEvent&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="8.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request &#39;{\notification\&quot;:{\date\&quot;:\2022-12-16T10:09:31-03:00\&quot;,\customer\&quot;:{\subscriberId\&quot;:\234567661\&quot;},\order\&quot;:{\id\&quot;:\20230315000008\&quot;,\correlationOrder\&quot;:\17\&quot;,\associatedDocument\&quot;:\VTT008\&quot;,\type\&quot;:\Encerramento\&quot;,\code\&quot;:\0\&quot;,\description\&quot;:\Ordem encerrada com sucesso.\&quot;,\lostEquipment\&quot;:\False\&quot;,\resource\&quot;:{\gponAccess\&quot;:\A000009QZ\&quot;,\fiberPath\&quot;:{\items\&quot;:{\item\&quot;:[{\name\&quot;:\enderecoCDO\&quot;,\value\&quot;:\RUA GENERAL RENATO PAQUET&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="8.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">11</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="8.20">07:44:20.285 request:
+1 &gt; POST http://localhost:4010/listener/productOrderStateChangeEvent
+1 &gt; Content-Type: text/plain; charset=UTF-8
+1 &gt; Content-Length: 367
+1 &gt; Host: localhost:4010
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.11)
+1 &gt; Accept-Encoding: gzip,deflate
+{
+otification&quot;:{date&quot;:2-12-16T10:09:31-03:00&quot;,customer&quot;:{subscriberId&quot;:567661&quot;},order&quot;:{id&quot;:30315000008&quot;,correlationOrder&quot;:&quot;,associatedDocument&quot;:VTT008&quot;,	ype&quot;:Encerramento&quot;,code&quot;: &quot;,description&quot;:Ordem encerrada com sucesso.&quot;,lostEquipment&quot;:False&quot;,esource&quot;:{gponAccess&quot;:A000009QZ&quot;,iberPath&quot;:{items&quot;:{item&quot;:[{
+ame&quot;:enderecoCDO&quot;,alue&quot;:RUA GENERAL RENATO PAQUET
+
+07:44:20.294 response time in milliseconds: 8
+1 &lt; 400
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Headers: *
+1 &lt; Access-Control-Allow-Credentials: true
+1 &lt; Access-Control-Expose-Headers: *
+1 &lt; sl-violations: [{&quot;location&quot;:[&quot;request&quot;],&quot;severity&quot;:&quot;Error&quot;,&quot;code&quot;:415,&quot;message&quot;:&quot;Supported content types: application/json&quot;}]
+1 &lt; Date: Wed, 29 May 2024 07:44:20 GMT
+1 &lt; Connection: keep-alive
+1 &lt; Keep-Alive: timeout=5
+1 &lt; Content-Length: 0
+
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="8.21">
+      <div class="step-ref failed">21</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status  199</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="8.21">07:44:20.295 src/test/java/org/springframework/api_tests/listener_productOrderStateChangeEvent_post.feature:21
+Then status  199
+status code was: 400, expected: 199, response time in milliseconds: 8, url: http://localhost:4010/listener/productOrderStateChangeEvent, response: 
+
+src/test/java/org/springframework/api_tests/listener_productOrderStateChangeEvent_post.feature:21
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="8.22">
+      <div class="step-ref skipped">22</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match response contains {description: &#39; BARRA DA TIJUCA&#39;}</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.9:25]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.9:25]</span>
+                <span class="scenario-name">Validate state change event by client</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>12</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.9:25]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.9:25]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="9.14">
+      <div class="step-ref bg-step">14</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def urlBase = karate.properties[&#39;url.base&#39;] || karate.get(&#39;urlBase&#39;, &#39;http://localhost:4010&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.9:25]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="9.15">
+      <div class="step-ref bg-step">15</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url urlBase</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="9.18">
+      <div class="step-ref passed">18</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/listener/productOrderStateChangeEvent&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="9.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request &#39;{\notification\&quot;:{\date\&quot;:\2022-12-16T10:09:31-03:00\&quot;,\customer\&quot;:{\subscriberId\&quot;:\234567662\&quot;},\order\&quot;:{\id\&quot;:\20230315000009\&quot;,\correlationOrder\&quot;:\18\&quot;,\associatedDocument\&quot;:\VTT009\&quot;,\type\&quot;:\Encerramento\&quot;,\code\&quot;:\0\&quot;,\description\&quot;:\Ordem encerrada com sucesso.\&quot;,\lostEquipment\&quot;:\True\&quot;,\resource\&quot;:{\gponAccess\&quot;:\A000009QA\&quot;,\fiberPath\&quot;:{\items\&quot;:{\item\&quot;:[{\name\&quot;:\enderecoCDO\&quot;,\value\&quot;:\RUA GENERAL RENATO PAQUET&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="9.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">10</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="9.20">07:44:20.303 request:
+1 &gt; POST http://localhost:4010/listener/productOrderStateChangeEvent
+1 &gt; Content-Type: text/plain; charset=UTF-8
+1 &gt; Content-Length: 367
+1 &gt; Host: localhost:4010
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.11)
+1 &gt; Accept-Encoding: gzip,deflate
+{
+otification&quot;:{date&quot;:2-12-16T10:09:31-03:00&quot;,customer&quot;:{subscriberId&quot;:567662&quot;},order&quot;:{id&quot;:30315000009&quot;,correlationOrder&quot;:8&quot;,associatedDocument&quot;:VTT009&quot;,	ype&quot;:Encerramento&quot;,code&quot;: &quot;,description&quot;:Ordem encerrada com sucesso.&quot;,lostEquipment&quot;:True&quot;,esource&quot;:{gponAccess&quot;:A000009QA&quot;,iberPath&quot;:{items&quot;:{item&quot;:[{
+ame&quot;:enderecoCDO&quot;,alue&quot;:RUA GENERAL RENATO PAQUET
+
+07:44:20.311 response time in milliseconds: 7
+1 &lt; 400
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Headers: *
+1 &lt; Access-Control-Allow-Credentials: true
+1 &lt; Access-Control-Expose-Headers: *
+1 &lt; sl-violations: [{&quot;location&quot;:[&quot;request&quot;],&quot;severity&quot;:&quot;Error&quot;,&quot;code&quot;:415,&quot;message&quot;:&quot;Supported content types: application/json&quot;}]
+1 &lt; Date: Wed, 29 May 2024 07:44:20 GMT
+1 &lt; Connection: keep-alive
+1 &lt; Keep-Alive: timeout=5
+1 &lt; Content-Length: 0
+
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="9.21">
+      <div class="step-ref failed">21</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status  199</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="9.21">07:44:20.312 src/test/java/org/springframework/api_tests/listener_productOrderStateChangeEvent_post.feature:21
+Then status  199
+status code was: 400, expected: 199, response time in milliseconds: 7, url: http://localhost:4010/listener/productOrderStateChangeEvent, response: 
+
+src/test/java/org/springframework/api_tests/listener_productOrderStateChangeEvent_post.feature:21
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="9.22">
+      <div class="step-ref skipped">22</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match response contains {description: &#39; BARRA DA TIJUCA&#39;}</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.10:25]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.10:25]</span>
+                <span class="scenario-name">Validate state change event by client</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>13</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.10:25]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.10:25]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="10.14">
+      <div class="step-ref bg-step">14</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def urlBase = karate.properties[&#39;url.base&#39;] || karate.get(&#39;urlBase&#39;, &#39;http://localhost:4010&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.10:25]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="10.15">
+      <div class="step-ref bg-step">15</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url urlBase</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="10.18">
+      <div class="step-ref passed">18</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/listener/productOrderStateChangeEvent&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="10.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request &#39;{\notification\&quot;:{\date\&quot;:\2022-12-16T10:09:31-03:00\&quot;,\customer\&quot;:{\subscriberId\&quot;:\234567663\&quot;},\order\&quot;:{\id\&quot;:\20230315000010\&quot;,\correlationOrder\&quot;:\19\&quot;,\associatedDocument\&quot;:\VTT010\&quot;,\type\&quot;:\Encerramento\&quot;,\code\&quot;:\0\&quot;,\description\&quot;:\Ordem encerrada com sucesso.\&quot;,\lostEquipment\&quot;:\False\&quot;,\resource\&quot;:{\gponAccess\&quot;:\A000009QB\&quot;,\fiberPath\&quot;:{\items\&quot;:{\item\&quot;:[{\name\&quot;:\enderecoCDO\&quot;,\value\&quot;:\RUA GENERAL RENATO PAQUET&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="10.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">11</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="10.20">07:44:20.322 request:
+1 &gt; POST http://localhost:4010/listener/productOrderStateChangeEvent
+1 &gt; Content-Type: text/plain; charset=UTF-8
+1 &gt; Content-Length: 368
+1 &gt; Host: localhost:4010
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.11)
+1 &gt; Accept-Encoding: gzip,deflate
+{
+otification&quot;:{date&quot;:2-12-16T10:09:31-03:00&quot;,customer&quot;:{subscriberId&quot;:567663&quot;},order&quot;:{id&quot;:30315000010&quot;,correlationOrder&quot;:9&quot;,associatedDocument&quot;:VTT010&quot;,	ype&quot;:Encerramento&quot;,code&quot;: &quot;,description&quot;:Ordem encerrada com sucesso.&quot;,lostEquipment&quot;:False&quot;,esource&quot;:{gponAccess&quot;:A000009QB&quot;,iberPath&quot;:{items&quot;:{item&quot;:[{
+ame&quot;:enderecoCDO&quot;,alue&quot;:RUA GENERAL RENATO PAQUET
+
+07:44:20.329 response time in milliseconds: 7
+1 &lt; 400
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Headers: *
+1 &lt; Access-Control-Allow-Credentials: true
+1 &lt; Access-Control-Expose-Headers: *
+1 &lt; sl-violations: [{&quot;location&quot;:[&quot;request&quot;],&quot;severity&quot;:&quot;Error&quot;,&quot;code&quot;:415,&quot;message&quot;:&quot;Supported content types: application/json&quot;}]
+1 &lt; Date: Wed, 29 May 2024 07:44:20 GMT
+1 &lt; Connection: keep-alive
+1 &lt; Keep-Alive: timeout=5
+1 &lt; Content-Length: 0
+
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="10.21">
+      <div class="step-ref failed">21</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status  199</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="10.21">07:44:20.330 src/test/java/org/springframework/api_tests/listener_productOrderStateChangeEvent_post.feature:21
+Then status  199
+status code was: 400, expected: 199, response time in milliseconds: 7, url: http://localhost:4010/listener/productOrderStateChangeEvent, response: 
+
+src/test/java/org/springframework/api_tests/listener_productOrderStateChangeEvent_post.feature:21
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="10.22">
+      <div class="step-ref skipped">22</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match response contains {description: &#39; BARRA DA TIJUCA&#39;}</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
