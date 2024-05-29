@@ -1,0 +1,11 @@
+requestBody,statusCode,responseBody
+"{\"notification\":{\"date\":\"2021-06-05T20:23:29-03:00\",\"order\":{\"id\":\"20230315000001\",\"associatedDocument\":\"VTT001\",\"correlationOrder\":\"10\"}}}",200,"{\"message\":\"Success\"}"
+"{\"notification\":{\"date\":\"2021-06-06T10:23:29-03:00\",\"order\":{\"id\":\"20230315000002\",\"associatedDocument\":\"VTT002\",\"correlationOrder\":\"20\"}}}",200,"{\"message\":\"Success\"}"
+"{\"notification\":{\"date\":\"2021-06-07T11:23:29-03:00\",\"order\":{\"id\":\"20230315000003\",\"associatedDocument\":\"VTT003\",\"correlationOrder\":\"30\"}}}",200,"{\"message\":\"Success\"}"
+"{\"notification\":{\"date\":\"2021-06-08T12:23:29-03:00\",\"order\":{\"id\":\"20230315000004\",\"associatedDocument\":\"VTT004\",\"correlationOrder\":\"40\"}}}",200,"{\"message\":\"Success\"}"
+"{\"notification\":{\"date\":\"2021-06-09T13:23:29-03:00\",\"order\":{\"id\":\"20230315000005\",\"associatedDocument\":\"VTT005\",\"correlationOrder\":\"50\"}}}",200,"{\"message\":\"Success\"}"
+"{\"notification\":{\"date\":\"2021-06-10T14:23:29-03:00\",\"order\":{\"id\":\"20230315000006\",\"associatedDocument\":\"VTT006\",\"correlationOrder\":\"60\"}}}",200,"{\"message\":\"Success\"}"
+"{\"notification\":{\"date\":\"2021-06-11T15:23:29-03:00\",\"order\":{\"id\":\"20230315000007\",\"associatedDocument\":\"VTT007\",\"correlationOrder\":\"70\"}}}",200,"{\"message\":\"Success\"}"
+"{\"notification\":{\"date\":\"2021-06-12T16:23:29-03:00\",\"order\":{\"id\":\"20230315000008\",\"associatedDocument\":\"VTT008\",\"correlationOrder\":\"80\"}}}",200,"{\"message\":\"Success\"}"
+"{\"notification\":{\"date\":\"2021-06-13T17:23:29-03:00\",\"order\":{\"id\":\"20230315000009\",\"associatedDocument\":\"VTT009\",\"correlationOrder\":\"90\"}}}",200,"{\"message\":\"Success\"}"
+"{\"notification\":{\"date\":\"2021-06-14T18:23:29-03:00\",\"order\":{\"id\":\"20230315000010\",\"associatedDocument\":\"VTT010\",\"correlationOrder\":\"100\"}}}",200,"{\"message\":\"Success\"}"
