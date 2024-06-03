@@ -1,0 +1,2462 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script type="text/javascript" src="res/Resemble.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.capture("report_feature",{distinct_id:"dc5ce9c6-483e-471e-8c80-ec5b01273388",karate_version:"1.4.1",karate_meta:null});
+  }
+});
+</script>
+
+    <title>src.test.java.org.springframework.api_tests.listener_productOrderStateChangeEvent_post</title>
+  </head>
+  <body>
+    <div id="root-container">
+      <div id="leftnav">
+        
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">0</div>
+      <div id="nav-fail" class="bg-danger">10</div>
+    </div>
+  </div>
+  <div id="nav-env">
+    <div></div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>
+  <div id="nav-date">
+    <div>2024-06-03 02:21:04 pm</div>
+  </div>
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item failed">
+            <a href="#[1.1:29]"><span>[1.1:29]</span> <span>Test state change event by client</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[1.2:29]"><span>[1.2:29]</span> <span>Test state change event by client</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[1.3:29]"><span>[1.3:29]</span> <span>Test state change event by client</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[1.4:29]"><span>[1.4:29]</span> <span>Test state change event by client</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[1.5:29]"><span>[1.5:29]</span> <span>Test state change event by client</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[1.6:29]"><span>[1.6:29]</span> <span>Test state change event by client</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[1.7:29]"><span>[1.7:29]</span> <span>Test state change event by client</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[1.8:29]"><span>[1.8:29]</span> <span>Test state change event by client</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[1.9:29]"><span>[1.9:29]</span> <span>Test state change event by client</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[1.10:29]"><span>[1.10:29]</span> <span>Test state change event by client</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/org/springframework/api_tests/listener_productOrderStateChangeEvent_post.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">State Change Event By Client</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.1:29]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">StateChangeEvent</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.1:29]</span>
+                <span class="scenario-name">Test state change event by client</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>11</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.1:29]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.1:29]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.15">
+      <div class="step-ref bg-step">15</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def urlBase = karate.properties[&#39;url.base&#39;] || karate.get(&#39;urlBase&#39;, &#39;http://localhost:4010&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.1:29]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.16">
+      <div class="step-ref bg-step">16</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url urlBase</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/listener/productOrderStateChangeEvent&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="1.20">{&quot;notification&quot;:{&quot;date&quot;:&quot;2022-04-01T12:15:35.174-03:00&quot;,&quot;customer&quot;:{&quot;subscriberId&quot;:&quot;234567654&quot;},&quot;order&quot;:{&quot;id&quot;:&quot;20230315000001&quot;,&quot;correlationOrder&quot;:&quot;10&quot;,&quot;associatedDocument&quot;:&quot;VTT001&quot;,&quot;type&quot;:&quot;Encerramento&quot;,&quot;code&quot;:&quot;0&quot;,&quot;description&quot;:&quot;BA de campo encerrado com sucesso&quot;,&quot;resource&quot;:{&quot;gponAccess&quot;:&quot;A000009QS&quot;,&quot;devices&quot;:{&quot;device&quot;:[{&quot;category&quot;:&quot;ONT&quot;,&quot;type&quot;:&quot;PhsysicalResource&quot;,&quot;description&quot;:&quot;Equipment - ONT device&quot;,&quot;state&quot;:&quot;completed&quot;,&quot;usageState&quot;:&quot;active&quot;,&quot;startOperatingDate&quot;:&quot;2022-12-26T12:15:35.174-03:00&quot;,&quot;resourceCharacteristic&quot;:[{&quot;name&quot;:&quot;serialNumber&quot;,&quot;value&quot;:&quot;0251990119989&quot;},{&quot;name&quot;:&quot;firmware&quot;,&quot;value&quot;:&quot;FW-XPTO-123&quot;},{&quot;name&quot;:&quot;manufacturer&quot;,&quot;value&quot;:&quot;Sagemcom&quot;},{&quot;name&quot;:&quot;model&quot;,&quot;value&quot;:&quot;F@ST 5340 TFN&quot;}]}]},&quot;fiberPath&quot;:{&quot;items&quot;:{&quot;item&quot;:[{&quot;name&quot;:&quot;enderecoCDO&quot;,&quot;value&quot;:&quot;RUA GENERAL RENATO PAQUET, 199, BARRA DA TIJUCA, RIO DE JANEIRO - RJ 22793913&quot;},{&quot;name&quot;:&quot;producer_olt&quot;,&quot;value&quot;:&quot;HUAWEI&quot;},{&quot;name&quot;:&quot;CDO&quot;,&quot;value&quot;:&quot;CDOI-4704-PTP.FO.O:45&quot;},{&quot;name&quot;:&quot;CDO&quot;,&quot;value&quot;:&quot;CDOI-4704-PTP.FO.I:S32_2_IN 1&quot;},{&quot;name&quot;:&quot;estacao&quot;,&quot;value&quot;:&quot;BEL&quot;},{&quot;name&quot;:&quot;cnl&quot;,&quot;value&quot;:&quot;CBF&quot;},{&quot;name&quot;:&quot;olt&quot;,&quot;value&quot;:&quot;MA-CTO04-GHUA&quot;},{&quot;name&quot;:&quot;primaryCable&quot;,&quot;value&quot;:&quot;MA.CTO.F-7.CEO-15/1&quot;},{&quot;name&quot;:&quot;secondaryCable&quot;,&quot;value&quot;:&quot;MA.CTO.F-7.CEOS-165&quot;}]}}}}}}}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.24">
+      <div class="step-ref failed">24</div>
+      
+      <div class="step-cell failed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell failed">8</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.24">14:21:04.378 request:
+1 &gt; POST http://localhost:4010/listener/productOrderStateChangeEvent
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 1207
+1 &gt; Host: localhost:4010
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;notification&quot;:{&quot;date&quot;:&quot;2022-04-01T12:15:35.174-03:00&quot;,&quot;customer&quot;:{&quot;subscriberId&quot;:&quot;234567654&quot;},&quot;order&quot;:{&quot;id&quot;:&quot;20230315000001&quot;,&quot;correlationOrder&quot;:&quot;10&quot;,&quot;associatedDocument&quot;:&quot;VTT001&quot;,&quot;type&quot;:&quot;Encerramento&quot;,&quot;code&quot;:&quot;0&quot;,&quot;description&quot;:&quot;BA de campo encerrado com sucesso&quot;,&quot;resource&quot;:{&quot;gponAccess&quot;:&quot;A000009QS&quot;,&quot;devices&quot;:{&quot;device&quot;:[{&quot;category&quot;:&quot;ONT&quot;,&quot;type&quot;:&quot;PhsysicalResource&quot;,&quot;description&quot;:&quot;Equipment - ONT device&quot;,&quot;state&quot;:&quot;completed&quot;,&quot;usageState&quot;:&quot;active&quot;,&quot;startOperatingDate&quot;:&quot;2022-12-26T12:15:35.174-03:00&quot;,&quot;resourceCharacteristic&quot;:[{&quot;name&quot;:&quot;serialNumber&quot;,&quot;value&quot;:&quot;0251990119989&quot;},{&quot;name&quot;:&quot;firmware&quot;,&quot;value&quot;:&quot;FW-XPTO-123&quot;},{&quot;name&quot;:&quot;manufacturer&quot;,&quot;value&quot;:&quot;Sagemcom&quot;},{&quot;name&quot;:&quot;model&quot;,&quot;value&quot;:&quot;F@ST 5340 TFN&quot;}]}]},&quot;fiberPath&quot;:{&quot;items&quot;:{&quot;item&quot;:[{&quot;name&quot;:&quot;enderecoCDO&quot;,&quot;value&quot;:&quot;RUA GENERAL RENATO PAQUET, 199, BARRA DA TIJUCA, RIO DE JANEIRO - RJ 22793913&quot;},{&quot;name&quot;:&quot;producer_olt&quot;,&quot;value&quot;:&quot;HUAWEI&quot;},{&quot;name&quot;:&quot;CDO&quot;,&quot;value&quot;:&quot;CDOI-4704-PTP.FO.O:45&quot;},{&quot;name&quot;:&quot;CDO&quot;,&quot;value&quot;:&quot;CDOI-4704-PTP.FO.I:S32_2_IN 1&quot;},{&quot;name&quot;:&quot;estacao&quot;,&quot;value&quot;:&quot;BEL&quot;},{&quot;name&quot;:&quot;cnl&quot;,&quot;value&quot;:&quot;CBF&quot;},{&quot;name&quot;:&quot;olt&quot;,&quot;value&quot;:&quot;MA-CTO04-GHUA&quot;},{&quot;name&quot;:&quot;primaryCable&quot;,&quot;value&quot;:&quot;MA.CTO.F-7.CEO-15\/1&quot;},{&quot;name&quot;:&quot;secondaryCable&quot;,&quot;value&quot;:&quot;MA.CTO.F-7.CEOS-165&quot;}]}}}}}}
+
+14:21:04.384 org.apache.http.conn.HttpHostConnectException: Connect to localhost:4010 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information, http call failed after 7 milliseconds for url: http://localhost:4010/listener/productOrderStateChangeEvent
+14:21:04.384 src/test/java/org/springframework/api_tests/listener_productOrderStateChangeEvent_post.feature:24
+When method post
+http call failed after 7 milliseconds for url: http://localhost:4010/listener/productOrderStateChangeEvent
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:4010 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+src/test/java/org/springframework/api_tests/listener_productOrderStateChangeEvent_post.feature:24
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.25">
+      <div class="step-ref skipped">25</div>
+      
+      <div class="step-cell skipped">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.26">
+      <div class="step-ref skipped">26</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match response.description == &#39;Success&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.2:29]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">StateChangeEvent</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.2:29]</span>
+                <span class="scenario-name">Test state change event by client</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>10</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.2:29]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.2:29]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.15">
+      <div class="step-ref bg-step">15</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def urlBase = karate.properties[&#39;url.base&#39;] || karate.get(&#39;urlBase&#39;, &#39;http://localhost:4010&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.2:29]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.16">
+      <div class="step-ref bg-step">16</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url urlBase</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/listener/productOrderStateChangeEvent&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="2.20">{&quot;notification&quot;:{&quot;date&quot;:&quot;2022-04-02T14:16:36.185-03:00&quot;,&quot;customer&quot;:{&quot;subscriberId&quot;:&quot;234567655&quot;},&quot;order&quot;:{&quot;id&quot;:&quot;20230315000002&quot;,&quot;correlationOrder&quot;:&quot;20&quot;,&quot;associatedDocument&quot;:&quot;VTT002&quot;,&quot;type&quot;:&quot;Cancelamento&quot;,&quot;code&quot;:&quot;2&quot;,&quot;description&quot;:&quot;Ordem cancelada&quot;,&quot;resource&quot;:{&quot;fiberPath&quot;:{&quot;items&quot;:&quot;&quot;}}}}}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.24">
+      <div class="step-ref failed">24</div>
+      
+      <div class="step-cell failed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell failed">8</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="2.24">14:21:04.395 request:
+1 &gt; POST http://localhost:4010/listener/productOrderStateChangeEvent
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 286
+1 &gt; Host: localhost:4010
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;notification&quot;:{&quot;date&quot;:&quot;2022-04-02T14:16:36.185-03:00&quot;,&quot;customer&quot;:{&quot;subscriberId&quot;:&quot;234567655&quot;},&quot;order&quot;:{&quot;id&quot;:&quot;20230315000002&quot;,&quot;correlationOrder&quot;:&quot;20&quot;,&quot;associatedDocument&quot;:&quot;VTT002&quot;,&quot;type&quot;:&quot;Cancelamento&quot;,&quot;code&quot;:&quot;2&quot;,&quot;description&quot;:&quot;Ordem cancelada&quot;,&quot;resource&quot;:{&quot;fiberPath&quot;:{&quot;items&quot;:&quot;&quot;}}}}}
+
+14:21:04.400 org.apache.http.conn.HttpHostConnectException: Connect to localhost:4010 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information, http call failed after 7 milliseconds for url: http://localhost:4010/listener/productOrderStateChangeEvent
+14:21:04.401 src/test/java/org/springframework/api_tests/listener_productOrderStateChangeEvent_post.feature:24
+When method post
+http call failed after 7 milliseconds for url: http://localhost:4010/listener/productOrderStateChangeEvent
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:4010 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+src/test/java/org/springframework/api_tests/listener_productOrderStateChangeEvent_post.feature:24
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.25">
+      <div class="step-ref skipped">25</div>
+      
+      <div class="step-cell skipped">
+        <span>Then</span>&nbsp;<span>status 404</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.26">
+      <div class="step-ref skipped">26</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match response.description == &#39;Order not found&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.3:29]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">StateChangeEvent</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.3:29]</span>
+                <span class="scenario-name">Test state change event by client</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>27</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.3:29]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.3:29]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.15">
+      <div class="step-ref bg-step">15</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def urlBase = karate.properties[&#39;url.base&#39;] || karate.get(&#39;urlBase&#39;, &#39;http://localhost:4010&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.3:29]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.16">
+      <div class="step-ref bg-step">16</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url urlBase</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/listener/productOrderStateChangeEvent&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="3.20">{&quot;notification&quot;:{&quot;date&quot;:&quot;2022-04-03T15:17:37.196-03:00&quot;,&quot;customer&quot;:{&quot;subscriberId&quot;:&quot;234567656&quot;},&quot;order&quot;:{&quot;id&quot;:&quot;20230315000003&quot;,&quot;correlationOrder&quot;:&quot;30&quot;,&quot;associatedDocument&quot;:&quot;VTT003&quot;,&quot;type&quot;:&quot;Encerramento&quot;,&quot;code&quot;:&quot;-1&quot;,&quot;description&quot;:&quot;O Equipamento já está em uso por outro cliente&quot;,&quot;lostEquipment&quot;:&quot;True&quot;,&quot;resource&quot;:{&quot;fiberPath&quot;:{&quot;items&quot;:&quot;&quot;}}}}}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.24">
+      <div class="step-ref failed">24</div>
+      
+      <div class="step-cell failed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell failed">25</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="3.24">14:21:04.412 request:
+1 &gt; POST http://localhost:4010/listener/productOrderStateChangeEvent
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 343
+1 &gt; Host: localhost:4010
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;notification&quot;:{&quot;date&quot;:&quot;2022-04-03T15:17:37.196-03:00&quot;,&quot;customer&quot;:{&quot;subscriberId&quot;:&quot;234567656&quot;},&quot;order&quot;:{&quot;id&quot;:&quot;20230315000003&quot;,&quot;correlationOrder&quot;:&quot;30&quot;,&quot;associatedDocument&quot;:&quot;VTT003&quot;,&quot;type&quot;:&quot;Encerramento&quot;,&quot;code&quot;:&quot;-1&quot;,&quot;description&quot;:&quot;O Equipamento já está em uso por outro cliente&quot;,&quot;lostEquipment&quot;:&quot;True&quot;,&quot;resource&quot;:{&quot;fiberPath&quot;:{&quot;items&quot;:&quot;&quot;}}}}}
+
+14:21:04.434 org.apache.http.conn.HttpHostConnectException: Connect to localhost:4010 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information, http call failed after 24 milliseconds for url: http://localhost:4010/listener/productOrderStateChangeEvent
+14:21:04.435 src/test/java/org/springframework/api_tests/listener_productOrderStateChangeEvent_post.feature:24
+When method post
+http call failed after 24 milliseconds for url: http://localhost:4010/listener/productOrderStateChangeEvent
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:4010 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+src/test/java/org/springframework/api_tests/listener_productOrderStateChangeEvent_post.feature:24
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.25">
+      <div class="step-ref skipped">25</div>
+      
+      <div class="step-cell skipped">
+        <span>Then</span>&nbsp;<span>status 500</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.26">
+      <div class="step-ref skipped">26</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match response.description == &#39;Internal server error&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.4:29]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">StateChangeEvent</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.4:29]</span>
+                <span class="scenario-name">Test state change event by client</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>8</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.4:29]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.4:29]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.15">
+      <div class="step-ref bg-step">15</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def urlBase = karate.properties[&#39;url.base&#39;] || karate.get(&#39;urlBase&#39;, &#39;http://localhost:4010&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.4:29]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.16">
+      <div class="step-ref bg-step">16</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url urlBase</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/listener/productOrderStateChangeEvent&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="4.20">{&quot;notification&quot;:{&quot;date&quot;:&quot;2022-04-04T16:18:38.207-03:00&quot;,&quot;customer&quot;:{&quot;subscriberId&quot;:&quot;234567657&quot;},&quot;order&quot;:{&quot;id&quot;:&quot;20230315000004&quot;,&quot;correlationOrder&quot;:&quot;40&quot;,&quot;associatedDocument&quot;:&quot;VTT004&quot;,&quot;type&quot;:&quot;Início do Processo de Obra&quot;,&quot;code&quot;:&quot;3&quot;,&quot;description&quot;:&quot;Ordem em processo de obra&quot;,&quot;resource&quot;:{&quot;fiberPath&quot;:{&quot;items&quot;:&quot;&quot;}}}}}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.24">
+      <div class="step-ref failed">24</div>
+      
+      <div class="step-cell failed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell failed">7</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="4.24">14:21:04.446 request:
+1 &gt; POST http://localhost:4010/listener/productOrderStateChangeEvent
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 311
+1 &gt; Host: localhost:4010
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;notification&quot;:{&quot;date&quot;:&quot;2022-04-04T16:18:38.207-03:00&quot;,&quot;customer&quot;:{&quot;subscriberId&quot;:&quot;234567657&quot;},&quot;order&quot;:{&quot;id&quot;:&quot;20230315000004&quot;,&quot;correlationOrder&quot;:&quot;40&quot;,&quot;associatedDocument&quot;:&quot;VTT004&quot;,&quot;type&quot;:&quot;Início do Processo de Obra&quot;,&quot;code&quot;:&quot;3&quot;,&quot;description&quot;:&quot;Ordem em processo de obra&quot;,&quot;resource&quot;:{&quot;fiberPath&quot;:{&quot;items&quot;:&quot;&quot;}}}}}
+
+14:21:04.450 org.apache.http.conn.HttpHostConnectException: Connect to localhost:4010 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information, http call failed after 6 milliseconds for url: http://localhost:4010/listener/productOrderStateChangeEvent
+14:21:04.450 src/test/java/org/springframework/api_tests/listener_productOrderStateChangeEvent_post.feature:24
+When method post
+http call failed after 6 milliseconds for url: http://localhost:4010/listener/productOrderStateChangeEvent
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:4010 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+src/test/java/org/springframework/api_tests/listener_productOrderStateChangeEvent_post.feature:24
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.25">
+      <div class="step-ref skipped">25</div>
+      
+      <div class="step-cell skipped">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.26">
+      <div class="step-ref skipped">26</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match response.description == &#39;Success&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.5:29]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">StateChangeEvent</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.5:29]</span>
+                <span class="scenario-name">Test state change event by client</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>11</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.5:29]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.5:29]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="5.15">
+      <div class="step-ref bg-step">15</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def urlBase = karate.properties[&#39;url.base&#39;] || karate.get(&#39;urlBase&#39;, &#39;http://localhost:4010&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.5:29]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="5.16">
+      <div class="step-ref bg-step">16</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url urlBase</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="5.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/listener/productOrderStateChangeEvent&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="5.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="5.20">{&quot;notification&quot;:{&quot;date&quot;:&quot;2022-04-05T17:19:39.218-03:00&quot;,&quot;customer&quot;:{&quot;subscriberId&quot;:&quot;234567658&quot;},&quot;order&quot;:{&quot;id&quot;:&quot;20230315000005&quot;,&quot;correlationOrder&quot;:&quot;50&quot;,&quot;associatedDocument&quot;:&quot;VTT005&quot;,&quot;type&quot;:&quot;Término do Processo de Obra&quot;,&quot;code&quot;:&quot;4&quot;,&quot;description&quot;:&quot;Ordem terminada com sucesso&quot;,&quot;resource&quot;:{&quot;fiberPath&quot;:{&quot;items&quot;:&quot;&quot;}}}}}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="5.24">
+      <div class="step-ref failed">24</div>
+      
+      <div class="step-cell failed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell failed">10</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="5.24">14:21:04.460 request:
+1 &gt; POST http://localhost:4010/listener/productOrderStateChangeEvent
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 314
+1 &gt; Host: localhost:4010
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;notification&quot;:{&quot;date&quot;:&quot;2022-04-05T17:19:39.218-03:00&quot;,&quot;customer&quot;:{&quot;subscriberId&quot;:&quot;234567658&quot;},&quot;order&quot;:{&quot;id&quot;:&quot;20230315000005&quot;,&quot;correlationOrder&quot;:&quot;50&quot;,&quot;associatedDocument&quot;:&quot;VTT005&quot;,&quot;type&quot;:&quot;Término do Processo de Obra&quot;,&quot;code&quot;:&quot;4&quot;,&quot;description&quot;:&quot;Ordem terminada com sucesso&quot;,&quot;resource&quot;:{&quot;fiberPath&quot;:{&quot;items&quot;:&quot;&quot;}}}}}
+
+14:21:04.469 org.apache.http.conn.HttpHostConnectException: Connect to localhost:4010 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information, http call failed after 10 milliseconds for url: http://localhost:4010/listener/productOrderStateChangeEvent
+14:21:04.469 src/test/java/org/springframework/api_tests/listener_productOrderStateChangeEvent_post.feature:24
+When method post
+http call failed after 10 milliseconds for url: http://localhost:4010/listener/productOrderStateChangeEvent
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:4010 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+src/test/java/org/springframework/api_tests/listener_productOrderStateChangeEvent_post.feature:24
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="5.25">
+      <div class="step-ref skipped">25</div>
+      
+      <div class="step-cell skipped">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="5.26">
+      <div class="step-ref skipped">26</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match response.description == &#39;Success&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.6:29]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">StateChangeEvent</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.6:29]</span>
+                <span class="scenario-name">Test state change event by client</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>8</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.6:29]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.6:29]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="6.15">
+      <div class="step-ref bg-step">15</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def urlBase = karate.properties[&#39;url.base&#39;] || karate.get(&#39;urlBase&#39;, &#39;http://localhost:4010&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.6:29]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="6.16">
+      <div class="step-ref bg-step">16</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url urlBase</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="6.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/listener/productOrderStateChangeEvent&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="6.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="6.20">{&quot;notification&quot;:{&quot;date&quot;:&quot;2022-04-06T18:20:40.229-03:00&quot;,&quot;customer&quot;:{&quot;subscriberId&quot;:&quot;234567659&quot;},&quot;order&quot;:{&quot;id&quot;:&quot;20230315000006&quot;,&quot;correlationOrder&quot;:&quot;60&quot;,&quot;associatedDocument&quot;:&quot;VTT006&quot;,&quot;type&quot;:&quot;Encerramento&quot;,&quot;code&quot;:&quot;0&quot;,&quot;description&quot;:&quot;BA de campo encerrado com sucesso&quot;,&quot;resource&quot;:{&quot;gponAccess&quot;:&quot;A000009QT&quot;,&quot;devices&quot;:{&quot;device&quot;:[{&quot;category&quot;:&quot;ONT&quot;,&quot;type&quot;:&quot;PhsysicalResource&quot;,&quot;description&quot;:&quot;Equipment - ONT device&quot;,&quot;state&quot;:&quot;completed&quot;,&quot;usageState&quot;:&quot;active&quot;,&quot;startOperatingDate&quot;:&quot;2022-12-27T13:18:40.229-03:00&quot;,&quot;resourceCharacteristic&quot;:[{&quot;name&quot;:&quot;serialNumber&quot;,&quot;value&quot;:&quot;0251990119990&quot;},{&quot;name&quot;:&quot;firmware&quot;,&quot;value&quot;:&quot;FW-XPTO-124&quot;},{&quot;name&quot;:&quot;manufacturer&quot;,&quot;value&quot;:&quot;Sagemcom&quot;},{&quot;name&quot;:&quot;model&quot;,&quot;value&quot;:&quot;F@ST 5340 TFN&quot;}]}]},&quot;fiberPath&quot;:{&quot;items&quot;:{&quot;item&quot;:[{&quot;name&quot;:&quot;enderecoCDO&quot;,&quot;value&quot;:&quot;RUA GENERAL RENATO PAQUET, 200, BARRA DA TIJUCA, RIO DE JANEIRO - RJ 22793914&quot;},{&quot;name&quot;:&quot;producer_olt&quot;,&quot;value&quot;:&quot;HUAWEI&quot;},{&quot;name&quot;:&quot;CDO&quot;,&quot;value&quot;:&quot;CDOI-4704-PTP.FO.O:46&quot;},{&quot;name&quot;:&quot;CDO&quot;,&quot;value&quot;:&quot;CDOI-4704-PTP.FO.I:S32_2_IN 2&quot;},{&quot;name&quot;:&quot;estacao&quot;,&quot;value&quot;:&quot;BEL&quot;},{&quot;name&quot;:&quot;cnl&quot;,&quot;value&quot;:&quot;CBF&quot;},{&quot;name&quot;:&quot;olt&quot;,&quot;value&quot;:&quot;MA-CTO04-GHUA&quot;},{&quot;name&quot;:&quot;primaryCable&quot;,&quot;value&quot;:&quot;MA.CTO.F-8.CEO-16/2&quot;},{&quot;name&quot;:&quot;secondaryCable&quot;,&quot;value&quot;:&quot;MA.CTO.F-8.CEOS-166&quot;}]}}}}}}}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="6.24">
+      <div class="step-ref failed">24</div>
+      
+      <div class="step-cell failed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell failed">6</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="6.24">14:21:04.479 request:
+1 &gt; POST http://localhost:4010/listener/productOrderStateChangeEvent
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 1207
+1 &gt; Host: localhost:4010
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;notification&quot;:{&quot;date&quot;:&quot;2022-04-06T18:20:40.229-03:00&quot;,&quot;customer&quot;:{&quot;subscriberId&quot;:&quot;234567659&quot;},&quot;order&quot;:{&quot;id&quot;:&quot;20230315000006&quot;,&quot;correlationOrder&quot;:&quot;60&quot;,&quot;associatedDocument&quot;:&quot;VTT006&quot;,&quot;type&quot;:&quot;Encerramento&quot;,&quot;code&quot;:&quot;0&quot;,&quot;description&quot;:&quot;BA de campo encerrado com sucesso&quot;,&quot;resource&quot;:{&quot;gponAccess&quot;:&quot;A000009QT&quot;,&quot;devices&quot;:{&quot;device&quot;:[{&quot;category&quot;:&quot;ONT&quot;,&quot;type&quot;:&quot;PhsysicalResource&quot;,&quot;description&quot;:&quot;Equipment - ONT device&quot;,&quot;state&quot;:&quot;completed&quot;,&quot;usageState&quot;:&quot;active&quot;,&quot;startOperatingDate&quot;:&quot;2022-12-27T13:18:40.229-03:00&quot;,&quot;resourceCharacteristic&quot;:[{&quot;name&quot;:&quot;serialNumber&quot;,&quot;value&quot;:&quot;0251990119990&quot;},{&quot;name&quot;:&quot;firmware&quot;,&quot;value&quot;:&quot;FW-XPTO-124&quot;},{&quot;name&quot;:&quot;manufacturer&quot;,&quot;value&quot;:&quot;Sagemcom&quot;},{&quot;name&quot;:&quot;model&quot;,&quot;value&quot;:&quot;F@ST 5340 TFN&quot;}]}]},&quot;fiberPath&quot;:{&quot;items&quot;:{&quot;item&quot;:[{&quot;name&quot;:&quot;enderecoCDO&quot;,&quot;value&quot;:&quot;RUA GENERAL RENATO PAQUET, 200, BARRA DA TIJUCA, RIO DE JANEIRO - RJ 22793914&quot;},{&quot;name&quot;:&quot;producer_olt&quot;,&quot;value&quot;:&quot;HUAWEI&quot;},{&quot;name&quot;:&quot;CDO&quot;,&quot;value&quot;:&quot;CDOI-4704-PTP.FO.O:46&quot;},{&quot;name&quot;:&quot;CDO&quot;,&quot;value&quot;:&quot;CDOI-4704-PTP.FO.I:S32_2_IN 2&quot;},{&quot;name&quot;:&quot;estacao&quot;,&quot;value&quot;:&quot;BEL&quot;},{&quot;name&quot;:&quot;cnl&quot;,&quot;value&quot;:&quot;CBF&quot;},{&quot;name&quot;:&quot;olt&quot;,&quot;value&quot;:&quot;MA-CTO04-GHUA&quot;},{&quot;name&quot;:&quot;primaryCable&quot;,&quot;value&quot;:&quot;MA.CTO.F-8.CEO-16\/2&quot;},{&quot;name&quot;:&quot;secondaryCable&quot;,&quot;value&quot;:&quot;MA.CTO.F-8.CEOS-166&quot;}]}}}}}}
+
+14:21:04.483 org.apache.http.conn.HttpHostConnectException: Connect to localhost:4010 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information, http call failed after 5 milliseconds for url: http://localhost:4010/listener/productOrderStateChangeEvent
+14:21:04.483 src/test/java/org/springframework/api_tests/listener_productOrderStateChangeEvent_post.feature:24
+When method post
+http call failed after 5 milliseconds for url: http://localhost:4010/listener/productOrderStateChangeEvent
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:4010 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+src/test/java/org/springframework/api_tests/listener_productOrderStateChangeEvent_post.feature:24
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="6.25">
+      <div class="step-ref skipped">25</div>
+      
+      <div class="step-cell skipped">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="6.26">
+      <div class="step-ref skipped">26</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match response.description == &#39;Success&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.7:29]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">StateChangeEvent</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.7:29]</span>
+                <span class="scenario-name">Test state change event by client</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>6</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.7:29]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.7:29]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="7.15">
+      <div class="step-ref bg-step">15</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def urlBase = karate.properties[&#39;url.base&#39;] || karate.get(&#39;urlBase&#39;, &#39;http://localhost:4010&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.7:29]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="7.16">
+      <div class="step-ref bg-step">16</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url urlBase</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="7.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/listener/productOrderStateChangeEvent&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="7.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="7.20">{&quot;notification&quot;:{&quot;date&quot;:&quot;2022-04-07T19:21:41.240-03:00&quot;,&quot;customer&quot;:{&quot;subscriberId&quot;:&quot;234567660&quot;},&quot;order&quot;:{&quot;id&quot;:&quot;20230315000007&quot;,&quot;correlationOrder&quot;:&quot;70&quot;,&quot;associatedDocument&quot;:&quot;VTT007&quot;,&quot;type&quot;:&quot;Encerramento&quot;,&quot;code&quot;:&quot;0&quot;,&quot;description&quot;:&quot;BA de campo encerrado com sucesso&quot;,&quot;resource&quot;:{&quot;gponAccess&quot;:&quot;A000009QU&quot;,&quot;devices&quot;:{&quot;device&quot;:[{&quot;category&quot;:&quot;ONT&quot;,&quot;type&quot;:&quot;PhsysicalResource&quot;,&quot;description&quot;:&quot;Equipment - ONT device&quot;,&quot;state&quot;:&quot;completed&quot;,&quot;usageState&quot;:&quot;active&quot;,&quot;startOperatingDate&quot;:&quot;2022-12-28T14:21:41.240-03:00&quot;,&quot;resourceCharacteristic&quot;:[{&quot;name&quot;:&quot;serialNumber&quot;,&quot;value&quot;:&quot;0251990119991&quot;},{&quot;name&quot;:&quot;firmware&quot;,&quot;value&quot;:&quot;FW-XPTO-125&quot;},{&quot;name&quot;:&quot;manufacturer&quot;,&quot;value&quot;:&quot;Sagemcom&quot;},{&quot;name&quot;:&quot;model&quot;,&quot;value&quot;:&quot;F@ST 5340 TFN&quot;}]}]},&quot;fiberPath&quot;:{&quot;items&quot;:{&quot;item&quot;:[{&quot;name&quot;:&quot;enderecoCDO&quot;,&quot;value&quot;:&quot;RUA GENERAL RENATO PAQUET, 201, BARRA DA TIJUCA, RIO DE JANEIRO - RJ 22793915&quot;},{&quot;name&quot;:&quot;producer_olt&quot;,&quot;value&quot;:&quot;HUAWEI&quot;},{&quot;name&quot;:&quot;CDO&quot;,&quot;value&quot;:&quot;CDOI-4704-PTP.FO.O:47&quot;},{&quot;name&quot;:&quot;CDO&quot;,&quot;value&quot;:&quot;CDOI-4704-PTP.FO.I:S32_2_IN 3&quot;},{&quot;name&quot;:&quot;estacao&quot;,&quot;value&quot;:&quot;BEL&quot;},{&quot;name&quot;:&quot;cnl&quot;,&quot;value&quot;:&quot;CBF&quot;},{&quot;name&quot;:&quot;olt&quot;,&quot;value&quot;:&quot;MA-CTO04-GHUA&quot;},{&quot;name&quot;:&quot;primaryCable&quot;,&quot;value&quot;:&quot;MA.CTO.F-9.CEO-17/3&quot;},{&quot;name&quot;:&quot;secondaryCable&quot;,&quot;value&quot;:&quot;MA.CTO.F-9.CEOS-167&quot;}]}}}}}}}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="7.24">
+      <div class="step-ref failed">24</div>
+      
+      <div class="step-cell failed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell failed">5</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="7.24">14:21:04.494 request:
+1 &gt; POST http://localhost:4010/listener/productOrderStateChangeEvent
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 1207
+1 &gt; Host: localhost:4010
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;notification&quot;:{&quot;date&quot;:&quot;2022-04-07T19:21:41.240-03:00&quot;,&quot;customer&quot;:{&quot;subscriberId&quot;:&quot;234567660&quot;},&quot;order&quot;:{&quot;id&quot;:&quot;20230315000007&quot;,&quot;correlationOrder&quot;:&quot;70&quot;,&quot;associatedDocument&quot;:&quot;VTT007&quot;,&quot;type&quot;:&quot;Encerramento&quot;,&quot;code&quot;:&quot;0&quot;,&quot;description&quot;:&quot;BA de campo encerrado com sucesso&quot;,&quot;resource&quot;:{&quot;gponAccess&quot;:&quot;A000009QU&quot;,&quot;devices&quot;:{&quot;device&quot;:[{&quot;category&quot;:&quot;ONT&quot;,&quot;type&quot;:&quot;PhsysicalResource&quot;,&quot;description&quot;:&quot;Equipment - ONT device&quot;,&quot;state&quot;:&quot;completed&quot;,&quot;usageState&quot;:&quot;active&quot;,&quot;startOperatingDate&quot;:&quot;2022-12-28T14:21:41.240-03:00&quot;,&quot;resourceCharacteristic&quot;:[{&quot;name&quot;:&quot;serialNumber&quot;,&quot;value&quot;:&quot;0251990119991&quot;},{&quot;name&quot;:&quot;firmware&quot;,&quot;value&quot;:&quot;FW-XPTO-125&quot;},{&quot;name&quot;:&quot;manufacturer&quot;,&quot;value&quot;:&quot;Sagemcom&quot;},{&quot;name&quot;:&quot;model&quot;,&quot;value&quot;:&quot;F@ST 5340 TFN&quot;}]}]},&quot;fiberPath&quot;:{&quot;items&quot;:{&quot;item&quot;:[{&quot;name&quot;:&quot;enderecoCDO&quot;,&quot;value&quot;:&quot;RUA GENERAL RENATO PAQUET, 201, BARRA DA TIJUCA, RIO DE JANEIRO - RJ 22793915&quot;},{&quot;name&quot;:&quot;producer_olt&quot;,&quot;value&quot;:&quot;HUAWEI&quot;},{&quot;name&quot;:&quot;CDO&quot;,&quot;value&quot;:&quot;CDOI-4704-PTP.FO.O:47&quot;},{&quot;name&quot;:&quot;CDO&quot;,&quot;value&quot;:&quot;CDOI-4704-PTP.FO.I:S32_2_IN 3&quot;},{&quot;name&quot;:&quot;estacao&quot;,&quot;value&quot;:&quot;BEL&quot;},{&quot;name&quot;:&quot;cnl&quot;,&quot;value&quot;:&quot;CBF&quot;},{&quot;name&quot;:&quot;olt&quot;,&quot;value&quot;:&quot;MA-CTO04-GHUA&quot;},{&quot;name&quot;:&quot;primaryCable&quot;,&quot;value&quot;:&quot;MA.CTO.F-9.CEO-17\/3&quot;},{&quot;name&quot;:&quot;secondaryCable&quot;,&quot;value&quot;:&quot;MA.CTO.F-9.CEOS-167&quot;}]}}}}}}
+
+14:21:04.497 org.apache.http.conn.HttpHostConnectException: Connect to localhost:4010 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information, http call failed after 5 milliseconds for url: http://localhost:4010/listener/productOrderStateChangeEvent
+14:21:04.497 src/test/java/org/springframework/api_tests/listener_productOrderStateChangeEvent_post.feature:24
+When method post
+http call failed after 5 milliseconds for url: http://localhost:4010/listener/productOrderStateChangeEvent
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:4010 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+src/test/java/org/springframework/api_tests/listener_productOrderStateChangeEvent_post.feature:24
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="7.25">
+      <div class="step-ref skipped">25</div>
+      
+      <div class="step-cell skipped">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="7.26">
+      <div class="step-ref skipped">26</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match response.description == &#39;Success&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.8:29]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">StateChangeEvent</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.8:29]</span>
+                <span class="scenario-name">Test state change event by client</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>7</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.8:29]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.8:29]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="8.15">
+      <div class="step-ref bg-step">15</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def urlBase = karate.properties[&#39;url.base&#39;] || karate.get(&#39;urlBase&#39;, &#39;http://localhost:4010&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.8:29]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="8.16">
+      <div class="step-ref bg-step">16</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url urlBase</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="8.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/listener/productOrderStateChangeEvent&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="8.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="8.20">{&quot;notification&quot;:{&quot;date&quot;:&quot;2022-04-08T20:22:42.251-03:00&quot;,&quot;customer&quot;:{&quot;subscriberId&quot;:&quot;234567661&quot;},&quot;order&quot;:{&quot;id&quot;:&quot;20230315000008&quot;,&quot;correlationOrder&quot;:&quot;80&quot;,&quot;associatedDocument&quot;:&quot;VTT008&quot;,&quot;type&quot;:&quot;Encerramento&quot;,&quot;code&quot;:&quot;0&quot;,&quot;description&quot;:&quot;BA de campo encerrado com sucesso&quot;,&quot;resource&quot;:{&quot;gponAccess&quot;:&quot;A000009QV&quot;,&quot;devices&quot;:{&quot;device&quot;:[{&quot;category&quot;:&quot;ONT&quot;,&quot;type&quot;:&quot;PhsysicalResource&quot;,&quot;description&quot;:&quot;Equipment - ONT device&quot;,&quot;state&quot;:&quot;completed&quot;,&quot;usageState&quot;:&quot;active&quot;,&quot;startOperatingDate&quot;:&quot;2022-12-29T15:22:42.251-03:00&quot;,&quot;resourceCharacteristic&quot;:[{&quot;name&quot;:&quot;serialNumber&quot;,&quot;value&quot;:&quot;0251990119992&quot;},{&quot;name&quot;:&quot;firmware&quot;,&quot;value&quot;:&quot;FW-XPTO-126&quot;},{&quot;name&quot;:&quot;manufacturer&quot;,&quot;value&quot;:&quot;Sagemcom&quot;},{&quot;name&quot;:&quot;model&quot;,&quot;value&quot;:&quot;F@ST 5340 TFN&quot;}]}]},&quot;fiberPath&quot;:{&quot;items&quot;:{&quot;item&quot;:[{&quot;name&quot;:&quot;enderecoCDO&quot;,&quot;value&quot;:&quot;RUA GENERAL RENATO PAQUET, 202, BARRA DA TIJUCA, RIO DE JANEIRO - RJ 22793916&quot;},{&quot;name&quot;:&quot;producer_olt&quot;,&quot;value&quot;:&quot;HUAWEI&quot;},{&quot;name&quot;:&quot;CDO&quot;,&quot;value&quot;:&quot;CDOI-4704-PTP.FO.O:48&quot;},{&quot;name&quot;:&quot;CDO&quot;,&quot;value&quot;:&quot;CDOI-4704-PTP.FO.I:S32_2_IN 4&quot;},{&quot;name&quot;:&quot;estacao&quot;,&quot;value&quot;:&quot;BEL&quot;},{&quot;name&quot;:&quot;cnl&quot;,&quot;value&quot;:&quot;CBF&quot;},{&quot;name&quot;:&quot;olt&quot;,&quot;value&quot;:&quot;MA-CTO04-GHUA&quot;},{&quot;name&quot;:&quot;primaryCable&quot;,&quot;value&quot;:&quot;MA.CTO.F-10.CEO-18/4&quot;},{&quot;name&quot;:&quot;secondaryCable&quot;,&quot;value&quot;:&quot;MA.CTO.F-10.CEOS-168&quot;}]}}}}}}}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="8.24">
+      <div class="step-ref failed">24</div>
+      
+      <div class="step-cell failed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell failed">5</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="8.24">14:21:04.505 request:
+1 &gt; POST http://localhost:4010/listener/productOrderStateChangeEvent
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 1209
+1 &gt; Host: localhost:4010
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;notification&quot;:{&quot;date&quot;:&quot;2022-04-08T20:22:42.251-03:00&quot;,&quot;customer&quot;:{&quot;subscriberId&quot;:&quot;234567661&quot;},&quot;order&quot;:{&quot;id&quot;:&quot;20230315000008&quot;,&quot;correlationOrder&quot;:&quot;80&quot;,&quot;associatedDocument&quot;:&quot;VTT008&quot;,&quot;type&quot;:&quot;Encerramento&quot;,&quot;code&quot;:&quot;0&quot;,&quot;description&quot;:&quot;BA de campo encerrado com sucesso&quot;,&quot;resource&quot;:{&quot;gponAccess&quot;:&quot;A000009QV&quot;,&quot;devices&quot;:{&quot;device&quot;:[{&quot;category&quot;:&quot;ONT&quot;,&quot;type&quot;:&quot;PhsysicalResource&quot;,&quot;description&quot;:&quot;Equipment - ONT device&quot;,&quot;state&quot;:&quot;completed&quot;,&quot;usageState&quot;:&quot;active&quot;,&quot;startOperatingDate&quot;:&quot;2022-12-29T15:22:42.251-03:00&quot;,&quot;resourceCharacteristic&quot;:[{&quot;name&quot;:&quot;serialNumber&quot;,&quot;value&quot;:&quot;0251990119992&quot;},{&quot;name&quot;:&quot;firmware&quot;,&quot;value&quot;:&quot;FW-XPTO-126&quot;},{&quot;name&quot;:&quot;manufacturer&quot;,&quot;value&quot;:&quot;Sagemcom&quot;},{&quot;name&quot;:&quot;model&quot;,&quot;value&quot;:&quot;F@ST 5340 TFN&quot;}]}]},&quot;fiberPath&quot;:{&quot;items&quot;:{&quot;item&quot;:[{&quot;name&quot;:&quot;enderecoCDO&quot;,&quot;value&quot;:&quot;RUA GENERAL RENATO PAQUET, 202, BARRA DA TIJUCA, RIO DE JANEIRO - RJ 22793916&quot;},{&quot;name&quot;:&quot;producer_olt&quot;,&quot;value&quot;:&quot;HUAWEI&quot;},{&quot;name&quot;:&quot;CDO&quot;,&quot;value&quot;:&quot;CDOI-4704-PTP.FO.O:48&quot;},{&quot;name&quot;:&quot;CDO&quot;,&quot;value&quot;:&quot;CDOI-4704-PTP.FO.I:S32_2_IN 4&quot;},{&quot;name&quot;:&quot;estacao&quot;,&quot;value&quot;:&quot;BEL&quot;},{&quot;name&quot;:&quot;cnl&quot;,&quot;value&quot;:&quot;CBF&quot;},{&quot;name&quot;:&quot;olt&quot;,&quot;value&quot;:&quot;MA-CTO04-GHUA&quot;},{&quot;name&quot;:&quot;primaryCable&quot;,&quot;value&quot;:&quot;MA.CTO.F-10.CEO-18\/4&quot;},{&quot;name&quot;:&quot;secondaryCable&quot;,&quot;value&quot;:&quot;MA.CTO.F-10.CEOS-168&quot;}]}}}}}}
+
+14:21:04.508 org.apache.http.conn.HttpHostConnectException: Connect to localhost:4010 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information, http call failed after 4 milliseconds for url: http://localhost:4010/listener/productOrderStateChangeEvent
+14:21:04.509 src/test/java/org/springframework/api_tests/listener_productOrderStateChangeEvent_post.feature:24
+When method post
+http call failed after 4 milliseconds for url: http://localhost:4010/listener/productOrderStateChangeEvent
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:4010 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+src/test/java/org/springframework/api_tests/listener_productOrderStateChangeEvent_post.feature:24
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="8.25">
+      <div class="step-ref skipped">25</div>
+      
+      <div class="step-cell skipped">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="8.26">
+      <div class="step-ref skipped">26</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match response.description == &#39;Success&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.9:29]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">StateChangeEvent</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.9:29]</span>
+                <span class="scenario-name">Test state change event by client</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>5</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.9:29]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.9:29]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="9.15">
+      <div class="step-ref bg-step">15</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def urlBase = karate.properties[&#39;url.base&#39;] || karate.get(&#39;urlBase&#39;, &#39;http://localhost:4010&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.9:29]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="9.16">
+      <div class="step-ref bg-step">16</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url urlBase</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="9.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/listener/productOrderStateChangeEvent&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="9.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="9.20">{&quot;notification&quot;:{&quot;date&quot;:&quot;2022-04-09T21:23:43.262-03:00&quot;,&quot;customer&quot;:{&quot;subscriberId&quot;:&quot;234567662&quot;},&quot;order&quot;:{&quot;id&quot;:&quot;20230315000009&quot;,&quot;correlationOrder&quot;:&quot;90&quot;,&quot;associatedDocument&quot;:&quot;VTT009&quot;,&quot;type&quot;:&quot;Cancelamento&quot;,&quot;code&quot;:&quot;2&quot;,&quot;description&quot;:&quot;Ordem cancelada&quot;,&quot;resource&quot;:{&quot;fiberPath&quot;:{&quot;items&quot;:&quot;&quot;}}}}}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="9.24">
+      <div class="step-ref failed">24</div>
+      
+      <div class="step-cell failed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell failed">4</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="9.24">14:21:04.515 request:
+1 &gt; POST http://localhost:4010/listener/productOrderStateChangeEvent
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 286
+1 &gt; Host: localhost:4010
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;notification&quot;:{&quot;date&quot;:&quot;2022-04-09T21:23:43.262-03:00&quot;,&quot;customer&quot;:{&quot;subscriberId&quot;:&quot;234567662&quot;},&quot;order&quot;:{&quot;id&quot;:&quot;20230315000009&quot;,&quot;correlationOrder&quot;:&quot;90&quot;,&quot;associatedDocument&quot;:&quot;VTT009&quot;,&quot;type&quot;:&quot;Cancelamento&quot;,&quot;code&quot;:&quot;2&quot;,&quot;description&quot;:&quot;Ordem cancelada&quot;,&quot;resource&quot;:{&quot;fiberPath&quot;:{&quot;items&quot;:&quot;&quot;}}}}}
+
+14:21:04.517 org.apache.http.conn.HttpHostConnectException: Connect to localhost:4010 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information, http call failed after 4 milliseconds for url: http://localhost:4010/listener/productOrderStateChangeEvent
+14:21:04.518 src/test/java/org/springframework/api_tests/listener_productOrderStateChangeEvent_post.feature:24
+When method post
+http call failed after 4 milliseconds for url: http://localhost:4010/listener/productOrderStateChangeEvent
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:4010 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+src/test/java/org/springframework/api_tests/listener_productOrderStateChangeEvent_post.feature:24
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="9.25">
+      <div class="step-ref skipped">25</div>
+      
+      <div class="step-cell skipped">
+        <span>Then</span>&nbsp;<span>status 404</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="9.26">
+      <div class="step-ref skipped">26</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match response.description == &#39;Order not found&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.10:29]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">StateChangeEvent</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.10:29]</span>
+                <span class="scenario-name">Test state change event by client</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>6</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.10:29]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.10:29]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="10.15">
+      <div class="step-ref bg-step">15</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def urlBase = karate.properties[&#39;url.base&#39;] || karate.get(&#39;urlBase&#39;, &#39;http://localhost:4010&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.10:29]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="10.16">
+      <div class="step-ref bg-step">16</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url urlBase</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="10.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/listener/productOrderStateChangeEvent&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="10.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="10.20">{&quot;notification&quot;:{&quot;date&quot;:&quot;2022-04-10T22:24:44.273-03:00&quot;,&quot;customer&quot;:{&quot;subscriberId&quot;:&quot;234567663&quot;},&quot;order&quot;:{&quot;id&quot;:&quot;20230315000010&quot;,&quot;correlationOrder&quot;:&quot;100&quot;,&quot;associatedDocument&quot;:&quot;VTT010&quot;,&quot;type&quot;:&quot;Encerramento&quot;,&quot;code&quot;:&quot;-1&quot;,&quot;description&quot;:&quot;O Equipamento já está em uso por outro cliente&quot;,&quot;lostEquipment&quot;:&quot;True&quot;,&quot;resource&quot;:{&quot;fiberPath&quot;:{&quot;items&quot;:&quot;&quot;}}}}}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="10.24">
+      <div class="step-ref failed">24</div>
+      
+      <div class="step-cell failed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell failed">5</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="10.24">14:21:04.525 request:
+1 &gt; POST http://localhost:4010/listener/productOrderStateChangeEvent
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 344
+1 &gt; Host: localhost:4010
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;notification&quot;:{&quot;date&quot;:&quot;2022-04-10T22:24:44.273-03:00&quot;,&quot;customer&quot;:{&quot;subscriberId&quot;:&quot;234567663&quot;},&quot;order&quot;:{&quot;id&quot;:&quot;20230315000010&quot;,&quot;correlationOrder&quot;:&quot;100&quot;,&quot;associatedDocument&quot;:&quot;VTT010&quot;,&quot;type&quot;:&quot;Encerramento&quot;,&quot;code&quot;:&quot;-1&quot;,&quot;description&quot;:&quot;O Equipamento já está em uso por outro cliente&quot;,&quot;lostEquipment&quot;:&quot;True&quot;,&quot;resource&quot;:{&quot;fiberPath&quot;:{&quot;items&quot;:&quot;&quot;}}}}}
+
+14:21:04.528 org.apache.http.conn.HttpHostConnectException: Connect to localhost:4010 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information, http call failed after 4 milliseconds for url: http://localhost:4010/listener/productOrderStateChangeEvent
+14:21:04.529 src/test/java/org/springframework/api_tests/listener_productOrderStateChangeEvent_post.feature:24
+When method post
+http call failed after 4 milliseconds for url: http://localhost:4010/listener/productOrderStateChangeEvent
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:4010 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+src/test/java/org/springframework/api_tests/listener_productOrderStateChangeEvent_post.feature:24
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="10.25">
+      <div class="step-ref skipped">25</div>
+      
+      <div class="step-cell skipped">
+        <span>Then</span>&nbsp;<span>status 500</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="10.26">
+      <div class="step-ref skipped">26</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match response.description == &#39;Internal server error&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
