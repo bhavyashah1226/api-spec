@@ -1,0 +1,4373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script type="text/javascript" src="res/Resemble.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.capture("report_feature",{distinct_id:"dc5ce9c6-483e-471e-8c80-ec5b01273388",karate_version:"1.4.1",karate_meta:null});
+  }
+});
+</script>
+
+    <title>src.test.java.org.springframework.api_tests.listener_productOrderInformationRequiredEvent_post</title>
+  </head>
+  <body>
+    <div id="root-container">
+      <div id="leftnav">
+        
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">0</div>
+      <div id="nav-fail" class="bg-danger">12</div>
+    </div>
+  </div>
+  <div id="nav-env">
+    <div></div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>
+  <div id="nav-date">
+    <div>2024-06-03 02:12:37 pm</div>
+  </div>
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item failed">
+            <a href="#[1.1:88]"><span>[1.1:88]</span> <span>Notify product order information required event</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[1.2:88]"><span>[1.2:88]</span> <span>Notify product order information required event</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[1.3:88]"><span>[1.3:88]</span> <span>Notify product order information required event</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[1.4:88]"><span>[1.4:88]</span> <span>Notify product order information required event</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[1.5:88]"><span>[1.5:88]</span> <span>Notify product order information required event</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[1.6:88]"><span>[1.6:88]</span> <span>Notify product order information required event</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[1.7:88]"><span>[1.7:88]</span> <span>Notify product order information required event</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[1.8:88]"><span>[1.8:88]</span> <span>Notify product order information required event</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[1.9:88]"><span>[1.9:88]</span> <span>Notify product order information required event</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[1.10:88]"><span>[1.10:88]</span> <span>Notify product order information required event</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[2:90]"><span>[2:90]</span> <span>Notify product order information required event with invalid request</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[3:102]"><span>[3:102]</span> <span>Notify product order information required event with unauthorized access</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/org/springframework/api_tests/listener_productOrderInformationRequiredEvent_post.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Product Order Information Required Event</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.1:88]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.1:88]</span>
+                <span class="scenario-name">Notify product order information required event</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>36</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.1:88]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.1:88]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.14">
+      <div class="step-ref bg-step">14</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def urlBase = karate.properties[&#39;url.base&#39;] || karate.get(&#39;urlBase&#39;, &#39;http://localhost:4010&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.1:88]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.15">
+      <div class="step-ref bg-step">15</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url urlBase</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.1:88]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.16">
+      <div class="step-ref bg-step">16</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def authToken = karate.properties[&#39;AUTH_TOKEN&#39;]</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/listener/productOrderInformationRequiredEvent&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Authorization = authToken</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.21">
+      <div class="step-ref passed">21</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="1.21">{
+  &quot;notification&quot;: {
+    &quot;date&quot;: &quot;2023-04-01T10:30:00Z&quot;,
+    &quot;customer&quot;: {
+      &quot;subscriberId&quot;: &quot;sub123456&quot;
+    },
+    &quot;order&quot;: {
+      &quot;id&quot;: &quot;20230401001&quot;,
+      &quot;correlationOrder&quot;: &quot;ORD-1234&quot;,
+      &quot;associatedDocument&quot;: &quot;DOC-001&quot;,
+      &quot;issue&quot;: {
+        &quot;code&quot;: &quot;7001&quot;,
+        &quot;description&quot;: &quot;Pendência Cancelamento por Duplicidade&quot;,
+        &quot;type&quot;: &quot;CLIENTE&quot;,
+        &quot;observation&quot;: &quot;Ordem duplicada&quot;,
+        &quot;updateDate&quot;: &quot;2023-04-01T11:00:00Z&quot;,
+        &quot;action&quot;: &quot;abrir&quot;,
+        &quot;task&quot;: &quot;&quot;,
+        &quot;fieldActivity&quot;: &quot;true&quot;,
+        &quot;reason&quot;: &quot;PROJETO&quot;
+      },
+      &quot;type&quot;: &quot;FTTH&quot;,
+      &quot;code&quot;: &quot;0&quot;,
+      &quot;description&quot;: &quot;Ordem encerrada com sucesso&quot;,
+      &quot;lostEquipment&quot;: &quot;false&quot;,
+      &quot;resource&quot;: {
+        &quot;gponAccess&quot;: &quot;GPON-01&quot;,
+        &quot;devices&quot;: {
+          &quot;device&quot;: [
+            {
+              &quot;category&quot;: &quot;ONT&quot;,
+              &quot;type&quot;: &quot;GPON ONT&quot;,
+              &quot;description&quot;: &quot;Optical Network Terminal&quot;,
+              &quot;state&quot;: &quot;ativo&quot;,
+              &quot;usageState&quot;: &quot;ativo&quot;,
+              &quot;startOperatingDate&quot;: &quot;2023-04-01T10:30:00Z&quot;,
+              &quot;resourceCharacteristic&quot;: [
+                {
+                  &quot;name&quot;: &quot;Serial Number&quot;,
+                  &quot;value&quot;: &quot;ONT123456&quot;
+                }
+              ]
+            }
+          ]
+        },
+        &quot;fiberPath&quot;: {
+          &quot;items&quot;: {
+            &quot;item&quot;: [
+              {
+                &quot;name&quot;: &quot;Splitter&quot;,
+                &quot;value&quot;: &quot;1:8&quot;
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.83">
+      <div class="step-ref passed">83</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">32</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.83">14:12:37.284 request:
+1 &gt; POST http://localhost:4010/listener/productOrderInformationRequiredEvent
+1 &gt; Authorization: dummy AUTH_TOKEN
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 862
+1 &gt; Host: localhost:4010
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;notification&quot;:{&quot;date&quot;:&quot;2023-04-01T10:30:00Z&quot;,&quot;customer&quot;:{&quot;subscriberId&quot;:&quot;sub123456&quot;},&quot;order&quot;:{&quot;id&quot;:&quot;20230401001&quot;,&quot;correlationOrder&quot;:&quot;ORD-1234&quot;,&quot;associatedDocument&quot;:&quot;DOC-001&quot;,&quot;issue&quot;:{&quot;code&quot;:&quot;7001&quot;,&quot;description&quot;:&quot;Pendência Cancelamento por Duplicidade&quot;,&quot;type&quot;:&quot;CLIENTE&quot;,&quot;observation&quot;:&quot;Ordem duplicada&quot;,&quot;updateDate&quot;:&quot;2023-04-01T11:00:00Z&quot;,&quot;action&quot;:&quot;abrir&quot;,&quot;task&quot;:&quot;&quot;,&quot;fieldActivity&quot;:&quot;true&quot;,&quot;reason&quot;:&quot;PROJETO&quot;},&quot;type&quot;:&quot;FTTH&quot;,&quot;code&quot;:&quot;0&quot;,&quot;description&quot;:&quot;Ordem encerrada com sucesso&quot;,&quot;lostEquipment&quot;:&quot;false&quot;,&quot;resource&quot;:{&quot;gponAccess&quot;:&quot;GPON-01&quot;,&quot;devices&quot;:{&quot;device&quot;:[{&quot;category&quot;:&quot;ONT&quot;,&quot;type&quot;:&quot;GPON ONT&quot;,&quot;description&quot;:&quot;Optical Network Terminal&quot;,&quot;state&quot;:&quot;ativo&quot;,&quot;usageState&quot;:&quot;ativo&quot;,&quot;startOperatingDate&quot;:&quot;2023-04-01T10:30:00Z&quot;,&quot;resourceCharacteristic&quot;:[{&quot;name&quot;:&quot;Serial Number&quot;,&quot;value&quot;:&quot;ONT123456&quot;}]}]},&quot;fiberPath&quot;:{&quot;items&quot;:{&quot;item&quot;:[{&quot;name&quot;:&quot;Splitter&quot;,&quot;value&quot;:&quot;1:8&quot;}]}}}}}}
+
+14:12:37.314 response time in milliseconds: 30
+1 &lt; 400
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Headers: *
+1 &lt; Access-Control-Allow-Credentials: true
+1 &lt; Access-Control-Expose-Headers: *
+1 &lt; sl-violations: [{&quot;location&quot;:[&quot;request&quot;,&quot;body&quot;,&quot;notification&quot;,&quot;order&quot;,&quot;lostEquipment&quot;],&quot;severity&quot;:&quot;Error&quot;,&quot;code&quot;:&quot;enum&quot;,&quot;message&quot;:&quot;Request body property notification.order.lostEquipment must be equal to one of the allowed values: True, False&quot;}]
+1 &lt; Date: Mon, 03 Jun 2024 08:42:37 GMT
+1 &lt; Connection: keep-alive
+1 &lt; Keep-Alive: timeout=5
+1 &lt; Content-Length: 0
+
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.84">
+      <div class="step-ref failed">84</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status 204</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.84">14:12:37.315 src/test/java/org/springframework/api_tests/listener_productOrderInformationRequiredEvent_post.feature:84
+Then status 204
+status code was: 400, expected: 204, response time in milliseconds: 30, url: http://localhost:4010/listener/productOrderInformationRequiredEvent, response: 
+
+src/test/java/org/springframework/api_tests/listener_productOrderInformationRequiredEvent_post.feature:84
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.85">
+      <div class="step-ref skipped">85</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match header Content-Type contains &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.2:88]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.2:88]</span>
+                <span class="scenario-name">Notify product order information required event</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>10</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.2:88]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.2:88]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.14">
+      <div class="step-ref bg-step">14</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def urlBase = karate.properties[&#39;url.base&#39;] || karate.get(&#39;urlBase&#39;, &#39;http://localhost:4010&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.2:88]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.15">
+      <div class="step-ref bg-step">15</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url urlBase</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.2:88]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.16">
+      <div class="step-ref bg-step">16</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def authToken = karate.properties[&#39;AUTH_TOKEN&#39;]</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/listener/productOrderInformationRequiredEvent&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Authorization = authToken</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.21">
+      <div class="step-ref passed">21</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="2.21">{
+  &quot;notification&quot;: {
+    &quot;date&quot;: &quot;2023-04-02T14:15:00Z&quot;,
+    &quot;customer&quot;: {
+      &quot;subscriberId&quot;: &quot;sub789012&quot;
+    },
+    &quot;order&quot;: {
+      &quot;id&quot;: &quot;20230402001&quot;,
+      &quot;correlationOrder&quot;: &quot;ORD-5678&quot;,
+      &quot;associatedDocument&quot;: &quot;DOC-002&quot;,
+      &quot;issue&quot;: {
+        &quot;code&quot;: &quot;7018&quot;,
+        &quot;description&quot;: &quot;Pendência de Rede 3 dias&quot;,
+        &quot;type&quot;: &quot;TECNICA&quot;,
+        &quot;observation&quot;: &quot;Necessário expansão de rede&quot;,
+        &quot;updateDate&quot;: &quot;2023-04-02T15:00:00Z&quot;,
+        &quot;action&quot;: &quot;abrir&quot;,
+        &quot;task&quot;: &quot;&quot;,
+        &quot;fieldActivity&quot;: &quot;false&quot;,
+        &quot;reason&quot;: &quot;MANUNTENÇÃO&quot;
+      },
+      &quot;type&quot;: &quot;HFC&quot;,
+      &quot;code&quot;: &quot;-1&quot;,
+      &quot;description&quot;: &quot;O Equipamento já está em uso por outro cliente&quot;,
+      &quot;lostEquipment&quot;: &quot;false&quot;,
+      &quot;resource&quot;: {
+        &quot;gponAccess&quot;: &quot;GPON-02&quot;,
+        &quot;devices&quot;: {
+          &quot;device&quot;: [
+            {
+              &quot;category&quot;: &quot;CM&quot;,
+              &quot;type&quot;: &quot;DOCSIS Cable Modem&quot;,
+              &quot;description&quot;: &quot;Cable Modem&quot;,
+              &quot;state&quot;: &quot;ativo&quot;,
+              &quot;usageState&quot;: &quot;ativo&quot;,
+              &quot;startOperatingDate&quot;: &quot;2023-04-02T14:15:00Z&quot;,
+              &quot;resourceCharacteristic&quot;: [
+                {
+                  &quot;name&quot;: &quot;MAC Address&quot;,
+                  &quot;value&quot;: &quot;00:11:22:33:44:55&quot;
+                }
+              ]
+            }
+          ]
+        },
+        &quot;fiberPath&quot;: {
+          &quot;items&quot;: {
+            &quot;item&quot;: [
+              {
+                &quot;name&quot;: &quot;Tap&quot;,
+                &quot;value&quot;: &quot;TAP-123&quot;
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.83">
+      <div class="step-ref passed">83</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">9</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="2.83">14:12:37.321 request:
+1 &gt; POST http://localhost:4010/listener/productOrderInformationRequiredEvent
+1 &gt; Authorization: dummy AUTH_TOKEN
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 891
+1 &gt; Host: localhost:4010
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;notification&quot;:{&quot;date&quot;:&quot;2023-04-02T14:15:00Z&quot;,&quot;customer&quot;:{&quot;subscriberId&quot;:&quot;sub789012&quot;},&quot;order&quot;:{&quot;id&quot;:&quot;20230402001&quot;,&quot;correlationOrder&quot;:&quot;ORD-5678&quot;,&quot;associatedDocument&quot;:&quot;DOC-002&quot;,&quot;issue&quot;:{&quot;code&quot;:&quot;7018&quot;,&quot;description&quot;:&quot;Pendência de Rede 3 dias&quot;,&quot;type&quot;:&quot;TECNICA&quot;,&quot;observation&quot;:&quot;Necessário expansão de rede&quot;,&quot;updateDate&quot;:&quot;2023-04-02T15:00:00Z&quot;,&quot;action&quot;:&quot;abrir&quot;,&quot;task&quot;:&quot;&quot;,&quot;fieldActivity&quot;:&quot;false&quot;,&quot;reason&quot;:&quot;MANUNTENÇÃO&quot;},&quot;type&quot;:&quot;HFC&quot;,&quot;code&quot;:&quot;-1&quot;,&quot;description&quot;:&quot;O Equipamento já está em uso por outro cliente&quot;,&quot;lostEquipment&quot;:&quot;false&quot;,&quot;resource&quot;:{&quot;gponAccess&quot;:&quot;GPON-02&quot;,&quot;devices&quot;:{&quot;device&quot;:[{&quot;category&quot;:&quot;CM&quot;,&quot;type&quot;:&quot;DOCSIS Cable Modem&quot;,&quot;description&quot;:&quot;Cable Modem&quot;,&quot;state&quot;:&quot;ativo&quot;,&quot;usageState&quot;:&quot;ativo&quot;,&quot;startOperatingDate&quot;:&quot;2023-04-02T14:15:00Z&quot;,&quot;resourceCharacteristic&quot;:[{&quot;name&quot;:&quot;MAC Address&quot;,&quot;value&quot;:&quot;00:11:22:33:44:55&quot;}]}]},&quot;fiberPath&quot;:{&quot;items&quot;:{&quot;item&quot;:[{&quot;name&quot;:&quot;Tap&quot;,&quot;value&quot;:&quot;TAP-123&quot;}]}}}}}}
+
+14:12:37.329 response time in milliseconds: 7
+1 &lt; 400
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Headers: *
+1 &lt; Access-Control-Allow-Credentials: true
+1 &lt; Access-Control-Expose-Headers: *
+1 &lt; sl-violations: [{&quot;location&quot;:[&quot;request&quot;,&quot;body&quot;,&quot;notification&quot;,&quot;order&quot;,&quot;lostEquipment&quot;],&quot;severity&quot;:&quot;Error&quot;,&quot;code&quot;:&quot;enum&quot;,&quot;message&quot;:&quot;Request body property notification.order.lostEquipment must be equal to one of the allowed values: True, False&quot;}]
+1 &lt; Date: Mon, 03 Jun 2024 08:42:37 GMT
+1 &lt; Connection: keep-alive
+1 &lt; Keep-Alive: timeout=5
+1 &lt; Content-Length: 0
+
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.84">
+      <div class="step-ref failed">84</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status 204</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="2.84">14:12:37.329 src/test/java/org/springframework/api_tests/listener_productOrderInformationRequiredEvent_post.feature:84
+Then status 204
+status code was: 400, expected: 204, response time in milliseconds: 7, url: http://localhost:4010/listener/productOrderInformationRequiredEvent, response: 
+
+src/test/java/org/springframework/api_tests/listener_productOrderInformationRequiredEvent_post.feature:84
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.85">
+      <div class="step-ref skipped">85</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match header Content-Type contains &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.3:88]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.3:88]</span>
+                <span class="scenario-name">Notify product order information required event</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>9</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.3:88]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.3:88]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.14">
+      <div class="step-ref bg-step">14</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def urlBase = karate.properties[&#39;url.base&#39;] || karate.get(&#39;urlBase&#39;, &#39;http://localhost:4010&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.3:88]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.15">
+      <div class="step-ref bg-step">15</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url urlBase</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.3:88]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.16">
+      <div class="step-ref bg-step">16</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def authToken = karate.properties[&#39;AUTH_TOKEN&#39;]</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/listener/productOrderInformationRequiredEvent&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Authorization = authToken</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.21">
+      <div class="step-ref passed">21</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="3.21">{
+  &quot;notification&quot;: {
+    &quot;date&quot;: &quot;2023-04-03T09:45:00Z&quot;,
+    &quot;customer&quot;: {
+      &quot;subscriberId&quot;: &quot;sub345678&quot;
+    },
+    &quot;order&quot;: {
+      &quot;id&quot;: &quot;20230403001&quot;,
+      &quot;correlationOrder&quot;: &quot;ORD-9012&quot;,
+      &quot;associatedDocument&quot;: &quot;DOC-003&quot;,
+      &quot;issue&quot;: {
+        &quot;code&quot;: &quot;7035&quot;,
+        &quot;description&quot;: &quot;Pendência área de Risco Momentânea&quot;,
+        &quot;type&quot;: &quot;CLIENTE&quot;,
+        &quot;observation&quot;: &quot;Área de risco temporária&quot;,
+        &quot;updateDate&quot;: &quot;2023-04-03T10:30:00Z&quot;,
+        &quot;action&quot;: &quot;abrir&quot;,
+        &quot;task&quot;: &quot;&quot;,
+        &quot;fieldActivity&quot;: &quot;true&quot;,
+        &quot;reason&quot;: &quot;PROJETO&quot;
+      },
+      &quot;type&quot;: &quot;FTTH&quot;,
+      &quot;code&quot;: &quot;3&quot;,
+      &quot;description&quot;: &quot;Início do Processo de Obra&quot;,
+      &quot;lostEquipment&quot;: &quot;false&quot;,
+      &quot;resource&quot;: {
+        &quot;gponAccess&quot;: &quot;GPON-03&quot;,
+        &quot;devices&quot;: {
+          &quot;device&quot;: [
+            {
+              &quot;category&quot;: &quot;ONT&quot;,
+              &quot;type&quot;: &quot;GPON ONT&quot;,
+              &quot;description&quot;: &quot;Optical Network Terminal&quot;,
+              &quot;state&quot;: &quot;ativo&quot;,
+              &quot;usageState&quot;: &quot;ativo&quot;,
+              &quot;startOperatingDate&quot;: &quot;2023-04-03T09:45:00Z&quot;,
+              &quot;resourceCharacteristic&quot;: [
+                {
+                  &quot;name&quot;: &quot;Serial Number&quot;,
+                  &quot;value&quot;: &quot;ONT654321&quot;
+                }
+              ]
+            }
+          ]
+        },
+        &quot;fiberPath&quot;: {
+          &quot;items&quot;: {
+            &quot;item&quot;: [
+              {
+                &quot;name&quot;: &quot;Splitter&quot;,
+                &quot;value&quot;: &quot;1:16&quot;
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.83">
+      <div class="step-ref passed">83</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">8</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="3.83">14:12:37.335 request:
+1 &gt; POST http://localhost:4010/listener/productOrderInformationRequiredEvent
+1 &gt; Authorization: dummy AUTH_TOKEN
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 872
+1 &gt; Host: localhost:4010
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;notification&quot;:{&quot;date&quot;:&quot;2023-04-03T09:45:00Z&quot;,&quot;customer&quot;:{&quot;subscriberId&quot;:&quot;sub345678&quot;},&quot;order&quot;:{&quot;id&quot;:&quot;20230403001&quot;,&quot;correlationOrder&quot;:&quot;ORD-9012&quot;,&quot;associatedDocument&quot;:&quot;DOC-003&quot;,&quot;issue&quot;:{&quot;code&quot;:&quot;7035&quot;,&quot;description&quot;:&quot;Pendência área de Risco Momentânea&quot;,&quot;type&quot;:&quot;CLIENTE&quot;,&quot;observation&quot;:&quot;Área de risco temporária&quot;,&quot;updateDate&quot;:&quot;2023-04-03T10:30:00Z&quot;,&quot;action&quot;:&quot;abrir&quot;,&quot;task&quot;:&quot;&quot;,&quot;fieldActivity&quot;:&quot;true&quot;,&quot;reason&quot;:&quot;PROJETO&quot;},&quot;type&quot;:&quot;FTTH&quot;,&quot;code&quot;:&quot;3&quot;,&quot;description&quot;:&quot;Início do Processo de Obra&quot;,&quot;lostEquipment&quot;:&quot;false&quot;,&quot;resource&quot;:{&quot;gponAccess&quot;:&quot;GPON-03&quot;,&quot;devices&quot;:{&quot;device&quot;:[{&quot;category&quot;:&quot;ONT&quot;,&quot;type&quot;:&quot;GPON ONT&quot;,&quot;description&quot;:&quot;Optical Network Terminal&quot;,&quot;state&quot;:&quot;ativo&quot;,&quot;usageState&quot;:&quot;ativo&quot;,&quot;startOperatingDate&quot;:&quot;2023-04-03T09:45:00Z&quot;,&quot;resourceCharacteristic&quot;:[{&quot;name&quot;:&quot;Serial Number&quot;,&quot;value&quot;:&quot;ONT654321&quot;}]}]},&quot;fiberPath&quot;:{&quot;items&quot;:{&quot;item&quot;:[{&quot;name&quot;:&quot;Splitter&quot;,&quot;value&quot;:&quot;1:16&quot;}]}}}}}}
+
+14:12:37.341 response time in milliseconds: 5
+1 &lt; 400
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Headers: *
+1 &lt; Access-Control-Allow-Credentials: true
+1 &lt; Access-Control-Expose-Headers: *
+1 &lt; sl-violations: [{&quot;location&quot;:[&quot;request&quot;,&quot;body&quot;,&quot;notification&quot;,&quot;order&quot;,&quot;lostEquipment&quot;],&quot;severity&quot;:&quot;Error&quot;,&quot;code&quot;:&quot;enum&quot;,&quot;message&quot;:&quot;Request body property notification.order.lostEquipment must be equal to one of the allowed values: True, False&quot;}]
+1 &lt; Date: Mon, 03 Jun 2024 08:42:37 GMT
+1 &lt; Connection: keep-alive
+1 &lt; Keep-Alive: timeout=5
+1 &lt; Content-Length: 0
+
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.84">
+      <div class="step-ref failed">84</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status 204</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="3.84">14:12:37.341 src/test/java/org/springframework/api_tests/listener_productOrderInformationRequiredEvent_post.feature:84
+Then status 204
+status code was: 400, expected: 204, response time in milliseconds: 5, url: http://localhost:4010/listener/productOrderInformationRequiredEvent, response: 
+
+src/test/java/org/springframework/api_tests/listener_productOrderInformationRequiredEvent_post.feature:84
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.85">
+      <div class="step-ref skipped">85</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match header Content-Type contains &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.4:88]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.4:88]</span>
+                <span class="scenario-name">Notify product order information required event</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>9</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.4:88]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.4:88]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.14">
+      <div class="step-ref bg-step">14</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def urlBase = karate.properties[&#39;url.base&#39;] || karate.get(&#39;urlBase&#39;, &#39;http://localhost:4010&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.4:88]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.15">
+      <div class="step-ref bg-step">15</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url urlBase</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.4:88]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.16">
+      <div class="step-ref bg-step">16</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def authToken = karate.properties[&#39;AUTH_TOKEN&#39;]</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/listener/productOrderInformationRequiredEvent&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Authorization = authToken</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.21">
+      <div class="step-ref passed">21</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="4.21">{
+  &quot;notification&quot;: {
+    &quot;date&quot;: &quot;2023-04-04T16:20:00Z&quot;,
+    &quot;customer&quot;: {
+      &quot;subscriberId&quot;: &quot;sub901234&quot;
+    },
+    &quot;order&quot;: {
+      &quot;id&quot;: &quot;20230404001&quot;,
+      &quot;correlationOrder&quot;: &quot;ORD-3456&quot;,
+      &quot;associatedDocument&quot;: &quot;DOC-004&quot;,
+      &quot;issue&quot;: {
+        &quot;code&quot;: &quot;7049&quot;,
+        &quot;description&quot;: &quot;Pendência Endereço Não Localizado&quot;,
+        &quot;type&quot;: &quot;TECNICA&quot;,
+        &quot;observation&quot;: &quot;Endereço não encontrado&quot;,
+        &quot;updateDate&quot;: &quot;2023-04-04T17:00:00Z&quot;,
+        &quot;action&quot;: &quot;abrir&quot;,
+        &quot;task&quot;: &quot;&quot;,
+        &quot;fieldActivity&quot;: &quot;false&quot;,
+        &quot;reason&quot;: &quot;MANUNTENÇÃO&quot;
+      },
+      &quot;type&quot;: &quot;HFC&quot;,
+      &quot;code&quot;: &quot;1&quot;,
+      &quot;description&quot;: &quot;Enviando Atualização de Ordem&quot;,
+      &quot;lostEquipment&quot;: &quot;false&quot;,
+      &quot;resource&quot;: {
+        &quot;gponAccess&quot;: &quot;GPON-04&quot;,
+        &quot;devices&quot;: {
+          &quot;device&quot;: [
+            {
+              &quot;category&quot;: &quot;CM&quot;,
+              &quot;type&quot;: &quot;DOCSIS Cable Modem&quot;,
+              &quot;description&quot;: &quot;Cable Modem&quot;,
+              &quot;state&quot;: &quot;ativo&quot;,
+              &quot;usageState&quot;: &quot;ativo&quot;,
+              &quot;startOperatingDate&quot;: &quot;2023-04-04T16:20:00Z&quot;,
+              &quot;resourceCharacteristic&quot;: [
+                {
+                  &quot;name&quot;: &quot;MAC Address&quot;,
+                  &quot;value&quot;: &quot;AA:BB:CC:DD:EE:FF&quot;
+                }
+              ]
+            }
+          ]
+        },
+        &quot;fiberPath&quot;: {
+          &quot;items&quot;: {
+            &quot;item&quot;: [
+              {
+                &quot;name&quot;: &quot;Tap&quot;,
+                &quot;value&quot;: &quot;TAP-456&quot;
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.83">
+      <div class="step-ref passed">83</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">8</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="4.83">14:12:37.347 request:
+1 &gt; POST http://localhost:4010/listener/productOrderInformationRequiredEvent
+1 &gt; Authorization: dummy AUTH_TOKEN
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 880
+1 &gt; Host: localhost:4010
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;notification&quot;:{&quot;date&quot;:&quot;2023-04-04T16:20:00Z&quot;,&quot;customer&quot;:{&quot;subscriberId&quot;:&quot;sub901234&quot;},&quot;order&quot;:{&quot;id&quot;:&quot;20230404001&quot;,&quot;correlationOrder&quot;:&quot;ORD-3456&quot;,&quot;associatedDocument&quot;:&quot;DOC-004&quot;,&quot;issue&quot;:{&quot;code&quot;:&quot;7049&quot;,&quot;description&quot;:&quot;Pendência Endereço Não Localizado&quot;,&quot;type&quot;:&quot;TECNICA&quot;,&quot;observation&quot;:&quot;Endereço não encontrado&quot;,&quot;updateDate&quot;:&quot;2023-04-04T17:00:00Z&quot;,&quot;action&quot;:&quot;abrir&quot;,&quot;task&quot;:&quot;&quot;,&quot;fieldActivity&quot;:&quot;false&quot;,&quot;reason&quot;:&quot;MANUNTENÇÃO&quot;},&quot;type&quot;:&quot;HFC&quot;,&quot;code&quot;:&quot;1&quot;,&quot;description&quot;:&quot;Enviando Atualização de Ordem&quot;,&quot;lostEquipment&quot;:&quot;false&quot;,&quot;resource&quot;:{&quot;gponAccess&quot;:&quot;GPON-04&quot;,&quot;devices&quot;:{&quot;device&quot;:[{&quot;category&quot;:&quot;CM&quot;,&quot;type&quot;:&quot;DOCSIS Cable Modem&quot;,&quot;description&quot;:&quot;Cable Modem&quot;,&quot;state&quot;:&quot;ativo&quot;,&quot;usageState&quot;:&quot;ativo&quot;,&quot;startOperatingDate&quot;:&quot;2023-04-04T16:20:00Z&quot;,&quot;resourceCharacteristic&quot;:[{&quot;name&quot;:&quot;MAC Address&quot;,&quot;value&quot;:&quot;AA:BB:CC:DD:EE:FF&quot;}]}]},&quot;fiberPath&quot;:{&quot;items&quot;:{&quot;item&quot;:[{&quot;name&quot;:&quot;Tap&quot;,&quot;value&quot;:&quot;TAP-456&quot;}]}}}}}}
+
+14:12:37.353 response time in milliseconds: 5
+1 &lt; 400
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Headers: *
+1 &lt; Access-Control-Allow-Credentials: true
+1 &lt; Access-Control-Expose-Headers: *
+1 &lt; sl-violations: [{&quot;location&quot;:[&quot;request&quot;,&quot;body&quot;,&quot;notification&quot;,&quot;order&quot;,&quot;lostEquipment&quot;],&quot;severity&quot;:&quot;Error&quot;,&quot;code&quot;:&quot;enum&quot;,&quot;message&quot;:&quot;Request body property notification.order.lostEquipment must be equal to one of the allowed values: True, False&quot;}]
+1 &lt; Date: Mon, 03 Jun 2024 08:42:37 GMT
+1 &lt; Connection: keep-alive
+1 &lt; Keep-Alive: timeout=5
+1 &lt; Content-Length: 0
+
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.84">
+      <div class="step-ref failed">84</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status 204</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="4.84">14:12:37.355 src/test/java/org/springframework/api_tests/listener_productOrderInformationRequiredEvent_post.feature:84
+Then status 204
+status code was: 400, expected: 204, response time in milliseconds: 5, url: http://localhost:4010/listener/productOrderInformationRequiredEvent, response: 
+
+src/test/java/org/springframework/api_tests/listener_productOrderInformationRequiredEvent_post.feature:84
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.85">
+      <div class="step-ref skipped">85</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match header Content-Type contains &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.5:88]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.5:88]</span>
+                <span class="scenario-name">Notify product order information required event</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>9</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.5:88]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.5:88]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="5.14">
+      <div class="step-ref bg-step">14</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def urlBase = karate.properties[&#39;url.base&#39;] || karate.get(&#39;urlBase&#39;, &#39;http://localhost:4010&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.5:88]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="5.15">
+      <div class="step-ref bg-step">15</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url urlBase</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.5:88]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="5.16">
+      <div class="step-ref bg-step">16</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def authToken = karate.properties[&#39;AUTH_TOKEN&#39;]</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="5.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/listener/productOrderInformationRequiredEvent&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="5.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Authorization = authToken</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="5.21">
+      <div class="step-ref passed">21</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="5.21">{
+  &quot;notification&quot;: {
+    &quot;date&quot;: &quot;2023-04-05T11:10:00Z&quot;,
+    &quot;customer&quot;: {
+      &quot;subscriberId&quot;: &quot;sub567890&quot;
+    },
+    &quot;order&quot;: {
+      &quot;id&quot;: &quot;20230405001&quot;,
+      &quot;correlationOrder&quot;: &quot;ORD-7890&quot;,
+      &quot;associatedDocument&quot;: &quot;DOC-005&quot;,
+      &quot;issue&quot;: {
+        &quot;code&quot;: &quot;7066&quot;,
+        &quot;description&quot;: &quot;Pendência Cliente Não Solicitou Instalação&quot;,
+        &quot;type&quot;: &quot;CLIENTE&quot;,
+        &quot;observation&quot;: &quot;Cliente desistiu da instalação&quot;,
+        &quot;updateDate&quot;: &quot;2023-04-05T12:00:00Z&quot;,
+        &quot;action&quot;: &quot;abrir&quot;,
+        &quot;task&quot;: &quot;&quot;,
+        &quot;fieldActivity&quot;: &quot;true&quot;,
+        &quot;reason&quot;: &quot;PROJETO&quot;
+      },
+      &quot;type&quot;: &quot;FTTH&quot;,
+      &quot;code&quot;: &quot;2&quot;,
+      &quot;description&quot;: &quot;Ordem cancelada&quot;,
+      &quot;lostEquipment&quot;: &quot;false&quot;,
+      &quot;resource&quot;: {
+        &quot;gponAccess&quot;: &quot;GPON-05&quot;,
+        &quot;devices&quot;: {
+          &quot;device&quot;: [
+            {
+              &quot;category&quot;: &quot;ONT&quot;,
+              &quot;type&quot;: &quot;GPON ONT&quot;,
+              &quot;description&quot;: &quot;Optical Network Terminal&quot;,
+              &quot;state&quot;: &quot;ativo&quot;,
+              &quot;usageState&quot;: &quot;ativo&quot;,
+              &quot;startOperatingDate&quot;: &quot;2023-04-05T11:10:00Z&quot;,
+              &quot;resourceCharacteristic&quot;: [
+                {
+                  &quot;name&quot;: &quot;Serial Number&quot;,
+                  &quot;value&quot;: &quot;ONT987654&quot;
+                }
+              ]
+            }
+          ]
+        },
+        &quot;fiberPath&quot;: {
+          &quot;items&quot;: {
+            &quot;item&quot;: [
+              {
+                &quot;name&quot;: &quot;Splitter&quot;,
+                &quot;value&quot;: &quot;1:32&quot;
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="5.83">
+      <div class="step-ref passed">83</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">8</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="5.83">14:12:37.362 request:
+1 &gt; POST http://localhost:4010/listener/productOrderInformationRequiredEvent
+1 &gt; Authorization: dummy AUTH_TOKEN
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 875
+1 &gt; Host: localhost:4010
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;notification&quot;:{&quot;date&quot;:&quot;2023-04-05T11:10:00Z&quot;,&quot;customer&quot;:{&quot;subscriberId&quot;:&quot;sub567890&quot;},&quot;order&quot;:{&quot;id&quot;:&quot;20230405001&quot;,&quot;correlationOrder&quot;:&quot;ORD-7890&quot;,&quot;associatedDocument&quot;:&quot;DOC-005&quot;,&quot;issue&quot;:{&quot;code&quot;:&quot;7066&quot;,&quot;description&quot;:&quot;Pendência Cliente Não Solicitou Instalação&quot;,&quot;type&quot;:&quot;CLIENTE&quot;,&quot;observation&quot;:&quot;Cliente desistiu da instalação&quot;,&quot;updateDate&quot;:&quot;2023-04-05T12:00:00Z&quot;,&quot;action&quot;:&quot;abrir&quot;,&quot;task&quot;:&quot;&quot;,&quot;fieldActivity&quot;:&quot;true&quot;,&quot;reason&quot;:&quot;PROJETO&quot;},&quot;type&quot;:&quot;FTTH&quot;,&quot;code&quot;:&quot;2&quot;,&quot;description&quot;:&quot;Ordem cancelada&quot;,&quot;lostEquipment&quot;:&quot;false&quot;,&quot;resource&quot;:{&quot;gponAccess&quot;:&quot;GPON-05&quot;,&quot;devices&quot;:{&quot;device&quot;:[{&quot;category&quot;:&quot;ONT&quot;,&quot;type&quot;:&quot;GPON ONT&quot;,&quot;description&quot;:&quot;Optical Network Terminal&quot;,&quot;state&quot;:&quot;ativo&quot;,&quot;usageState&quot;:&quot;ativo&quot;,&quot;startOperatingDate&quot;:&quot;2023-04-05T11:10:00Z&quot;,&quot;resourceCharacteristic&quot;:[{&quot;name&quot;:&quot;Serial Number&quot;,&quot;value&quot;:&quot;ONT987654&quot;}]}]},&quot;fiberPath&quot;:{&quot;items&quot;:{&quot;item&quot;:[{&quot;name&quot;:&quot;Splitter&quot;,&quot;value&quot;:&quot;1:32&quot;}]}}}}}}
+
+14:12:37.367 response time in milliseconds: 4
+1 &lt; 400
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Headers: *
+1 &lt; Access-Control-Allow-Credentials: true
+1 &lt; Access-Control-Expose-Headers: *
+1 &lt; sl-violations: [{&quot;location&quot;:[&quot;request&quot;,&quot;body&quot;,&quot;notification&quot;,&quot;order&quot;,&quot;lostEquipment&quot;],&quot;severity&quot;:&quot;Error&quot;,&quot;code&quot;:&quot;enum&quot;,&quot;message&quot;:&quot;Request body property notification.order.lostEquipment must be equal to one of the allowed values: True, False&quot;}]
+1 &lt; Date: Mon, 03 Jun 2024 08:42:37 GMT
+1 &lt; Connection: keep-alive
+1 &lt; Keep-Alive: timeout=5
+1 &lt; Content-Length: 0
+
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="5.84">
+      <div class="step-ref failed">84</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status 204</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="5.84">14:12:37.368 src/test/java/org/springframework/api_tests/listener_productOrderInformationRequiredEvent_post.feature:84
+Then status 204
+status code was: 400, expected: 204, response time in milliseconds: 4, url: http://localhost:4010/listener/productOrderInformationRequiredEvent, response: 
+
+src/test/java/org/springframework/api_tests/listener_productOrderInformationRequiredEvent_post.feature:84
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="5.85">
+      <div class="step-ref skipped">85</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match header Content-Type contains &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.6:88]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.6:88]</span>
+                <span class="scenario-name">Notify product order information required event</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>9</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.6:88]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.6:88]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="6.14">
+      <div class="step-ref bg-step">14</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def urlBase = karate.properties[&#39;url.base&#39;] || karate.get(&#39;urlBase&#39;, &#39;http://localhost:4010&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.6:88]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="6.15">
+      <div class="step-ref bg-step">15</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url urlBase</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.6:88]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="6.16">
+      <div class="step-ref bg-step">16</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def authToken = karate.properties[&#39;AUTH_TOKEN&#39;]</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="6.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/listener/productOrderInformationRequiredEvent&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="6.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Authorization = authToken</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="6.21">
+      <div class="step-ref passed">21</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="6.21">{
+  &quot;notification&quot;: {
+    &quot;date&quot;: &quot;2023-04-06T13:40:00Z&quot;,
+    &quot;customer&quot;: {
+      &quot;subscriberId&quot;: &quot;sub234567&quot;
+    },
+    &quot;order&quot;: {
+      &quot;id&quot;: &quot;20230406001&quot;,
+      &quot;correlationOrder&quot;: &quot;ORD-2345&quot;,
+      &quot;associatedDocument&quot;: &quot;DOC-006&quot;,
+      &quot;issue&quot;: {
+        &quot;code&quot;: &quot;7074&quot;,
+        &quot;description&quot;: &quot;Pendência de Rede 3 dias&quot;,
+        &quot;type&quot;: &quot;TECNICA&quot;,
+        &quot;observation&quot;: &quot;Necessário reparo na rede&quot;,
+        &quot;updateDate&quot;: &quot;2023-04-06T14:30:00Z&quot;,
+        &quot;action&quot;: &quot;abrir&quot;,
+        &quot;task&quot;: &quot;&quot;,
+        &quot;fieldActivity&quot;: &quot;false&quot;,
+        &quot;reason&quot;: &quot;MANUNTENÇÃO&quot;
+      },
+      &quot;type&quot;: &quot;HFC&quot;,
+      &quot;code&quot;: &quot;4&quot;,
+      &quot;description&quot;: &quot;Término do Processo de Obra&quot;,
+      &quot;lostEquipment&quot;: &quot;false&quot;,
+      &quot;resource&quot;: {
+        &quot;gponAccess&quot;: &quot;GPON-06&quot;,
+        &quot;devices&quot;: {
+          &quot;device&quot;: [
+            {
+              &quot;category&quot;: &quot;CM&quot;,
+              &quot;type&quot;: &quot;DOCSIS Cable Modem&quot;,
+              &quot;description&quot;: &quot;Cable Modem&quot;,
+              &quot;state&quot;: &quot;ativo&quot;,
+              &quot;usageState&quot;: &quot;ativo&quot;,
+              &quot;startOperatingDate&quot;: &quot;2023-04-06T13:40:00Z&quot;,
+              &quot;resourceCharacteristic&quot;: [
+                {
+                  &quot;name&quot;: &quot;MAC Address&quot;,
+                  &quot;value&quot;: &quot;12:34:56:78:90:AB&quot;
+                }
+              ]
+            }
+          ]
+        },
+        &quot;fiberPath&quot;: {
+          &quot;items&quot;: {
+            &quot;item&quot;: [
+              {
+                &quot;name&quot;: &quot;Tap&quot;,
+                &quot;value&quot;: &quot;TAP-789&quot;
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="6.83">
+      <div class="step-ref passed">83</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">8</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="6.83">14:12:37.377 request:
+1 &gt; POST http://localhost:4010/listener/productOrderInformationRequiredEvent
+1 &gt; Authorization: dummy AUTH_TOKEN
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 867
+1 &gt; Host: localhost:4010
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;notification&quot;:{&quot;date&quot;:&quot;2023-04-06T13:40:00Z&quot;,&quot;customer&quot;:{&quot;subscriberId&quot;:&quot;sub234567&quot;},&quot;order&quot;:{&quot;id&quot;:&quot;20230406001&quot;,&quot;correlationOrder&quot;:&quot;ORD-2345&quot;,&quot;associatedDocument&quot;:&quot;DOC-006&quot;,&quot;issue&quot;:{&quot;code&quot;:&quot;7074&quot;,&quot;description&quot;:&quot;Pendência de Rede 3 dias&quot;,&quot;type&quot;:&quot;TECNICA&quot;,&quot;observation&quot;:&quot;Necessário reparo na rede&quot;,&quot;updateDate&quot;:&quot;2023-04-06T14:30:00Z&quot;,&quot;action&quot;:&quot;abrir&quot;,&quot;task&quot;:&quot;&quot;,&quot;fieldActivity&quot;:&quot;false&quot;,&quot;reason&quot;:&quot;MANUNTENÇÃO&quot;},&quot;type&quot;:&quot;HFC&quot;,&quot;code&quot;:&quot;4&quot;,&quot;description&quot;:&quot;Término do Processo de Obra&quot;,&quot;lostEquipment&quot;:&quot;false&quot;,&quot;resource&quot;:{&quot;gponAccess&quot;:&quot;GPON-06&quot;,&quot;devices&quot;:{&quot;device&quot;:[{&quot;category&quot;:&quot;CM&quot;,&quot;type&quot;:&quot;DOCSIS Cable Modem&quot;,&quot;description&quot;:&quot;Cable Modem&quot;,&quot;state&quot;:&quot;ativo&quot;,&quot;usageState&quot;:&quot;ativo&quot;,&quot;startOperatingDate&quot;:&quot;2023-04-06T13:40:00Z&quot;,&quot;resourceCharacteristic&quot;:[{&quot;name&quot;:&quot;MAC Address&quot;,&quot;value&quot;:&quot;12:34:56:78:90:AB&quot;}]}]},&quot;fiberPath&quot;:{&quot;items&quot;:{&quot;item&quot;:[{&quot;name&quot;:&quot;Tap&quot;,&quot;value&quot;:&quot;TAP-789&quot;}]}}}}}}
+
+14:12:37.383 response time in milliseconds: 5
+1 &lt; 400
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Headers: *
+1 &lt; Access-Control-Allow-Credentials: true
+1 &lt; Access-Control-Expose-Headers: *
+1 &lt; sl-violations: [{&quot;location&quot;:[&quot;request&quot;,&quot;body&quot;,&quot;notification&quot;,&quot;order&quot;,&quot;lostEquipment&quot;],&quot;severity&quot;:&quot;Error&quot;,&quot;code&quot;:&quot;enum&quot;,&quot;message&quot;:&quot;Request body property notification.order.lostEquipment must be equal to one of the allowed values: True, False&quot;}]
+1 &lt; Date: Mon, 03 Jun 2024 08:42:37 GMT
+1 &lt; Connection: keep-alive
+1 &lt; Keep-Alive: timeout=5
+1 &lt; Content-Length: 0
+
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="6.84">
+      <div class="step-ref failed">84</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status 204</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="6.84">14:12:37.383 src/test/java/org/springframework/api_tests/listener_productOrderInformationRequiredEvent_post.feature:84
+Then status 204
+status code was: 400, expected: 204, response time in milliseconds: 5, url: http://localhost:4010/listener/productOrderInformationRequiredEvent, response: 
+
+src/test/java/org/springframework/api_tests/listener_productOrderInformationRequiredEvent_post.feature:84
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="6.85">
+      <div class="step-ref skipped">85</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match header Content-Type contains &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.7:88]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.7:88]</span>
+                <span class="scenario-name">Notify product order information required event</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>9</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.7:88]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.7:88]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="7.14">
+      <div class="step-ref bg-step">14</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def urlBase = karate.properties[&#39;url.base&#39;] || karate.get(&#39;urlBase&#39;, &#39;http://localhost:4010&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.7:88]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="7.15">
+      <div class="step-ref bg-step">15</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url urlBase</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.7:88]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="7.16">
+      <div class="step-ref bg-step">16</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def authToken = karate.properties[&#39;AUTH_TOKEN&#39;]</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="7.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/listener/productOrderInformationRequiredEvent&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="7.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Authorization = authToken</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="7.21">
+      <div class="step-ref passed">21</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="7.21">{
+  &quot;notification&quot;: {
+    &quot;date&quot;: &quot;2023-04-07T08:25:00Z&quot;,
+    &quot;customer&quot;: {
+      &quot;subscriberId&quot;: &quot;sub890123&quot;
+    },
+    &quot;order&quot;: {
+      &quot;id&quot;: &quot;20230407001&quot;,
+      &quot;correlationOrder&quot;: &quot;ORD-6789&quot;,
+      &quot;associatedDocument&quot;: &quot;DOC-007&quot;,
+      &quot;issue&quot;: {
+        &quot;code&quot;: &quot;7082&quot;,
+        &quot;description&quot;: &quot;Pendência Endereço Não Localizado&quot;,
+        &quot;type&quot;: &quot;CLIENTE&quot;,
+        &quot;observation&quot;: &quot;Endereço incorreto informado&quot;,
+        &quot;updateDate&quot;: &quot;2023-04-07T09:00:00Z&quot;,
+        &quot;action&quot;: &quot;abrir&quot;,
+        &quot;task&quot;: &quot;&quot;,
+        &quot;fieldActivity&quot;: &quot;true&quot;,
+        &quot;reason&quot;: &quot;PROJETO&quot;
+      },
+      &quot;type&quot;: &quot;FTTH&quot;,
+      &quot;code&quot;: &quot;0&quot;,
+      &quot;description&quot;: &quot;Ordem encerrada com sucesso&quot;,
+      &quot;lostEquipment&quot;: &quot;false&quot;,
+      &quot;resource&quot;: {
+        &quot;gponAccess&quot;: &quot;GPON-07&quot;,
+        &quot;devices&quot;: {
+          &quot;device&quot;: [
+            {
+              &quot;category&quot;: &quot;ONT&quot;,
+              &quot;type&quot;: &quot;GPON ONT&quot;,
+              &quot;description&quot;: &quot;Optical Network Terminal&quot;,
+              &quot;state&quot;: &quot;ativo&quot;,
+              &quot;usageState&quot;: &quot;ativo&quot;,
+              &quot;startOperatingDate&quot;: &quot;2023-04-07T08:25:00Z&quot;,
+              &quot;resourceCharacteristic&quot;: [
+                {
+                  &quot;name&quot;: &quot;Serial Number&quot;,
+                  &quot;value&quot;: &quot;ONT246810&quot;
+                }
+              ]
+            }
+          ]
+        },
+        &quot;fiberPath&quot;: {
+          &quot;items&quot;: {
+            &quot;item&quot;: [
+              {
+                &quot;name&quot;: &quot;Splitter&quot;,
+                &quot;value&quot;: &quot;1:64&quot;
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="7.83">
+      <div class="step-ref passed">83</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">8</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="7.83">14:12:37.391 request:
+1 &gt; POST http://localhost:4010/listener/productOrderInformationRequiredEvent
+1 &gt; Authorization: dummy AUTH_TOKEN
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 874
+1 &gt; Host: localhost:4010
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;notification&quot;:{&quot;date&quot;:&quot;2023-04-07T08:25:00Z&quot;,&quot;customer&quot;:{&quot;subscriberId&quot;:&quot;sub890123&quot;},&quot;order&quot;:{&quot;id&quot;:&quot;20230407001&quot;,&quot;correlationOrder&quot;:&quot;ORD-6789&quot;,&quot;associatedDocument&quot;:&quot;DOC-007&quot;,&quot;issue&quot;:{&quot;code&quot;:&quot;7082&quot;,&quot;description&quot;:&quot;Pendência Endereço Não Localizado&quot;,&quot;type&quot;:&quot;CLIENTE&quot;,&quot;observation&quot;:&quot;Endereço incorreto informado&quot;,&quot;updateDate&quot;:&quot;2023-04-07T09:00:00Z&quot;,&quot;action&quot;:&quot;abrir&quot;,&quot;task&quot;:&quot;&quot;,&quot;fieldActivity&quot;:&quot;true&quot;,&quot;reason&quot;:&quot;PROJETO&quot;},&quot;type&quot;:&quot;FTTH&quot;,&quot;code&quot;:&quot;0&quot;,&quot;description&quot;:&quot;Ordem encerrada com sucesso&quot;,&quot;lostEquipment&quot;:&quot;false&quot;,&quot;resource&quot;:{&quot;gponAccess&quot;:&quot;GPON-07&quot;,&quot;devices&quot;:{&quot;device&quot;:[{&quot;category&quot;:&quot;ONT&quot;,&quot;type&quot;:&quot;GPON ONT&quot;,&quot;description&quot;:&quot;Optical Network Terminal&quot;,&quot;state&quot;:&quot;ativo&quot;,&quot;usageState&quot;:&quot;ativo&quot;,&quot;startOperatingDate&quot;:&quot;2023-04-07T08:25:00Z&quot;,&quot;resourceCharacteristic&quot;:[{&quot;name&quot;:&quot;Serial Number&quot;,&quot;value&quot;:&quot;ONT246810&quot;}]}]},&quot;fiberPath&quot;:{&quot;items&quot;:{&quot;item&quot;:[{&quot;name&quot;:&quot;Splitter&quot;,&quot;value&quot;:&quot;1:64&quot;}]}}}}}}
+
+14:12:37.397 response time in milliseconds: 5
+1 &lt; 400
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Headers: *
+1 &lt; Access-Control-Allow-Credentials: true
+1 &lt; Access-Control-Expose-Headers: *
+1 &lt; sl-violations: [{&quot;location&quot;:[&quot;request&quot;,&quot;body&quot;,&quot;notification&quot;,&quot;order&quot;,&quot;lostEquipment&quot;],&quot;severity&quot;:&quot;Error&quot;,&quot;code&quot;:&quot;enum&quot;,&quot;message&quot;:&quot;Request body property notification.order.lostEquipment must be equal to one of the allowed values: True, False&quot;}]
+1 &lt; Date: Mon, 03 Jun 2024 08:42:37 GMT
+1 &lt; Connection: keep-alive
+1 &lt; Keep-Alive: timeout=5
+1 &lt; Content-Length: 0
+
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="7.84">
+      <div class="step-ref failed">84</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status 204</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="7.84">14:12:37.397 src/test/java/org/springframework/api_tests/listener_productOrderInformationRequiredEvent_post.feature:84
+Then status 204
+status code was: 400, expected: 204, response time in milliseconds: 5, url: http://localhost:4010/listener/productOrderInformationRequiredEvent, response: 
+
+src/test/java/org/springframework/api_tests/listener_productOrderInformationRequiredEvent_post.feature:84
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="7.85">
+      <div class="step-ref skipped">85</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match header Content-Type contains &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.8:88]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.8:88]</span>
+                <span class="scenario-name">Notify product order information required event</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>10</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.8:88]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.8:88]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="8.14">
+      <div class="step-ref bg-step">14</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def urlBase = karate.properties[&#39;url.base&#39;] || karate.get(&#39;urlBase&#39;, &#39;http://localhost:4010&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.8:88]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="8.15">
+      <div class="step-ref bg-step">15</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url urlBase</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.8:88]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="8.16">
+      <div class="step-ref bg-step">16</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def authToken = karate.properties[&#39;AUTH_TOKEN&#39;]</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="8.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/listener/productOrderInformationRequiredEvent&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="8.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Authorization = authToken</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="8.21">
+      <div class="step-ref passed">21</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="8.21">{
+  &quot;notification&quot;: {
+    &quot;date&quot;: &quot;2023-04-08T15:50:00Z&quot;,
+    &quot;customer&quot;: {
+      &quot;subscriberId&quot;: &quot;sub456789&quot;
+    },
+    &quot;order&quot;: {
+      &quot;id&quot;: &quot;20230408001&quot;,
+      &quot;correlationOrder&quot;: &quot;ORD-0123&quot;,
+      &quot;associatedDocument&quot;: &quot;DOC-008&quot;,
+      &quot;issue&quot;: {
+        &quot;code&quot;: &quot;7089&quot;,
+        &quot;description&quot;: &quot;Pendência Sem Contato Obra&quot;,
+        &quot;type&quot;: &quot;TECNICA&quot;,
+        &quot;observation&quot;: &quot;Cliente não atende contato&quot;,
+        &quot;updateDate&quot;: &quot;2023-04-08T16:30:00Z&quot;,
+        &quot;action&quot;: &quot;abrir&quot;,
+        &quot;task&quot;: &quot;&quot;,
+        &quot;fieldActivity&quot;: &quot;false&quot;,
+        &quot;reason&quot;: &quot;MANUNTENÇÃO&quot;
+      },
+      &quot;type&quot;: &quot;HFC&quot;,
+      &quot;code&quot;: &quot;-1&quot;,
+      &quot;description&quot;: &quot;O Equipamento já está em uso por outro cliente&quot;,
+      &quot;lostEquipment&quot;: &quot;false&quot;,
+      &quot;resource&quot;: {
+        &quot;gponAccess&quot;: &quot;GPON-08&quot;,
+        &quot;devices&quot;: {
+          &quot;device&quot;: [
+            {
+              &quot;category&quot;: &quot;CM&quot;,
+              &quot;type&quot;: &quot;DOCSIS Cable Modem&quot;,
+              &quot;description&quot;: &quot;Cable Modem&quot;,
+              &quot;state&quot;: &quot;ativo&quot;,
+              &quot;usageState&quot;: &quot;ativo&quot;,
+              &quot;startOperatingDate&quot;: &quot;2023-04-08T15:50:00Z&quot;,
+              &quot;resourceCharacteristic&quot;: [
+                {
+                  &quot;name&quot;: &quot;MAC Address&quot;,
+                  &quot;value&quot;: &quot;FE:DC:BA:98:76:54&quot;
+                }
+              ]
+            }
+          ]
+        },
+        &quot;fiberPath&quot;: {
+          &quot;items&quot;: {
+            &quot;item&quot;: [
+              {
+                &quot;name&quot;: &quot;Tap&quot;,
+                &quot;value&quot;: &quot;TAP-012&quot;
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="8.83">
+      <div class="step-ref passed">83</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">9</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="8.83">14:12:37.404 request:
+1 &gt; POST http://localhost:4010/listener/productOrderInformationRequiredEvent
+1 &gt; Authorization: dummy AUTH_TOKEN
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 891
+1 &gt; Host: localhost:4010
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;notification&quot;:{&quot;date&quot;:&quot;2023-04-08T15:50:00Z&quot;,&quot;customer&quot;:{&quot;subscriberId&quot;:&quot;sub456789&quot;},&quot;order&quot;:{&quot;id&quot;:&quot;20230408001&quot;,&quot;correlationOrder&quot;:&quot;ORD-0123&quot;,&quot;associatedDocument&quot;:&quot;DOC-008&quot;,&quot;issue&quot;:{&quot;code&quot;:&quot;7089&quot;,&quot;description&quot;:&quot;Pendência Sem Contato Obra&quot;,&quot;type&quot;:&quot;TECNICA&quot;,&quot;observation&quot;:&quot;Cliente não atende contato&quot;,&quot;updateDate&quot;:&quot;2023-04-08T16:30:00Z&quot;,&quot;action&quot;:&quot;abrir&quot;,&quot;task&quot;:&quot;&quot;,&quot;fieldActivity&quot;:&quot;false&quot;,&quot;reason&quot;:&quot;MANUNTENÇÃO&quot;},&quot;type&quot;:&quot;HFC&quot;,&quot;code&quot;:&quot;-1&quot;,&quot;description&quot;:&quot;O Equipamento já está em uso por outro cliente&quot;,&quot;lostEquipment&quot;:&quot;false&quot;,&quot;resource&quot;:{&quot;gponAccess&quot;:&quot;GPON-08&quot;,&quot;devices&quot;:{&quot;device&quot;:[{&quot;category&quot;:&quot;CM&quot;,&quot;type&quot;:&quot;DOCSIS Cable Modem&quot;,&quot;description&quot;:&quot;Cable Modem&quot;,&quot;state&quot;:&quot;ativo&quot;,&quot;usageState&quot;:&quot;ativo&quot;,&quot;startOperatingDate&quot;:&quot;2023-04-08T15:50:00Z&quot;,&quot;resourceCharacteristic&quot;:[{&quot;name&quot;:&quot;MAC Address&quot;,&quot;value&quot;:&quot;FE:DC:BA:98:76:54&quot;}]}]},&quot;fiberPath&quot;:{&quot;items&quot;:{&quot;item&quot;:[{&quot;name&quot;:&quot;Tap&quot;,&quot;value&quot;:&quot;TAP-012&quot;}]}}}}}}
+
+14:12:37.410 response time in milliseconds: 6
+1 &lt; 400
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Headers: *
+1 &lt; Access-Control-Allow-Credentials: true
+1 &lt; Access-Control-Expose-Headers: *
+1 &lt; sl-violations: [{&quot;location&quot;:[&quot;request&quot;,&quot;body&quot;,&quot;notification&quot;,&quot;order&quot;,&quot;lostEquipment&quot;],&quot;severity&quot;:&quot;Error&quot;,&quot;code&quot;:&quot;enum&quot;,&quot;message&quot;:&quot;Request body property notification.order.lostEquipment must be equal to one of the allowed values: True, False&quot;}]
+1 &lt; Date: Mon, 03 Jun 2024 08:42:37 GMT
+1 &lt; Connection: keep-alive
+1 &lt; Keep-Alive: timeout=5
+1 &lt; Content-Length: 0
+
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="8.84">
+      <div class="step-ref failed">84</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status 204</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="8.84">14:12:37.411 src/test/java/org/springframework/api_tests/listener_productOrderInformationRequiredEvent_post.feature:84
+Then status 204
+status code was: 400, expected: 204, response time in milliseconds: 6, url: http://localhost:4010/listener/productOrderInformationRequiredEvent, response: 
+
+src/test/java/org/springframework/api_tests/listener_productOrderInformationRequiredEvent_post.feature:84
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="8.85">
+      <div class="step-ref skipped">85</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match header Content-Type contains &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.9:88]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.9:88]</span>
+                <span class="scenario-name">Notify product order information required event</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>7</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.9:88]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.9:88]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="9.14">
+      <div class="step-ref bg-step">14</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def urlBase = karate.properties[&#39;url.base&#39;] || karate.get(&#39;urlBase&#39;, &#39;http://localhost:4010&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.9:88]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="9.15">
+      <div class="step-ref bg-step">15</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url urlBase</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.9:88]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="9.16">
+      <div class="step-ref bg-step">16</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def authToken = karate.properties[&#39;AUTH_TOKEN&#39;]</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="9.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/listener/productOrderInformationRequiredEvent&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="9.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Authorization = authToken</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="9.21">
+      <div class="step-ref passed">21</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="9.21">{
+  &quot;notification&quot;: {
+    &quot;date&quot;: &quot;2023-04-09T10:05:00Z&quot;,
+    &quot;customer&quot;: {
+      &quot;subscriberId&quot;: &quot;sub012345&quot;
+    },
+    &quot;order&quot;: {
+      &quot;id&quot;: &quot;20230409001&quot;,
+      &quot;correlationOrder&quot;: &quot;ORD-4567&quot;,
+      &quot;associatedDocument&quot;: &quot;DOC-009&quot;,
+      &quot;issue&quot;: {
+        &quot;code&quot;: &quot;7096&quot;,
+        &quot;description&quot;: &quot;Pendência Segurança do Trabalho 15 dias&quot;,
+        &quot;type&quot;: &quot;CLIENTE&quot;,
+        &quot;observation&quot;: &quot;Necessário equipamento de segurança&quot;,
+        &quot;updateDate&quot;: &quot;2023-04-09T11:00:00Z&quot;,
+        &quot;action&quot;: &quot;abrir&quot;,
+        &quot;task&quot;: &quot;&quot;,
+        &quot;fieldActivity&quot;: &quot;true&quot;,
+        &quot;reason&quot;: &quot;PROJETO&quot;
+      },
+      &quot;type&quot;: &quot;FTTH&quot;,
+      &quot;code&quot;: &quot;3&quot;,
+      &quot;description&quot;: &quot;Início do Processo de Obra&quot;,
+      &quot;lostEquipment&quot;: &quot;false&quot;,
+      &quot;resource&quot;: {
+        &quot;gponAccess&quot;: &quot;GPON-09&quot;,
+        &quot;devices&quot;: {
+          &quot;device&quot;: [
+            {
+              &quot;category&quot;: &quot;ONT&quot;,
+              &quot;type&quot;: &quot;GPON ONT&quot;,
+              &quot;description&quot;: &quot;Optical Network Terminal&quot;,
+              &quot;state&quot;: &quot;ativo&quot;,
+              &quot;usageState&quot;: &quot;ativo&quot;,
+              &quot;startOperatingDate&quot;: &quot;2023-04-09T10:05:00Z&quot;,
+              &quot;resourceCharacteristic&quot;: [
+                {
+                  &quot;name&quot;: &quot;Serial Number&quot;,
+                  &quot;value&quot;: &quot;ONT135790&quot;
+                }
+              ]
+            }
+          ]
+        },
+        &quot;fiberPath&quot;: {
+          &quot;items&quot;: {
+            &quot;item&quot;: [
+              {
+                &quot;name&quot;: &quot;Splitter&quot;,
+                &quot;value&quot;: &quot;1:128&quot;
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="9.83">
+      <div class="step-ref passed">83</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">5</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="9.83">14:12:37.417 request:
+1 &gt; POST http://localhost:4010/listener/productOrderInformationRequiredEvent
+1 &gt; Authorization: dummy AUTH_TOKEN
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 888
+1 &gt; Host: localhost:4010
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;notification&quot;:{&quot;date&quot;:&quot;2023-04-09T10:05:00Z&quot;,&quot;customer&quot;:{&quot;subscriberId&quot;:&quot;sub012345&quot;},&quot;order&quot;:{&quot;id&quot;:&quot;20230409001&quot;,&quot;correlationOrder&quot;:&quot;ORD-4567&quot;,&quot;associatedDocument&quot;:&quot;DOC-009&quot;,&quot;issue&quot;:{&quot;code&quot;:&quot;7096&quot;,&quot;description&quot;:&quot;Pendência Segurança do Trabalho 15 dias&quot;,&quot;type&quot;:&quot;CLIENTE&quot;,&quot;observation&quot;:&quot;Necessário equipamento de segurança&quot;,&quot;updateDate&quot;:&quot;2023-04-09T11:00:00Z&quot;,&quot;action&quot;:&quot;abrir&quot;,&quot;task&quot;:&quot;&quot;,&quot;fieldActivity&quot;:&quot;true&quot;,&quot;reason&quot;:&quot;PROJETO&quot;},&quot;type&quot;:&quot;FTTH&quot;,&quot;code&quot;:&quot;3&quot;,&quot;description&quot;:&quot;Início do Processo de Obra&quot;,&quot;lostEquipment&quot;:&quot;false&quot;,&quot;resource&quot;:{&quot;gponAccess&quot;:&quot;GPON-09&quot;,&quot;devices&quot;:{&quot;device&quot;:[{&quot;category&quot;:&quot;ONT&quot;,&quot;type&quot;:&quot;GPON ONT&quot;,&quot;description&quot;:&quot;Optical Network Terminal&quot;,&quot;state&quot;:&quot;ativo&quot;,&quot;usageState&quot;:&quot;ativo&quot;,&quot;startOperatingDate&quot;:&quot;2023-04-09T10:05:00Z&quot;,&quot;resourceCharacteristic&quot;:[{&quot;name&quot;:&quot;Serial Number&quot;,&quot;value&quot;:&quot;ONT135790&quot;}]}]},&quot;fiberPath&quot;:{&quot;items&quot;:{&quot;item&quot;:[{&quot;name&quot;:&quot;Splitter&quot;,&quot;value&quot;:&quot;1:128&quot;}]}}}}}}
+
+14:12:37.421 response time in milliseconds: 4
+1 &lt; 400
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Headers: *
+1 &lt; Access-Control-Allow-Credentials: true
+1 &lt; Access-Control-Expose-Headers: *
+1 &lt; sl-violations: [{&quot;location&quot;:[&quot;request&quot;,&quot;body&quot;,&quot;notification&quot;,&quot;order&quot;,&quot;lostEquipment&quot;],&quot;severity&quot;:&quot;Error&quot;,&quot;code&quot;:&quot;enum&quot;,&quot;message&quot;:&quot;Request body property notification.order.lostEquipment must be equal to one of the allowed values: True, False&quot;}]
+1 &lt; Date: Mon, 03 Jun 2024 08:42:37 GMT
+1 &lt; Connection: keep-alive
+1 &lt; Keep-Alive: timeout=5
+1 &lt; Content-Length: 0
+
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="9.84">
+      <div class="step-ref failed">84</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status 204</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="9.84">14:12:37.421 src/test/java/org/springframework/api_tests/listener_productOrderInformationRequiredEvent_post.feature:84
+Then status 204
+status code was: 400, expected: 204, response time in milliseconds: 4, url: http://localhost:4010/listener/productOrderInformationRequiredEvent, response: 
+
+src/test/java/org/springframework/api_tests/listener_productOrderInformationRequiredEvent_post.feature:84
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="9.85">
+      <div class="step-ref skipped">85</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match header Content-Type contains &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.10:88]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.10:88]</span>
+                <span class="scenario-name">Notify product order information required event</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>10</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.10:88]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.10:88]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="10.14">
+      <div class="step-ref bg-step">14</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def urlBase = karate.properties[&#39;url.base&#39;] || karate.get(&#39;urlBase&#39;, &#39;http://localhost:4010&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.10:88]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="10.15">
+      <div class="step-ref bg-step">15</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url urlBase</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.10:88]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="10.16">
+      <div class="step-ref bg-step">16</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def authToken = karate.properties[&#39;AUTH_TOKEN&#39;]</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="10.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/listener/productOrderInformationRequiredEvent&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="10.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Authorization = authToken</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="10.21">
+      <div class="step-ref passed">21</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="10.21">{
+  &quot;notification&quot;: {
+    &quot;date&quot;: &quot;2023-04-10T12:35:00Z&quot;,
+    &quot;customer&quot;: {
+      &quot;subscriberId&quot;: &quot;sub678901&quot;
+    },
+    &quot;order&quot;: {
+      &quot;id&quot;: &quot;20230410001&quot;,
+      &quot;correlationOrder&quot;: &quot;ORD-8901&quot;,
+      &quot;associatedDocument&quot;: &quot;DOC-010&quot;,
+      &quot;issue&quot;: {
+        &quot;code&quot;: &quot;7106&quot;,
+        &quot;description&quot;: &quot;Pendência de Rede 3 dias&quot;,
+        &quot;type&quot;: &quot;TECNICA&quot;,
+        &quot;observation&quot;: &quot;Necessário manutenção preventiva&quot;,
+        &quot;updateDate&quot;: &quot;2023-04-10T13:30:00Z&quot;,
+        &quot;action&quot;: &quot;abrir&quot;,
+        &quot;task&quot;: &quot;&quot;,
+        &quot;fieldActivity&quot;: &quot;false&quot;,
+        &quot;reason&quot;: &quot;MANUNTENÇÃO&quot;
+      },
+      &quot;type&quot;: &quot;HFC&quot;,
+      &quot;code&quot;: &quot;1&quot;,
+      &quot;description&quot;: &quot;Enviando Atualização de Ordem&quot;,
+      &quot;lostEquipment&quot;: &quot;false&quot;,
+      &quot;resource&quot;: {
+        &quot;gponAccess&quot;: &quot;GPON-10&quot;,
+        &quot;devices&quot;: {
+          &quot;device&quot;: [
+            {
+              &quot;category&quot;: &quot;CM&quot;,
+              &quot;type&quot;: &quot;DOCSIS Cable Modem&quot;,
+              &quot;description&quot;: &quot;Cable Modem&quot;,
+              &quot;state&quot;: &quot;ativo&quot;,
+              &quot;usageState&quot;: &quot;ativo&quot;,
+              &quot;startOperatingDate&quot;: &quot;2023-04-10T12:35:00Z&quot;,
+              &quot;resourceCharacteristic&quot;: [
+                {
+                  &quot;name&quot;: &quot;MAC Address&quot;,
+                  &quot;value&quot;: &quot;32:10:FE:DC:BA:98&quot;
+                }
+              ]
+            }
+          ]
+        },
+        &quot;fiberPath&quot;: {
+          &quot;items&quot;: {
+            &quot;item&quot;: [
+              {
+                &quot;name&quot;: &quot;Tap&quot;,
+                &quot;value&quot;: &quot;TAP-345&quot;
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="10.83">
+      <div class="step-ref passed">83</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">7</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="10.83">14:12:37.436 request:
+1 &gt; POST http://localhost:4010/listener/productOrderInformationRequiredEvent
+1 &gt; Authorization: dummy AUTH_TOKEN
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 879
+1 &gt; Host: localhost:4010
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;notification&quot;:{&quot;date&quot;:&quot;2023-04-10T12:35:00Z&quot;,&quot;customer&quot;:{&quot;subscriberId&quot;:&quot;sub678901&quot;},&quot;order&quot;:{&quot;id&quot;:&quot;20230410001&quot;,&quot;correlationOrder&quot;:&quot;ORD-8901&quot;,&quot;associatedDocument&quot;:&quot;DOC-010&quot;,&quot;issue&quot;:{&quot;code&quot;:&quot;7106&quot;,&quot;description&quot;:&quot;Pendência de Rede 3 dias&quot;,&quot;type&quot;:&quot;TECNICA&quot;,&quot;observation&quot;:&quot;Necessário manutenção preventiva&quot;,&quot;updateDate&quot;:&quot;2023-04-10T13:30:00Z&quot;,&quot;action&quot;:&quot;abrir&quot;,&quot;task&quot;:&quot;&quot;,&quot;fieldActivity&quot;:&quot;false&quot;,&quot;reason&quot;:&quot;MANUNTENÇÃO&quot;},&quot;type&quot;:&quot;HFC&quot;,&quot;code&quot;:&quot;1&quot;,&quot;description&quot;:&quot;Enviando Atualização de Ordem&quot;,&quot;lostEquipment&quot;:&quot;false&quot;,&quot;resource&quot;:{&quot;gponAccess&quot;:&quot;GPON-10&quot;,&quot;devices&quot;:{&quot;device&quot;:[{&quot;category&quot;:&quot;CM&quot;,&quot;type&quot;:&quot;DOCSIS Cable Modem&quot;,&quot;description&quot;:&quot;Cable Modem&quot;,&quot;state&quot;:&quot;ativo&quot;,&quot;usageState&quot;:&quot;ativo&quot;,&quot;startOperatingDate&quot;:&quot;2023-04-10T12:35:00Z&quot;,&quot;resourceCharacteristic&quot;:[{&quot;name&quot;:&quot;MAC Address&quot;,&quot;value&quot;:&quot;32:10:FE:DC:BA:98&quot;}]}]},&quot;fiberPath&quot;:{&quot;items&quot;:{&quot;item&quot;:[{&quot;name&quot;:&quot;Tap&quot;,&quot;value&quot;:&quot;TAP-345&quot;}]}}}}}}
+
+14:12:37.442 response time in milliseconds: 6
+1 &lt; 400
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Headers: *
+1 &lt; Access-Control-Allow-Credentials: true
+1 &lt; Access-Control-Expose-Headers: *
+1 &lt; sl-violations: [{&quot;location&quot;:[&quot;request&quot;,&quot;body&quot;,&quot;notification&quot;,&quot;order&quot;,&quot;lostEquipment&quot;],&quot;severity&quot;:&quot;Error&quot;,&quot;code&quot;:&quot;enum&quot;,&quot;message&quot;:&quot;Request body property notification.order.lostEquipment must be equal to one of the allowed values: True, False&quot;}]
+1 &lt; Date: Mon, 03 Jun 2024 08:42:37 GMT
+1 &lt; Connection: keep-alive
+1 &lt; Keep-Alive: timeout=5
+1 &lt; Content-Length: 0
+
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="10.84">
+      <div class="step-ref failed">84</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status 204</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="10.84">14:12:37.443 src/test/java/org/springframework/api_tests/listener_productOrderInformationRequiredEvent_post.feature:84
+Then status 204
+status code was: 400, expected: 204, response time in milliseconds: 6, url: http://localhost:4010/listener/productOrderInformationRequiredEvent, response: 
+
+src/test/java/org/springframework/api_tests/listener_productOrderInformationRequiredEvent_post.feature:84
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="10.85">
+      <div class="step-ref skipped">85</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match header Content-Type contains &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[2:90]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[2:90]</span>
+                <span class="scenario-name">Notify product order information required event with invalid request</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>6</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[2:90]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[2:90]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.14">
+      <div class="step-ref bg-step">14</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def urlBase = karate.properties[&#39;url.base&#39;] || karate.get(&#39;urlBase&#39;, &#39;http://localhost:4010&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[2:90]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.15">
+      <div class="step-ref bg-step">15</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url urlBase</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[2:90]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.16">
+      <div class="step-ref bg-step">16</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def authToken = karate.properties[&#39;AUTH_TOKEN&#39;]</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.91">
+      <div class="step-ref passed">91</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/listener/productOrderInformationRequiredEvent&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.92">
+      <div class="step-ref passed">92</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Authorization = authToken</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.93">
+      <div class="step-ref passed">93</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.93">{}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.97">
+      <div class="step-ref passed">97</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">5</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.97">14:12:37.449 request:
+1 &gt; POST http://localhost:4010/listener/productOrderInformationRequiredEvent
+1 &gt; Authorization: dummy AUTH_TOKEN
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 2
+1 &gt; Host: localhost:4010
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 &gt; Accept-Encoding: gzip,deflate
+{}
+
+14:12:37.452 response time in milliseconds: 3
+1 &lt; 204
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Headers: *
+1 &lt; Access-Control-Allow-Credentials: true
+1 &lt; Access-Control-Expose-Headers: *
+1 &lt; Content-type: text/plain
+1 &lt; Date: Mon, 03 Jun 2024 08:42:37 GMT
+1 &lt; Connection: keep-alive
+1 &lt; Keep-Alive: timeout=5
+
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.98">
+      <div class="step-ref failed">98</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status 400</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.98">14:12:37.453 src/test/java/org/springframework/api_tests/listener_productOrderInformationRequiredEvent_post.feature:98
+Then status 400
+status code was: 204, expected: 400, response time in milliseconds: 3, url: http://localhost:4010/listener/productOrderInformationRequiredEvent, response: 
+
+src/test/java/org/springframework/api_tests/listener_productOrderInformationRequiredEvent_post.feature:98
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.99">
+      <div class="step-ref skipped">99</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match header Content-Type contains &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.100">
+      <div class="step-ref skipped">100</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match response contains &#39;BadRequest&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[3:102]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[3:102]</span>
+                <span class="scenario-name">Notify product order information required event with unauthorized access</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>8</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[3:102]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[3:102]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.14">
+      <div class="step-ref bg-step">14</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def urlBase = karate.properties[&#39;url.base&#39;] || karate.get(&#39;urlBase&#39;, &#39;http://localhost:4010&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[3:102]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.15">
+      <div class="step-ref bg-step">15</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url urlBase</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[3:102]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.16">
+      <div class="step-ref bg-step">16</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def authToken = karate.properties[&#39;AUTH_TOKEN&#39;]</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.103">
+      <div class="step-ref passed">103</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/listener/productOrderInformationRequiredEvent&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.104">
+      <div class="step-ref passed">104</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.104">{}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.108">
+      <div class="step-ref passed">108</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">6</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.108">14:12:37.458 request:
+1 &gt; POST http://localhost:4010/listener/productOrderInformationRequiredEvent
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 2
+1 &gt; Host: localhost:4010
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 &gt; Accept-Encoding: gzip,deflate
+{}
+
+14:12:37.462 response time in milliseconds: 4
+1 &lt; 204
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Headers: *
+1 &lt; Access-Control-Allow-Credentials: true
+1 &lt; Access-Control-Expose-Headers: *
+1 &lt; Content-type: text/plain
+1 &lt; Date: Mon, 03 Jun 2024 08:42:37 GMT
+1 &lt; Connection: keep-alive
+1 &lt; Keep-Alive: timeout=5
+
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.109">
+      <div class="step-ref failed">109</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status 401</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.109">14:12:37.463 src/test/java/org/springframework/api_tests/listener_productOrderInformationRequiredEvent_post.feature:109
+Then status 401
+status code was: 204, expected: 401, response time in milliseconds: 4, url: http://localhost:4010/listener/productOrderInformationRequiredEvent, response: 
+
+src/test/java/org/springframework/api_tests/listener_productOrderInformationRequiredEvent_post.feature:109
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.110">
+      <div class="step-ref skipped">110</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match header Content-Type contains &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.111">
+      <div class="step-ref skipped">111</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match response contains &#39;Unauthorized&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
