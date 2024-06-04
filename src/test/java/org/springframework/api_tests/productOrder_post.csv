@@ -1,0 +1,11 @@
+requestBody,statusCode,responseBody
+"GET /users/1",200,"{'id': 1, 'name': 'John Doe', 'email': 'john.doe@example.com', 'address': {'street': '123 Main St', 'city': 'Anytown', 'zip': '12345'}}"
+"GET /users/2",200,"{'id': 2, 'name': 'Jane Smith', 'email': 'jane.smith@example.com', 'address': {'street': '456 Elm St', 'city': 'Somewhere', 'zip': '67890'}}"
+"GET /users/3",200,"{'id': 3, 'name': 'Bob Johnson', 'email': 'bob.johnson@example.com', 'address': {'street': '789 Oak St', 'city': 'Nowhere', 'zip': '11223'}}"
+"GET /users/4",200,"{'id': 4, 'name': 'Alice Williams', 'email': 'alice.williams@example.com', 'address': {'street': '321 Pine St', 'city': 'Everywhere', 'zip': '44556'}}"
+"GET /users/5",200,"{'id': 5, 'name': 'Charlie Brown', 'email': 'charlie.brown@example.com', 'address': {'street': '654 Maple St', 'city': 'Here', 'zip': '77889'}}"
+"GET /users/6",200,"{'id': 6, 'name': 'Diane Davis', 'email': 'diane.davis@example.com', 'address': {'street': '987 Walnut St', 'city': 'There', 'zip': '99000'}}"
+"GET /users/7",200,"{'id': 7, 'name': 'Edward Evans', 'email': 'edward.evans@example.com', 'address': {'street': '147 Cherry St', 'city': 'Everytown', 'zip': '22334'}}"
+"GET /users/8",200,"{'id': 8, 'name': 'Fiona Franklin', 'email': 'fiona.franklin@example.com', 'address': {'street': '258 Birch St', 'city': 'Anyplace', 'zip': '55667'}}"
+"GET /users/9",200,"{'id': 9, 'name': 'George Green', 'email': 'george.green@example.com', 'address': {'street': '369 Cedar St', 'city': 'Somewheresville', 'zip': '88990'}}"
+"GET /users/10",200,"{'id': 10, 'name': 'Hannah Harris', 'email': 'hannah.harris@example.com', 'address': {'street': '480 Dogwood St', 'city': 'Nowhereville', 'zip': '10101'}}"
