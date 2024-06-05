@@ -1,0 +1,11 @@
+orderId,correlationOrder,associatedDocument,associatedDocumentDate,type,infraType,description,updateDate,action,expectedStatus,expectedResponse
+12345,54321,"Invoice1","2022-01-01","Purchase","Digital","Purchase of digital goods","2022-01-02","Buy",200,"Success"
+12346,64321,"Invoice2","2022-01-03","Sale","Physical","Sale of physical goods","2022-01-04","Sell",200,"Success"
+12347,74321,"Invoice3","2022-01-05","Purchase","Digital","Purchase of digital services","2022-01-06","Buy",200,"Success"
+12348,84321,"Invoice4","2022-01-07","Sale","Physical","Sale of physical services","2022-01-08","Sell",200,"Success"
+12349,94321,"Invoice5","2022-01-09","Purchase","Digital","Purchase of digital products","2022-01-10","Buy",200,"Success"
+12350,103421,"Invoice6","2022-01-11","Sale","Physical","Sale of physical products","2022-01-12","Sell",200,"Success"
+12351,113421,"Invoice7","2022-01-13","Purchase","Digital","Purchase of digital subscriptions","2022-01-14","Buy",200,"Success"
+12352,123421,"Invoice8","2022-01-15","Sale","Physical","Sale of physical subscriptions","2022-01-16","Sell",200,"Success"
+12353,133421,"Invoice9","2022-01-17","Purchase","Digital","Purchase of digital licenses","2022-01-18","Buy",200,"Success"
+12354,143421,"Invoice10","2022-01-19","Sale","Physical","Sale of physical licenses","2022-01-20","Sell",200,"Success"
