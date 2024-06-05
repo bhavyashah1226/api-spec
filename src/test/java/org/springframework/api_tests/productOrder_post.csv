@@ -1,0 +1,11 @@
+requestBody,status,expectedResponse
+"{'userId': 1, 'userName': 'John'}",200,"{'message': 'User created successfully'}"
+"{'userId': 2, 'userName': 'Jane'}",200,"{'message': 'User created successfully'}"
+"{'userId': 3, 'userName': 'Mike'}",200,"{'message': 'User created successfully'}"
+"{'userId': 4, 'userName': 'Emma'}",200,"{'message': 'User created successfully'}"
+"{'userId': 5, 'userName': 'Robert'}",200,"{'message': 'User created successfully'}"
+"{'userId': 6, 'userName': 'Julia'}",200,"{'message': 'User created successfully'}"
+"{'userId': 7, 'userName': 'Chris'}",200,"{'message': 'User created successfully'}"
+"{'userId': 8, 'userName': 'Sophia'}",200,"{'message': 'User created successfully'}"
+"{'userId': 9, 'userName': 'Nick'}",200,"{'message': 'User created successfully'}"
+"{'userId': 10, 'userName': 'Olivia'}",200,"{'message': 'User created successfully'}"
