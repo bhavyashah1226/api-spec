@@ -1,0 +1,2342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script type="text/javascript" src="res/Resemble.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.capture("report_feature",{distinct_id:"dc5ce9c6-483e-471e-8c80-ec5b01273388",karate_version:"1.4.1",karate_meta:null});
+  }
+});
+</script>
+
+    <title>src.test.java.org.springframework.api_tests.listener_productOrderInformationRequiredEvent_post</title>
+  </head>
+  <body>
+    <div id="root-container">
+      <div id="leftnav">
+        
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">0</div>
+      <div id="nav-fail" class="bg-danger">10</div>
+    </div>
+  </div>
+  <div id="nav-env">
+    <div></div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>
+  <div id="nav-date">
+    <div>2024-06-05 02:39:44 pm</div>
+  </div>
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item failed">
+            <a href="#[1.1:25]"><span>[1.1:25]</span> <span>Verify the endpoint for Product Order Information Required Event</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[1.2:25]"><span>[1.2:25]</span> <span>Verify the endpoint for Product Order Information Required Event</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[1.3:25]"><span>[1.3:25]</span> <span>Verify the endpoint for Product Order Information Required Event</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[1.4:25]"><span>[1.4:25]</span> <span>Verify the endpoint for Product Order Information Required Event</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[1.5:25]"><span>[1.5:25]</span> <span>Verify the endpoint for Product Order Information Required Event</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[1.6:25]"><span>[1.6:25]</span> <span>Verify the endpoint for Product Order Information Required Event</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[1.7:25]"><span>[1.7:25]</span> <span>Verify the endpoint for Product Order Information Required Event</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[1.8:25]"><span>[1.8:25]</span> <span>Verify the endpoint for Product Order Information Required Event</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[1.9:25]"><span>[1.9:25]</span> <span>Verify the endpoint for Product Order Information Required Event</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[1.10:25]"><span>[1.10:25]</span> <span>Verify the endpoint for Product Order Information Required Event</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/org/springframework/api_tests/listener_productOrderInformationRequiredEvent_post.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Product Order Information Required Event</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.1:25]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.1:25]</span>
+                <span class="scenario-name">Verify the endpoint for Product Order Information Required Event</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>3</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.1:25]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.1:25]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.14">
+      <div class="step-ref bg-step">14</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url karate.properties[&#39;url.base&#39;] || &#39;http://localhost:4010&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.1:25]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.15">
+      <div class="step-ref bg-step">15</div>
+      
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>configure headers = { &#39;Authorization&#39;: &#39;#(karate.properties[&#39;AUTH_TOKEN&#39;])&#39; }</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.15">14:39:43.983 src/test/java/org/springframework/api_tests/listener_productOrderInformationRequiredEvent_post.feature:15
+* configure headers = { &#39;Authorization&#39;: &#39;#(karate.properties[&#39;AUTH_TOKEN&#39;])&#39; }
+net.minidev.json.parser.ParseException: Unexpected token A at position 40.
+src/test/java/org/springframework/api_tests/listener_productOrderInformationRequiredEvent_post.feature:15
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.18">
+      <div class="step-ref skipped">18</div>
+      
+      <div class="step-cell skipped">
+        <span>Given</span>&nbsp;<span>path &#39;/listener/productOrderInformationRequiredEvent&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.19">
+      <div class="step-ref skipped">19</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>request {&quot;notification&quot;:{&quot;date&quot;:&quot;2022-05-05T12:00:00&quot;,&quot;customer&quot;:{&quot;subscriberId&quot;:&quot;SUB12345&quot;},&quot;order&quot;:{&quot;id&quot;:&quot;ORD12345&quot;,&quot;correlationOrder&quot;:&quot;CO12345&quot;,&quot;associatedDocument&quot;:&quot;DOC12345&quot;,&quot;issue&quot;:{&quot;code&quot;:&quot;7001&quot;,&quot;description&quot;:&quot;Pendência Cancelamento por Duplicidade&quot;,&quot;type&quot;:&quot;TECNICA&quot;,&quot;observation&quot;:&quot;Observação&quot;,&quot;updateDate&quot;:&quot;2022-05-05T12:00:00&quot;,&quot;action&quot;:&quot;abrir&quot;,&quot;task&quot;:&quot;Tarefa&quot;,&quot;fieldActivity&quot;:&quot;true&quot;,&quot;reason&quot;:&quot;Motivo&quot;}},&quot;type&quot;:&quot;Processo&quot;,&quot;code&quot;:&quot;-1&quot;,&quot;description&quot;:&quot;O Equipamento já está em uso por outro cliente&quot;,&quot;lostEquipment&quot;:&quot;Equipamento Perdido&quot;}}</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.20">
+      <div class="step-ref skipped">20</div>
+      
+      <div class="step-cell skipped">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.21">
+      <div class="step-ref skipped">21</div>
+      
+      <div class="step-cell skipped">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.22">
+      <div class="step-ref skipped">22</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match response == OK</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.2:25]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.2:25]</span>
+                <span class="scenario-name">Verify the endpoint for Product Order Information Required Event</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>1</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.2:25]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.2:25]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.14">
+      <div class="step-ref bg-step">14</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url karate.properties[&#39;url.base&#39;] || &#39;http://localhost:4010&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.2:25]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.15">
+      <div class="step-ref bg-step">15</div>
+      
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>configure headers = { &#39;Authorization&#39;: &#39;#(karate.properties[&#39;AUTH_TOKEN&#39;])&#39; }</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="2.15">14:39:43.989 src/test/java/org/springframework/api_tests/listener_productOrderInformationRequiredEvent_post.feature:15
+* configure headers = { &#39;Authorization&#39;: &#39;#(karate.properties[&#39;AUTH_TOKEN&#39;])&#39; }
+net.minidev.json.parser.ParseException: Unexpected token A at position 40.
+src/test/java/org/springframework/api_tests/listener_productOrderInformationRequiredEvent_post.feature:15
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.18">
+      <div class="step-ref skipped">18</div>
+      
+      <div class="step-cell skipped">
+        <span>Given</span>&nbsp;<span>path &#39;/listener/productOrderInformationRequiredEvent&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.19">
+      <div class="step-ref skipped">19</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>request {&quot;notification&quot;:{&quot;date&quot;:&quot;2022-05-06T12:00:00&quot;,&quot;customer&quot;:{&quot;subscriberId&quot;:&quot;SUB12346&quot;},&quot;order&quot;:{&quot;id&quot;:&quot;ORD12346&quot;,&quot;correlationOrder&quot;:&quot;CO12346&quot;,&quot;associatedDocument&quot;:&quot;DOC12346&quot;,&quot;issue&quot;:{&quot;code&quot;:&quot;7002&quot;,&quot;description&quot;:&quot;Pendência Agendamento Futuro Obra 7 dias&quot;,&quot;type&quot;:&quot;CLIENTE&quot;,&quot;observation&quot;:&quot;Observação&quot;,&quot;updateDate&quot;:&quot;2022-05-06T12:00:00&quot;,&quot;action&quot;:&quot;abrir&quot;,&quot;task&quot;:&quot;Tarefa&quot;,&quot;fieldActivity&quot;:&quot;true&quot;,&quot;reason&quot;:&quot;Motivo&quot;}},&quot;type&quot;:&quot;Processo&quot;,&quot;code&quot;:&quot;0&quot;,&quot;description&quot;:&quot;Ordem encerrada com sucesso&quot;,&quot;lostEquipment&quot;:&quot;Equipamento Perdido&quot;}}</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.20">
+      <div class="step-ref skipped">20</div>
+      
+      <div class="step-cell skipped">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.21">
+      <div class="step-ref skipped">21</div>
+      
+      <div class="step-cell skipped">
+        <span>Then</span>&nbsp;<span>status 201</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.22">
+      <div class="step-ref skipped">22</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match response == CREATED</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.3:25]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.3:25]</span>
+                <span class="scenario-name">Verify the endpoint for Product Order Information Required Event</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>1</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.3:25]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.3:25]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.14">
+      <div class="step-ref bg-step">14</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url karate.properties[&#39;url.base&#39;] || &#39;http://localhost:4010&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.3:25]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.15">
+      <div class="step-ref bg-step">15</div>
+      
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>configure headers = { &#39;Authorization&#39;: &#39;#(karate.properties[&#39;AUTH_TOKEN&#39;])&#39; }</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="3.15">14:39:43.995 src/test/java/org/springframework/api_tests/listener_productOrderInformationRequiredEvent_post.feature:15
+* configure headers = { &#39;Authorization&#39;: &#39;#(karate.properties[&#39;AUTH_TOKEN&#39;])&#39; }
+net.minidev.json.parser.ParseException: Unexpected token A at position 40.
+src/test/java/org/springframework/api_tests/listener_productOrderInformationRequiredEvent_post.feature:15
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.18">
+      <div class="step-ref skipped">18</div>
+      
+      <div class="step-cell skipped">
+        <span>Given</span>&nbsp;<span>path &#39;/listener/productOrderInformationRequiredEvent&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.19">
+      <div class="step-ref skipped">19</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>request {&quot;notification&quot;:{&quot;date&quot;:&quot;2022-05-07T12:00:00&quot;,&quot;customer&quot;:{&quot;subscriberId&quot;:&quot;SUB12347&quot;},&quot;order&quot;:{&quot;id&quot;:&quot;ORD12347&quot;,&quot;correlationOrder&quot;:&quot;CO12347&quot;,&quot;associatedDocument&quot;:&quot;DOC12347&quot;,&quot;issue&quot;:{&quot;code&quot;:&quot;7004&quot;,&quot;description&quot;:&quot;Pendência Agendamento Futuro Obra 7 dias&quot;,&quot;type&quot;:&quot;TECNICA&quot;,&quot;observation&quot;:&quot;Observação&quot;,&quot;updateDate&quot;:&quot;2022-05-07T12:00:00&quot;,&quot;action&quot;:&quot;abrir&quot;,&quot;task&quot;:&quot;Tarefa&quot;,&quot;fieldActivity&quot;:&quot;true&quot;,&quot;reason&quot;:&quot;Motivo&quot;}},&quot;type&quot;:&quot;Processo&quot;,&quot;code&quot;:&quot;1&quot;,&quot;description&quot;:&quot;Enviando Atualização de Ordem&quot;,&quot;lostEquipment&quot;:&quot;Equipamento Perdido&quot;}}</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.20">
+      <div class="step-ref skipped">20</div>
+      
+      <div class="step-cell skipped">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.21">
+      <div class="step-ref skipped">21</div>
+      
+      <div class="step-cell skipped">
+        <span>Then</span>&nbsp;<span>status 202</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.22">
+      <div class="step-ref skipped">22</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match response == ACCEPTED</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.4:25]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.4:25]</span>
+                <span class="scenario-name">Verify the endpoint for Product Order Information Required Event</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>1</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.4:25]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.4:25]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.14">
+      <div class="step-ref bg-step">14</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url karate.properties[&#39;url.base&#39;] || &#39;http://localhost:4010&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.4:25]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.15">
+      <div class="step-ref bg-step">15</div>
+      
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>configure headers = { &#39;Authorization&#39;: &#39;#(karate.properties[&#39;AUTH_TOKEN&#39;])&#39; }</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="4.15">14:39:44.005 src/test/java/org/springframework/api_tests/listener_productOrderInformationRequiredEvent_post.feature:15
+* configure headers = { &#39;Authorization&#39;: &#39;#(karate.properties[&#39;AUTH_TOKEN&#39;])&#39; }
+net.minidev.json.parser.ParseException: Unexpected token A at position 40.
+src/test/java/org/springframework/api_tests/listener_productOrderInformationRequiredEvent_post.feature:15
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.18">
+      <div class="step-ref skipped">18</div>
+      
+      <div class="step-cell skipped">
+        <span>Given</span>&nbsp;<span>path &#39;/listener/productOrderInformationRequiredEvent&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.19">
+      <div class="step-ref skipped">19</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>request {&quot;notification&quot;:{&quot;date&quot;:&quot;2022-05-08T12:00:00&quot;,&quot;customer&quot;:{&quot;subscriberId&quot;:&quot;SUB12348&quot;},&quot;order&quot;:{&quot;id&quot;:&quot;ORD12348&quot;,&quot;correlationOrder&quot;:&quot;CO12348&quot;,&quot;associatedDocument&quot;:&quot;DOC12348&quot;,&quot;issue&quot;:{&quot;code&quot;:&quot;7006&quot;,&quot;description&quot;:&quot;Pendência de Aprovisionamento 5 dias&quot;,&quot;type&quot;:&quot;CLIENTE&quot;,&quot;observation&quot;:&quot;Observação&quot;,&quot;updateDate&quot;:&quot;2022-05-08T12:00:00&quot;,&quot;action&quot;:&quot;abrir&quot;,&quot;task&quot;:&quot;Tarefa&quot;,&quot;fieldActivity&quot;:&quot;true&quot;,&quot;reason&quot;:&quot;Motivo&quot;}},&quot;type&quot;:&quot;Processo&quot;,&quot;code&quot;:&quot;2&quot;,&quot;description&quot;:&quot;Ordem cancelada&quot;,&quot;lostEquipment&quot;:&quot;Equipamento Perdido&quot;}}</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.20">
+      <div class="step-ref skipped">20</div>
+      
+      <div class="step-cell skipped">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.21">
+      <div class="step-ref skipped">21</div>
+      
+      <div class="step-cell skipped">
+        <span>Then</span>&nbsp;<span>status 203</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.22">
+      <div class="step-ref skipped">22</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match response == NON_AUTHORITATIVE_INFORMATION</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.5:25]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.5:25]</span>
+                <span class="scenario-name">Verify the endpoint for Product Order Information Required Event</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>1</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.5:25]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.5:25]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="5.14">
+      <div class="step-ref bg-step">14</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url karate.properties[&#39;url.base&#39;] || &#39;http://localhost:4010&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.5:25]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="5.15">
+      <div class="step-ref bg-step">15</div>
+      
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>configure headers = { &#39;Authorization&#39;: &#39;#(karate.properties[&#39;AUTH_TOKEN&#39;])&#39; }</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="5.15">14:39:44.011 src/test/java/org/springframework/api_tests/listener_productOrderInformationRequiredEvent_post.feature:15
+* configure headers = { &#39;Authorization&#39;: &#39;#(karate.properties[&#39;AUTH_TOKEN&#39;])&#39; }
+net.minidev.json.parser.ParseException: Unexpected token A at position 40.
+src/test/java/org/springframework/api_tests/listener_productOrderInformationRequiredEvent_post.feature:15
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="5.18">
+      <div class="step-ref skipped">18</div>
+      
+      <div class="step-cell skipped">
+        <span>Given</span>&nbsp;<span>path &#39;/listener/productOrderInformationRequiredEvent&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="5.19">
+      <div class="step-ref skipped">19</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>request {&quot;notification&quot;:{&quot;date&quot;:&quot;2022-05-09T12:00:00&quot;,&quot;customer&quot;:{&quot;subscriberId&quot;:&quot;SUB12349&quot;},&quot;order&quot;:{&quot;id&quot;:&quot;ORD12349&quot;,&quot;correlationOrder&quot;:&quot;CO12349&quot;,&quot;associatedDocument&quot;:&quot;DOC12349&quot;,&quot;issue&quot;:{&quot;code&quot;:&quot;7007&quot;,&quot;description&quot;:&quot;Pendência de Aprovisionamento 5 dias&quot;,&quot;type&quot;:&quot;TECNICA&quot;,&quot;observation&quot;:&quot;Observação&quot;,&quot;updateDate&quot;:&quot;2022-05-09T12:00:00&quot;,&quot;action&quot;:&quot;abrir&quot;,&quot;task&quot;:&quot;Tarefa&quot;,&quot;fieldActivity&quot;:&quot;true&quot;,&quot;reason&quot;:&quot;Motivo&quot;}},&quot;type&quot;:&quot;Processo&quot;,&quot;code&quot;:&quot;3&quot;,&quot;description&quot;:&quot;Início do Processo de Obra&quot;,&quot;lostEquipment&quot;:&quot;Equipamento Perdido&quot;}}</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="5.20">
+      <div class="step-ref skipped">20</div>
+      
+      <div class="step-cell skipped">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="5.21">
+      <div class="step-ref skipped">21</div>
+      
+      <div class="step-cell skipped">
+        <span>Then</span>&nbsp;<span>status 204</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="5.22">
+      <div class="step-ref skipped">22</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match response == NO_CONTENT</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.6:25]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.6:25]</span>
+                <span class="scenario-name">Verify the endpoint for Product Order Information Required Event</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>1</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.6:25]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.6:25]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="6.14">
+      <div class="step-ref bg-step">14</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url karate.properties[&#39;url.base&#39;] || &#39;http://localhost:4010&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.6:25]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="6.15">
+      <div class="step-ref bg-step">15</div>
+      
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>configure headers = { &#39;Authorization&#39;: &#39;#(karate.properties[&#39;AUTH_TOKEN&#39;])&#39; }</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="6.15">14:39:44.019 src/test/java/org/springframework/api_tests/listener_productOrderInformationRequiredEvent_post.feature:15
+* configure headers = { &#39;Authorization&#39;: &#39;#(karate.properties[&#39;AUTH_TOKEN&#39;])&#39; }
+net.minidev.json.parser.ParseException: Unexpected token A at position 40.
+src/test/java/org/springframework/api_tests/listener_productOrderInformationRequiredEvent_post.feature:15
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="6.18">
+      <div class="step-ref skipped">18</div>
+      
+      <div class="step-cell skipped">
+        <span>Given</span>&nbsp;<span>path &#39;/listener/productOrderInformationRequiredEvent&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="6.19">
+      <div class="step-ref skipped">19</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>request {&quot;notification&quot;:{&quot;date&quot;:&quot;2022-05-10T12:00:00&quot;,&quot;customer&quot;:{&quot;subscriberId&quot;:&quot;SUB12350&quot;},&quot;order&quot;:{&quot;id&quot;:&quot;ORD12350&quot;,&quot;correlationOrder&quot;:&quot;CO12350&quot;,&quot;associatedDocument&quot;:&quot;DOC12350&quot;,&quot;issue&quot;:{&quot;code&quot;:&quot;7008&quot;,&quot;description&quot;:&quot;Pendência Cancelamento por Inviabilidade Técnica&quot;,&quot;type&quot;:&quot;CLIENTE&quot;,&quot;observation&quot;:&quot;Observação&quot;,&quot;updateDate&quot;:&quot;2022-05-10T12:00:00&quot;,&quot;action&quot;:&quot;abrir&quot;,&quot;task&quot;:&quot;Tarefa&quot;,&quot;fieldActivity&quot;:&quot;true&quot;,&quot;reason&quot;:&quot;Motivo&quot;}},&quot;type&quot;:&quot;Processo&quot;,&quot;code&quot;:&quot;4&quot;,&quot;description&quot;:&quot;Término do Processo de Obra&quot;,&quot;lostEquipment&quot;:&quot;Equipamento Perdido&quot;}}</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="6.20">
+      <div class="step-ref skipped">20</div>
+      
+      <div class="step-cell skipped">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="6.21">
+      <div class="step-ref skipped">21</div>
+      
+      <div class="step-cell skipped">
+        <span>Then</span>&nbsp;<span>status 205</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="6.22">
+      <div class="step-ref skipped">22</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match response == RESET_CONTENT</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.7:25]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.7:25]</span>
+                <span class="scenario-name">Verify the endpoint for Product Order Information Required Event</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>1</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.7:25]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.7:25]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="7.14">
+      <div class="step-ref bg-step">14</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url karate.properties[&#39;url.base&#39;] || &#39;http://localhost:4010&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.7:25]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="7.15">
+      <div class="step-ref bg-step">15</div>
+      
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>configure headers = { &#39;Authorization&#39;: &#39;#(karate.properties[&#39;AUTH_TOKEN&#39;])&#39; }</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="7.15">14:39:44.025 src/test/java/org/springframework/api_tests/listener_productOrderInformationRequiredEvent_post.feature:15
+* configure headers = { &#39;Authorization&#39;: &#39;#(karate.properties[&#39;AUTH_TOKEN&#39;])&#39; }
+net.minidev.json.parser.ParseException: Unexpected token A at position 40.
+src/test/java/org/springframework/api_tests/listener_productOrderInformationRequiredEvent_post.feature:15
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="7.18">
+      <div class="step-ref skipped">18</div>
+      
+      <div class="step-cell skipped">
+        <span>Given</span>&nbsp;<span>path &#39;/listener/productOrderInformationRequiredEvent&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="7.19">
+      <div class="step-ref skipped">19</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>request {&quot;notification&quot;:{&quot;date&quot;:&quot;2022-05-11T12:00:00&quot;,&quot;customer&quot;:{&quot;subscriberId&quot;:&quot;SUB12351&quot;},&quot;order&quot;:{&quot;id&quot;:&quot;ORD12351&quot;,&quot;correlationOrder&quot;:&quot;CO12351&quot;,&quot;associatedDocument&quot;:&quot;DOC12351&quot;,&quot;issue&quot;:{&quot;code&quot;:&quot;7009&quot;,&quot;description&quot;:&quot;Pendência Cancelamento e Reemissão&quot;,&quot;type&quot;:&quot;TECNICA&quot;,&quot;observation&quot;:&quot;Observação&quot;,&quot;updateDate&quot;:&quot;2022-05-11T12:00:00&quot;,&quot;action&quot;:&quot;abrir&quot;,&quot;task&quot;:&quot;Tarefa&quot;,&quot;fieldActivity&quot;:&quot;true&quot;,&quot;reason&quot;:&quot;Motivo&quot;}},&quot;type&quot;:&quot;Processo&quot;,&quot;code&quot;:&quot;-1&quot;,&quot;description&quot;:&quot;O Equipamento já está em uso por outro cliente&quot;,&quot;lostEquipment&quot;:&quot;Equipamento Perdido&quot;}}</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="7.20">
+      <div class="step-ref skipped">20</div>
+      
+      <div class="step-cell skipped">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="7.21">
+      <div class="step-ref skipped">21</div>
+      
+      <div class="step-cell skipped">
+        <span>Then</span>&nbsp;<span>status 206</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="7.22">
+      <div class="step-ref skipped">22</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match response == PARTIAL_CONTENT</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.8:25]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.8:25]</span>
+                <span class="scenario-name">Verify the endpoint for Product Order Information Required Event</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>1</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.8:25]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.8:25]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="8.14">
+      <div class="step-ref bg-step">14</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url karate.properties[&#39;url.base&#39;] || &#39;http://localhost:4010&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.8:25]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="8.15">
+      <div class="step-ref bg-step">15</div>
+      
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>configure headers = { &#39;Authorization&#39;: &#39;#(karate.properties[&#39;AUTH_TOKEN&#39;])&#39; }</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="8.15">14:39:44.029 src/test/java/org/springframework/api_tests/listener_productOrderInformationRequiredEvent_post.feature:15
+* configure headers = { &#39;Authorization&#39;: &#39;#(karate.properties[&#39;AUTH_TOKEN&#39;])&#39; }
+net.minidev.json.parser.ParseException: Unexpected token A at position 40.
+src/test/java/org/springframework/api_tests/listener_productOrderInformationRequiredEvent_post.feature:15
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="8.18">
+      <div class="step-ref skipped">18</div>
+      
+      <div class="step-cell skipped">
+        <span>Given</span>&nbsp;<span>path &#39;/listener/productOrderInformationRequiredEvent&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="8.19">
+      <div class="step-ref skipped">19</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>request {&quot;notification&quot;:{&quot;date&quot;:&quot;2022-05-12T12:00:00&quot;,&quot;customer&quot;:{&quot;subscriberId&quot;:&quot;SUB12352&quot;},&quot;order&quot;:{&quot;id&quot;:&quot;ORD12352&quot;,&quot;correlationOrder&quot;:&quot;CO12352&quot;,&quot;associatedDocument&quot;:&quot;DOC12352&quot;,&quot;issue&quot;:{&quot;code&quot;:&quot;7010&quot;,&quot;description&quot;:&quot;Pendência Equipamento Cliente&quot;,&quot;type&quot;:&quot;CLIENTE&quot;,&quot;observation&quot;:&quot;Observação&quot;,&quot;updateDate&quot;:&quot;2022-05-12T12:00:00&quot;,&quot;action&quot;:&quot;abrir&quot;,&quot;task&quot;:&quot;Tarefa&quot;,&quot;fieldActivity&quot;:&quot;true&quot;,&quot;reason&quot;:&quot;Motivo&quot;}},&quot;type&quot;:&quot;Processo&quot;,&quot;code&quot;:&quot;0&quot;,&quot;description&quot;:&quot;Ordem encerrada com sucesso&quot;,&quot;lostEquipment&quot;:&quot;Equipamento Perdido&quot;}}</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="8.20">
+      <div class="step-ref skipped">20</div>
+      
+      <div class="step-cell skipped">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="8.21">
+      <div class="step-ref skipped">21</div>
+      
+      <div class="step-cell skipped">
+        <span>Then</span>&nbsp;<span>status 207</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="8.22">
+      <div class="step-ref skipped">22</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match response == MULTI_STATUS</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.9:25]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.9:25]</span>
+                <span class="scenario-name">Verify the endpoint for Product Order Information Required Event</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>1</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.9:25]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.9:25]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="9.14">
+      <div class="step-ref bg-step">14</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url karate.properties[&#39;url.base&#39;] || &#39;http://localhost:4010&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.9:25]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="9.15">
+      <div class="step-ref bg-step">15</div>
+      
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>configure headers = { &#39;Authorization&#39;: &#39;#(karate.properties[&#39;AUTH_TOKEN&#39;])&#39; }</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="9.15">14:39:44.035 src/test/java/org/springframework/api_tests/listener_productOrderInformationRequiredEvent_post.feature:15
+* configure headers = { &#39;Authorization&#39;: &#39;#(karate.properties[&#39;AUTH_TOKEN&#39;])&#39; }
+net.minidev.json.parser.ParseException: Unexpected token A at position 40.
+src/test/java/org/springframework/api_tests/listener_productOrderInformationRequiredEvent_post.feature:15
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="9.18">
+      <div class="step-ref skipped">18</div>
+      
+      <div class="step-cell skipped">
+        <span>Given</span>&nbsp;<span>path &#39;/listener/productOrderInformationRequiredEvent&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="9.19">
+      <div class="step-ref skipped">19</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>request {&quot;notification&quot;:{&quot;date&quot;:&quot;2022-05-13T12:00:00&quot;,&quot;customer&quot;:{&quot;subscriberId&quot;:&quot;SUB12353&quot;},&quot;order&quot;:{&quot;id&quot;:&quot;ORD12353&quot;,&quot;correlationOrder&quot;:&quot;CO12353&quot;,&quot;associatedDocument&quot;:&quot;DOC12353&quot;,&quot;issue&quot;:{&quot;code&quot;:&quot;7013&quot;,&quot;description&quot;:&quot;Pendência Cancelamento por Inviabilidade Técnica&quot;,&quot;type&quot;:&quot;TECNICA&quot;,&quot;observation&quot;:&quot;Observação&quot;,&quot;updateDate&quot;:&quot;2022-05-13T12:00:00&quot;,&quot;action&quot;:&quot;abrir&quot;,&quot;task&quot;:&quot;Tarefa&quot;,&quot;fieldActivity&quot;:&quot;true&quot;,&quot;reason&quot;:&quot;Motivo&quot;}},&quot;type&quot;:&quot;Processo&quot;,&quot;code&quot;:&quot;1&quot;,&quot;description&quot;:&quot;Enviando Atualização de Ordem&quot;,&quot;lostEquipment&quot;:&quot;Equipamento Perdido&quot;}}</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="9.20">
+      <div class="step-ref skipped">20</div>
+      
+      <div class="step-cell skipped">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="9.21">
+      <div class="step-ref skipped">21</div>
+      
+      <div class="step-cell skipped">
+        <span>Then</span>&nbsp;<span>status 208</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="9.22">
+      <div class="step-ref skipped">22</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match response == ALREADY_REPORTED</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.10:25]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.10:25]</span>
+                <span class="scenario-name">Verify the endpoint for Product Order Information Required Event</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>0</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.10:25]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.10:25]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="10.14">
+      <div class="step-ref bg-step">14</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url karate.properties[&#39;url.base&#39;] || &#39;http://localhost:4010&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.10:25]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="10.15">
+      <div class="step-ref bg-step">15</div>
+      
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>configure headers = { &#39;Authorization&#39;: &#39;#(karate.properties[&#39;AUTH_TOKEN&#39;])&#39; }</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="10.15">14:39:44.041 src/test/java/org/springframework/api_tests/listener_productOrderInformationRequiredEvent_post.feature:15
+* configure headers = { &#39;Authorization&#39;: &#39;#(karate.properties[&#39;AUTH_TOKEN&#39;])&#39; }
+net.minidev.json.parser.ParseException: Unexpected token A at position 40.
+src/test/java/org/springframework/api_tests/listener_productOrderInformationRequiredEvent_post.feature:15
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="10.18">
+      <div class="step-ref skipped">18</div>
+      
+      <div class="step-cell skipped">
+        <span>Given</span>&nbsp;<span>path &#39;/listener/productOrderInformationRequiredEvent&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="10.19">
+      <div class="step-ref skipped">19</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>request {&quot;notification&quot;:{&quot;date&quot;:&quot;2022-05-14T12:00:00&quot;,&quot;customer&quot;:{&quot;subscriberId&quot;:&quot;SUB12354&quot;},&quot;order&quot;:{&quot;id&quot;:&quot;ORD12354&quot;,&quot;correlationOrder&quot;:&quot;CO12354&quot;,&quot;associatedDocument&quot;:&quot;DOC12354&quot;,&quot;issue&quot;:{&quot;code&quot;:&quot;7014&quot;,&quot;description&quot;:&quot;Pendência Rede Interna Cliente&quot;,&quot;type&quot;:&quot;CLIENTE&quot;,&quot;observation&quot;:&quot;Observação&quot;,&quot;updateDate&quot;:&quot;2022-05-14T12:00:00&quot;,&quot;action&quot;:&quot;abrir&quot;,&quot;task&quot;:&quot;Tarefa&quot;,&quot;fieldActivity&quot;:&quot;true&quot;,&quot;reason&quot;:&quot;Motivo&quot;}},&quot;type&quot;:&quot;Processo&quot;,&quot;code&quot;:&quot;2&quot;,&quot;description&quot;:&quot;Ordem cancelada&quot;,&quot;lostEquipment&quot;:&quot;Equipamento Perdido&quot;}}</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="10.20">
+      <div class="step-ref skipped">20</div>
+      
+      <div class="step-cell skipped">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="10.21">
+      <div class="step-ref skipped">21</div>
+      
+      <div class="step-cell skipped">
+        <span>Then</span>&nbsp;<span>status 226</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="10.22">
+      <div class="step-ref skipped">22</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match response == IM_USED</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
