@@ -1,0 +1,11 @@
+requestBody,status
+"{\"username\": \"john_doe\", \"email\": \"john_doe@example.com\"}",200
+"{\"username\": \"jane_doe\", \"email\": \"jane_doe@example.com\"}",200
+"{\"username\": \"mike_ross\", \"email\": \"mike_ross@example.com\"}",500
+"{\"username\": \"rachel_zane\", \"email\": \"rachel_zane@example.com\"}",200
+"{\"username\": \"harvey_specter\", \"email\": \"harvey_specter@example.com\"}",200
+"{\"username\": \"louis_litt\", \"email\": \"louis_litt@example.com\"}",500
+"{\"username\": \"donna_paulsen\", \"email\": \"donna_paulsen@example.com\"}",200
+"{\"username\": \"jessica_pearson\", \"email\": \"jessica_pearson@example.com\"}",200
+"{\"username\": \"robert_zane\", \"email\": \"robert_zane@example.com\"}",500
+"{\"username\": \"alex_williams\", \"email\": \"alex_williams@example.com\"}",200
