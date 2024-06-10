@@ -1,0 +1,7 @@
+requestBody,statusCode,responseBody
+""""{ "notification": { "date": "2021-06-05T20:23:29-03:00", "order": { "id": "20230315000001", "associatedDocument": "VTT001", "correlationOrder": "10" }}}"""","204","{}"
+""""{ "notification": { "date": "2021-06-05T20:23:29-03:00", "order": { "id": "invalid", "associatedDocument": "VTT001", "correlationOrder": "10" }}}"""","400","{}"
+""""{ "notification": { "date": "2021-06-05T20:23:29-03:00", "order": { "id": "20230315000001", "associatedDocument": "VTT001", "correlationOrder": "10" }}}"""","401","{}"
+""""{ "notification": { "date": "2021-06-05T20:23:29-03:00", "order": { "id": "20230315000001", "associatedDocument": "VTT001", "correlationOrder": "10" }}}"""","500","{}"
+""""{ "notification": { "date": "2021-06-05T20:23:29-03:00", "order": { "id": "20230315000001", "associatedDocument": "VTT001", "correlationOrder": "10" }}}"""","503","{}"
+""""{ "notification": { "date": "2021-06-05T20:23:29-03:00", "order": { "id": "20230315000001", "associatedDocument": "VTT001", "correlationOrder": "10" }}}"""","504","{}"
