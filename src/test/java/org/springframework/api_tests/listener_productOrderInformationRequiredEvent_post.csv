@@ -1,0 +1,3 @@
+requestBody,statusCode,responseBody
+"{"notification":{"order":{"id":"20230315000001","correlationOrder":"10","associatedDocument":"VTT001","issue":{"code":"7029","description":"Pendencia de agendamento","type":"CLIENTE","observation":"","updateDate":"2021-02-17T17:19:50-03:00","action":"abrir","task":"","fieldActivity":"true","reason":"PROJETO"}}}}","204","{}"
+"{"notification":{"order":{"id":"20230315000001","correlationOrder":"10","associatedDocument":"VTT001","issue":{"code":"7030","description":"Pendencia de agendamento","type":"TECNICA","observation":"","updateDate":"2022-02-25T11:50:50.566-03:00","action":"abrir","task":"","fieldActivity":"false","reason":"MANUNTENÇÃO"}}}}","400","{}"
