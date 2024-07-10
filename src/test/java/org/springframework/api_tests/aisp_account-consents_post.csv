@@ -1,0 +1,4 @@
+interactionId,language,data,statusCode
+"123456",""en-HK"","{"permissions":["ReadAccountAvailability"],"expirationDate":"2021-01-01"}","201"
+"123457",""zh-CN"","{"permissions":["ReadAccountStatus"],"expirationDate":"2021-01-02"}","201"
+"123458",""zh-HK"","{"permissions":["ReadAccountBalance"],"expirationDate":"2021-01-03"}","201"
