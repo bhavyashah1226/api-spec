@@ -1,11 +1,12 @@
-x-hsbc-client-id^|^AdditionalCSVvaluInfo^|^x-hsbc-client-secret^|^x-hsbc-profile-id^|^product-category^|^category-version^|^api-name^|^api-version^|^table-name^|^product-name^|^RequestBody^|^statusCode
-ID1234^|^account-information-v2^|^secret1234^|^profile-5678^|^Banking^|^1^|^getAccount^|^v1^|^AccountTable^|^SavingsAccount^|^{"accountID":"123456", "userID":"234567"}^|^200
-ID3456^|^account-information-v2^|^secret3456^|^profile-7890^|^Investment^|^2^|^getInvestments^|^v1^|^InvestmentTable^|^MutualFunds^|^{"investmentID":"345678", "userID":"456789"}^|^200
-ID5678^|^account-information-v2^|^secret5678^|^profile-9012^|^Loans^|^1^|^getLoans^|^v1^|^LoansTable^|^CarLoan^|^{"loanID":"567890", "userID":"678901"}^|^200
-ID7890^|^account-information-v2^|^secret7890^|^profile-3456^|^Banking^|^2^|^getAccount^|^v2^|^AccountTable^|^CurrentAccount^|^{"accountID":"789012", "userID":"890123"}^|^200
-ID9012^|^account-information-v2^|^secret9012^|^profile-5678^|^Insurance^|^1^|^getInsurances^|^v1^|^InsuranceTable^|^HealthInsurance^|^{"insuranceID":"901234", "userID":"012345"}^|^200
-ID3458^|^account-information-v2^|^secret3458^|^profile-7890^|^Banking^|^3^|^getAccount^|^v3^|^AccountTable^|^SavingsAccount^|^{"accountID":"345678", "userID":"456789"}^|^200
-ID5670^|^account-information-v2^|^secret5670^|^profile-9012^|^Loans^|^2^|^getLoans^|^v2^|^LoansTable^|^HouseLoan^|^{"loanID":"567890", "userID":"678901"}^|^200
-ID7892^|^account-information-v2^|^secret7892^|^profile-1234^|^Investment^|^4^|^getInvestments^|^v3^|^InvestmentTable^|^Bonds^|^{"investmentID":"789012", "userID":"890123"}^|^200
-ID9014^|^account-information-v2^|^secret9014^|^profile-3456^|^Insurance^|^1^|^getInsurances^|^v1^|^InsuranceTable^|^CarInsurance^|^{"insuranceID":"901234", "userID":"012345"}^|^200
-ID1274^|^account-information-v2^|^secret1274^|^profile-5678^|^Banking^|^1^|^getAccount^|^v1^|^AccountTable^|^SavingsAccount^|^{"accountID":"345678", "userID":"456789"}^|^200
+x-hsbc-client-id,AdditionalCSVvaluInfo,x-hsbc-client-secret,x-hsbc-profile-id,product-category,category-version,api-name,api-version,table-name,product-name,RequestBody,statusCode
+,,,,,,,,,,,
+ID1234,account-information-v2,secret1234,profile-5678,Banking,1,getAccount,v1,AccountTable,SavingsAccount,{"accountID":"123456", "userID":"234567"},200
+ID3456,account-information-v2,secret3456,profile-7890,Investment,2,getInvestments,v1,InvestmentTable,MutualFunds,{"investmentID":"345678", "userID":"456789"},200
+ID5678,account-information-v2,secret5678,profile-9012,Loans,1,getLoans,v1,LoansTable,CarLoan,{"loanID":"567890", "userID":"678901"},200
+ID7890,account-information-v2,secret7890,profile-3456,Banking,2,getAccount,v2,AccountTable,CurrentAccount,{"accountID":"789012", "userID":"890123"},200
+ID9012,account-information-v2,secret9012,profile-5678,Insurance,1,getInsurances,v1,InsuranceTable,HealthInsurance,{"insuranceID":"901234", "userID":"012345"},200
+ID3458,account-information-v2,secret3458,profile-7890,Banking,3,getAccount,v3,AccountTable,SavingsAccount,{"accountID":"345678", "userID":"456789"},200
+ID5670,account-information-v2,secret5670,profile-9012,Loans,2,getLoans,v2,LoansTable,HouseLoan,{"loanID":"567890", "userID":"678901"},200
+ID7892,account-information-v2,secret7892,profile-1234,Investment,4,getInvestments,v3,InvestmentTable,Bonds,{"investmentID":"789012", "userID":"890123"},200
+ID9014,account-information-v2,secret9014,profile-3456,Insurance,1,getInsurances,v1,InsuranceTable,CarInsurance,{"insuranceID":"901234", "userID":"012345"},200
+ID1274,account-information-v2,secret1274,profile-5678,Banking,1,getAccount,v1,AccountTable,SavingsAccount,{"accountID":"345678", "userID":"456789"},200
