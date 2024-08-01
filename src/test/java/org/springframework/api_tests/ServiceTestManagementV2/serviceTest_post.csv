@@ -1,0 +1,7 @@
+requestBody,statusCode,responseBody
+""""{ "serviceTest": { "type": "diagnostic", "customer": {"subscriberId": "SVTAL001" }}}"""","200",""""{ "control": { "type": "S", "code": "200", "message": "OK" }, "serviceTest": { "id": "#regex[\w\d-]{36}" }}""""
+""""{ "serviceTest": { "type": "diagnostic", "customer": {"subscriberId": "INVALID_SUBSCRIBER_ID" }}}"""","406",""""{ "control": { "type": "E", "code": "406", "message": "Not Acceptable (Identificador da instalação [subscriberId] inativo ou inexistente)" }}""""
+""""{ "serviceTest": { "type": "diagnostic", "customer": {"subscriberId": "EXISTING_SUBSCRIBER_ID" }}}"""","406",""""{ "control": { "type": "E", "code": "406", "message": "Not Acceptable (Identificador da instalação [subscriberId] já existente/instalado))" }}""""
+""""{ "serviceTest": { "type": "diagnostic", "customer": {"subscriberId": "PROVISIONING_SUBSCRIBER_ID" }}}"""","406",""""{ "control": { "type": "E", "code": "406", "message": "Not Acceptable (Identificador da instalação [subscriberId] em aprovisionamento)" }}""""
+""""{}"""","400",""""{ "control": { "type": "E", "code": "400", "message": "Bad Request" }}""""
+""""{ "invalidKey": "invalidValue" }"""","400",""""{ "control": { "type": "E", "code": "400", "message": "Bad Request" }}""""
