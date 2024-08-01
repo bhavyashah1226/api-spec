@@ -1,0 +1,5 @@
+requestBody,statusCode,description
+"read('examples/Closing Notification.json')","204",""Operação realizada com sucesso""
+"read('examples/Cancel Notification.json')","204",""Operação realizada com sucesso""
+"read('examples/ONT already in use.json')","400",""BadRequest""
+"read('examples/Closing Notification (ontOwner Vtal - Install).json')","500",""ServerError""
