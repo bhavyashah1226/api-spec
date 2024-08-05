@@ -1,0 +1,3 @@
+order.Id,order,order.correlationOrder,order.associatedDocument,order.associatedDocumentDate,order.type,order.infraType,order.orderItem,order.task,order.task.description,order.task.updateDate,order.task.action,responseStatus,responseType,responseMessage,responseCode
+"123","{...}","correlation123","document123","2022-01-01T00:00:00Z","type1","infra1","[...]","{...}","description1","2022-01-01T00:00:00Z","action1","200","string","OK","200"
+"456","{...}","correlation456","document456","2022-01-01T00:00:00Z","type2","infra2","[...]","{...}","description2","2022-01-01T00:00:00Z","action2","400","string","Bad Request","400"
