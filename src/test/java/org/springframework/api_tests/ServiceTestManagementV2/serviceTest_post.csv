@@ -1,0 +1,11 @@
+requestBody,statusCode,responseBody
+"""{ "serviceTest": { "type": "diagnostic", "customer": { "subscriberId": "SVTAL001" } } }""","200","""{ "control": { "type": "S", "code": "200", "message": "OK" }, "serviceTest": { "id": '#string' } }"""
+"""{ "serviceTest": { "type": "invalidType", "customer": { "subscriberId": "SVTAL001" } } }""","400","""{ "control": { "type": "E", "code": "400", "message": "Bad Request" } }"""
+"""{ "serviceTest": { "type": "diagnostic", "customer": { "subscriberId": "invalidSubscriberId" } } }""","401","""{ "control": { "type": "E", "code": "401", "message": "Unauthorized" } }"""
+"""{ "serviceTest": { "type": "diagnostic", "customer": { "subscriberId": "SVTAL001" } } }""","403","""{ "control": { "type": "E", "code": "403", "message": "Forbidden - Scope Not Permitted" } }"""
+"""{ "serviceTest": { "type": "diagnostic", "customer": { "subscriberId": "SVTAL001" } } }""","404","""{ "control": { "type": "E", "code": "404", "message": "Not Found" } }"""
+"""{ "serviceTest": { "type": "diagnostic", "customer": { "subscriberId": "SVTAL001" } } }""","406","""{ "control": { "type": "E", "code": "406", "message": "Not Acceptable" } }"""
+"""{ "serviceTest": { "type": "diagnostic", "customer": { "subscriberId": "SVTAL001" } } }""","429","""{ "control": { "type": "E", "code": "429", "message": "Too Many Requests - Exceeded Quota" } }"""
+"""{ "serviceTest": { "type": "diagnostic", "customer": { "subscriberId": "SVTAL001" } } }""","500","""{ "control": { "type": "T", "code": "500", "message": "Internal Server Error" } }"""
+"""{ "serviceTest": { "type": "diagnostic", "customer": { "subscriberId": "SVTAL001" } } }""","503","""{ "control": { "type": "T", "code": "503", "message": "Service Unavailable" } }"""
+"""{ "serviceTest": { "type": "diagnostic", "customer": { "subscriberId": "SVTAL001" } } }""","504","""{ "control": { "type": "T", "code": "504", "message": "Gateway Timeout" } }"""
