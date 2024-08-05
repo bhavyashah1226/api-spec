@@ -1,0 +1,11 @@
+requestBody,responseStatus,responseBody
+"{}","201","{'control': '#object', 'control.type': '#string', 'control.message': '#string', 'control.code': '#string', 'order': '#object', 'order.id': '#string'}"
+"{}","400","{'type': '#string', 'message': '#string', 'code': '#string'}"
+"{}","401","{'type': '#string', 'message': '#string', 'code': '#string'}"
+"{}","403","{'type': '#string', 'message': '#string', 'code': '#string'}"
+"{}","404","{'type': '#string', 'message': '#string', 'code': '#string'}"
+"{}","406","{'type': '#string', 'message': '#string', 'code': '#string'}"
+"{}","429","{'type': '#string', 'message': '#string', 'code': '#string'}"
+"{}","500","{'type': '#string', 'message': '#string', 'code': '#string'}"
+"{}","503","{'type': '#string', 'message': '#string', 'code': '#string'}"
+"{}","504","{'type': '#string', 'message': '#string', 'code': '#string'}"
