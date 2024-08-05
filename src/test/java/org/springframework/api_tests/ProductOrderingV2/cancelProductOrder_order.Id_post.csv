@@ -1,0 +1,12 @@
+order.Id,associatedDocument,subscriberId,status_code,type,code,message
+"20230315000001","VTT001","SVTAL001","200","S","200","OK"
+"20230315000001","VTT001","SVTAL001","400","E","400","Bad Request"
+"20230315000001","VTT001","SVTAL001","401","E","401","Unauthorized"
+"20230315000001","VTT001","SVTAL001","403","E","403","Forbidden - Scope Not Permitted"
+"20230315000001","VTT001","SVTAL001","404","E","404","Not Found"
+"20230315000001","VTT001","SVTAL001","406","E","406","Not Acceptable (AssociatedDocument já existente/utilizado)"
+"20230315000001","VTT001","SVTAL001","423","E","423","Agendamento não pode ser alterado"
+"20230315000001","VTT001","SVTAL001","429","E","429","Too Many Requests - Exceeded Quota"
+"20230315000001","VTT001","SVTAL001","500","T","500","Internal Server Error"
+"20230315000001","VTT001","SVTAL001","503","T","503","Service Unavailable"
+"20230315000001","VTT001","SVTAL001","504","T","504","Gateway Timeout"
