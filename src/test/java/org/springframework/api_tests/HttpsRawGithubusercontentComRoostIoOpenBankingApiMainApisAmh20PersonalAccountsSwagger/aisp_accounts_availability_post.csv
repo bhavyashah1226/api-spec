@@ -1,0 +1,10 @@
+statusCode,requestBody,expectedResponse
+"200","{"data":[{"paramName":"test","paramValue":"test"}]}","{"data":[{"paramName":"test","status":"success"}]}"
+"400","{"data":[{"paramName":"test","paramValue":""}]}","{"id":"","errors":[{"code":"400","causes":"Bad Request","extendedDetails":{}}]}"
+"405","{"data":[{"paramName":"","paramValue":"test"}]}","{"id":"","errors":[{"code":"405","causes":"Method Not Allowed","extendedDetails":{}}]}"
+"406","{"data":[{"paramName":"test","paramValue":"test"}]}","{"id":"","errors":[{"code":"406","causes":"Not Acceptable","extendedDetails":{}}]}"
+"415","{"data":[{"paramName":"test","paramValue":"test"}]}","{"id":"","errors":[{"code":"415","causes":"Unsupported Media Type","extendedDetails":{}}]}"
+"429","{"data":[{"paramName":"test","paramValue":"test"}]}","{"message":"Too Many Requests"}"
+"500","{"data":[{"paramName":"test","paramValue":"test"}]}","{"id":"","errors":[{"code":"500","causes":"Internal Server Error","extendedDetails":{}}]}"
+"503","{"data":[{"paramName":"test","paramValue":"test"}]}","{"message":"Service Unavailable"}"
+"504","{"data":[{"paramName":"test","paramValue":"test"}]}","{"message":"Gateway Timeout"}"

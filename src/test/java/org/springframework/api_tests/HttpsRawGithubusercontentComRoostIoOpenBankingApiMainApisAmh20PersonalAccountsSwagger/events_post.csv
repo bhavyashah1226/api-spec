@@ -1,0 +1,10 @@
+ack,returnImmediately,maxEvents,status_code,response_body,response_headers
+"['a']","true","10","201","{ "sets": '#object', "moreAvailable": '#boolean' }","{}"
+"['b']","false","5","400","{ "id": '#string', "errors": '#array' }","{ "Content-Type": '#string', "x-fapi-interaction-id": '#string' }"
+"['c']","true","20","405","{ "id": '#string', "errors": '#array' }","{ "Content-Type": '#string', "x-fapi-interaction-id": '#string' }"
+"['d']","false","30","406","{ "id": '#string', "errors": '#array' }","{ "Content-Type": '#string', "x-fapi-interaction-id": '#string' }"
+"['e']","true","40","415","{ "id": '#string', "errors": '#array' }","{ "Content-Type": '#string', "x-fapi-interaction-id": '#string' }"
+"['f']","false","50","429","{ "message": '#string' }","{ "Content-Type": '#string', "x-fapi-interaction-id": '#string', "Retry-After": '#integer' }"
+"['g']","true","60","500","{ "id": '#string', "errors": '#array' }","{ "Content-Type": '#string', "x-fapi-interaction-id": '#string' }"
+"['h']","false","70","503","{ "message": '#string' }","{ "Content-Type": '#string', "x-fapi-interaction-id": '#string' }"
+"['i']","true","80","504","{ "message": '#string' }","{ "Content-Type": '#string', "x-fapi-interaction-id": '#string' }"

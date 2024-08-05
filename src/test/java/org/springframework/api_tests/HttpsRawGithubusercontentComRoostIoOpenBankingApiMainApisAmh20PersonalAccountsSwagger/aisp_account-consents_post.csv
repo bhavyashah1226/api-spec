@@ -1,0 +1,2 @@
+permission,expirationDate,transactionFromDate,transactionToDate,x-fapi-auth-date,x-fapi-customer-ip-address,x-fapi-interaction-id,Accept-Language,status_code
+"read","2022-12-31T23:59:59","2022-01-01T00:00:00","2022-12-31T23:59:59","2022-01-01T00:00:00","192.168.1.1","1234567890","en-US","201"
